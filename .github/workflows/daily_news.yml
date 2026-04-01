@@ -1,0 +1,23 @@
+name: Daily Marketing News Digest
+
+on:
+  schedule:
+    - cron: '0 11 * * *'  # 7:00 AM EDT every day
+  workflow_dispatch:        # allows manual trigger from GitHub UI
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run news digest
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python news_digest.py
