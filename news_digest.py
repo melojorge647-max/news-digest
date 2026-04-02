@@ -9,10 +9,9 @@ GMAIL_USER = os.environ.get("GMAIL_USER", "melojorge647@gmail.com")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "jotzxlsnfqtzynxe")
 RECIPIENTS = ["melojorge647@gmail.com", "jorge@jmelomedia.com", "info@jmelomedia.com"]
 
-# High-quality industry news sources focused on updates, changes, announcements
 FEEDS = [
-    ("Search Engine Land", "https://searchengineland.com/feed"),
-    ("Search Engine Journal", "https://www.searchenginejournal.com/feed/"),
+    ("Search Engine Land",   "https://searchengineland.com/feed"),
+    ("Search Engine Journal","https://www.searchenginejournal.com/feed/"),
     ("SE Roundtable",        "https://www.seroundtable.com/feed.xml"),
     ("Social Media Examiner","https://www.socialmediaexaminer.com/feed/"),
     ("Marketing Brew",       "https://www.marketingbrew.com/feed.xml"),
@@ -20,10 +19,13 @@ FEEDS = [
     ("Semrush Blog",         "https://www.semrush.com/blog/feed/"),
     ("Ahrefs Blog",          "https://ahrefs.com/blog/feed/"),
     ("Digiday",              "https://digiday.com/feed/"),
-    ("The Verge Tech",       "https://www.theverge.com/rss/index.xml"),
+    ("WP Tavern",            "https://wptavern.com/feed"),
+    ("Smashing Magazine",    "https://www.smashingmagazine.com/feed/"),
+    ("CSS-Tricks",           "https://css-tricks.com/feed/"),
+    ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
+    ("TechCrunch",           "https://techcrunch.com/feed/"),
 ]
 
-# Words that signal impactful industry news
 HIGH_VALUE_WORDS = [
     "update", "new", "launch", "release", "change", "announces", "announced",
     "algorithm", "core update", "rollout", "rolling out", "feature", "test",
@@ -35,12 +37,22 @@ HIGH_VALUE_WORDS = [
     "ranking", "serp", "zero click", "featured snippet", "knowledge panel",
     "helpful content", "spam", "manual action", "broad core", "leak",
     "api", "integration", "platform", "tool", "software", "breaking",
+    "wordpress", "wix", "squarespace", "webflow", "lovable", "on-page",
+    "on page", "page speed", "core web vitals", "website builder",
 ]
 
-# Words that signal generic how-to guides (lower priority)
 LOW_VALUE_WORDS = [
     "how to", "guide", "tutorial", "tips for", "best practices",
     "checklist", "step by step", "beginners", "101",
+]
+
+# At least one article must match one of these topic groups
+GUARANTEED_TOPICS = [
+    ["wordpress", "wix", "squarespace", "webflow", "lovable", "website builder",
+     "ai website", "html", "web design", "web development", "website design",
+     "on-page seo", "on page seo", "page speed", "core web vitals", "cms"],
+    ["instagram algorithm", "facebook algorithm", "instagram update", "facebook update",
+     "meta algorithm", "instagram feature", "facebook feature", "reels", "stories algorithm"],
 ]
 
 
@@ -60,7 +72,7 @@ def fetch_headlines(source, url):
             l = ""
             if link_m:
                 l = (link_m.group(1) or link_m.group(2) or "").strip()
-                l = re.sub(r"\s+", "", l)  # remove whitespace/newlines in URL
+                l = re.sub(r"\s+", "", l)
             if t and len(t) > 15:
                 results.append((source, t, l))
         return results[:10]
@@ -77,8 +89,13 @@ def score(title):
             s += 2
     for w in LOW_VALUE_WORDS:
         if w in t:
-            s -= 3  # penalize generic guides
+            s -= 3
     return s
+
+
+def matches_topic(title, keywords):
+    t = title.lower()
+    return any(kw in t for kw in keywords)
 
 
 def main():
@@ -91,20 +108,41 @@ def main():
         print(f"  {source}: {len(headlines)} headlines")
         all_headlines.extend(headlines)
 
-    # Sort by relevance score, filter out negatively scored items
     all_headlines.sort(key=lambda x: score(x[1]), reverse=True)
-    top = [h for h in all_headlines if score(h[1]) >= 0][:8]
 
-    # Fall back to top unfiltered if not enough
-    if len(top) < 5:
-        top = all_headlines[:8]
+    selected = []
+    used_indices = set()
 
-    if not top:
+    # Reserve 1 guaranteed slot per topic group
+    for topic_keywords in GUARANTEED_TOPICS:
+        for i, h in enumerate(all_headlines):
+            if i not in used_indices and matches_topic(h[1], topic_keywords):
+                selected.append(h)
+                used_indices.add(i)
+                break
+
+    # Fill remaining slots up to 10 with top-scored articles
+    for i, h in enumerate(all_headlines):
+        if len(selected) >= 10:
+            break
+        if i not in used_indices and score(h[1]) >= 0:
+            selected.append(h)
+            used_indices.add(i)
+
+    # Fall back to top unfiltered if still not enough
+    for i, h in enumerate(all_headlines):
+        if len(selected) >= 10:
+            break
+        if i not in used_indices:
+            selected.append(h)
+            used_indices.add(i)
+
+    if not selected:
         print("No headlines fetched — aborting.")
         return
 
     lines = [f"DAILY MARKETING NEWS - {date_str}", ""]
-    for i, (source, title, link) in enumerate(top, 1):
+    for i, (source, title, link) in enumerate(selected, 1):
         lines.append(f"{i}. [{source}]")
         lines.append(f"   {title}")
         if link:
