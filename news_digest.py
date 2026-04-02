@@ -100,7 +100,9 @@ def matches_topic(title, keywords):
 
 def main():
     date_str = datetime.date.today().strftime("%B %d, %Y")
-    print(f"Fetching headlines for {date_str}...")
+    offset = int(os.environ.get("ARTICLE_OFFSET", "0"))
+    slot = "Evening" if offset > 0 else "Morning"
+    print(f"Fetching headlines for {date_str} ({slot} edition)...")
 
     all_headlines = []
     for source, url in FEEDS:
@@ -109,6 +111,9 @@ def main():
         all_headlines.extend(headlines)
 
     all_headlines.sort(key=lambda x: score(x[1]), reverse=True)
+
+    # Skip articles already used in the morning edition
+    all_headlines = all_headlines[offset:]
 
     selected = []
     used_indices = set()
@@ -156,7 +161,7 @@ def main():
     print()
 
     msg = MIMEText(body)
-    msg["Subject"] = f"Daily Marketing News - {date_str}"
+    msg["Subject"] = f"Daily Marketing News ({slot}) - {date_str}"
     msg["From"] = GMAIL_USER
     msg["To"] = ", ".join(RECIPIENTS)
 

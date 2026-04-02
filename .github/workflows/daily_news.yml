@@ -2,8 +2,9 @@ name: Daily Marketing News Digest
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # 7:00 AM EDT every day
-  workflow_dispatch:        # allows manual trigger from GitHub UI
+    - cron: '0 11 * * *'   # 7:00 AM EDT (UTC-4) — Massachusetts morning
+    - cron: '30 1 * * *'   # 9:30 PM EDT (UTC-4) — Massachusetts evening / 7:00 AM India
+  workflow_dispatch:        # manual trigger from GitHub UI
 
 jobs:
   send-digest:
@@ -20,4 +21,6 @@ jobs:
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          # Morning run picks articles 1-10, evening run picks articles 11-20
+          ARTICLE_OFFSET: ${{ (github.event.schedule == '30 1 * * *') && '10' || '0' }}
         run: python news_digest.py
