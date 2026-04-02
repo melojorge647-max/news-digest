@@ -24,7 +24,7 @@ FEEDS = [
     ("Smashing Magazine",    "https://www.smashingmagazine.com/feed/"),
     ("CSS-Tricks",           "https://css-tricks.com/feed/"),
     ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
-    ("TechCrunch",           "https://techcrunch.com/feed/"),
+    ("TechCrunch AI",        "https://techcrunch.com/category/artificial-intelligence/feed/"),
 ]
 
 HIGH_VALUE_WORDS = [
