@@ -56,6 +56,28 @@ GUARANTEED_TOPICS = [
 ]
 
 
+def clean_text(raw):
+    """Strip HTML tags, decode entities, collapse whitespace."""
+    text = re.sub(r"<[^>]+>", " ", raw)
+    text = re.sub(r"&amp;", "&", text)
+    text = re.sub(r"&lt;", "<", text)
+    text = re.sub(r"&gt;", ">", text)
+    text = re.sub(r"&quot;", '"', text)
+    text = re.sub(r"&#\d+;", "", text)
+    text = re.sub(r"&[a-zA-Z]+;", "", text)
+    text = re.sub(r"The post .* appeared first on .*\.", "", text)
+    text = re.sub(r"\[.*?\]", "", text)  # remove [shortcodes]
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def to_4_sentences(text):
+    """Return up to 4 sentences from a block of text."""
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    sentences = [s.strip() for s in sentences if len(s.strip()) > 20]
+    return " ".join(sentences[:4])
+
+
 def fetch_headlines(source, url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -66,6 +88,7 @@ def fetch_headlines(source, url):
         for item in items:
             title_m = re.search(r"<title><!\[CDATA\[(.*?)\]\]></title>|<title>(.*?)</title>", item)
             link_m  = re.search(r"<link>(.*?)</link>|<link\s[^>]*href=[\"'](.*?)[\"']", item, re.DOTALL)
+            desc_m  = re.search(r"<description><!\[CDATA\[(.*?)\]\]></description>|<description>(.*?)</description>", item, re.DOTALL)
             if not title_m:
                 continue
             t = (title_m.group(1) or title_m.group(2) or "").strip()
@@ -73,16 +96,20 @@ def fetch_headlines(source, url):
             if link_m:
                 l = (link_m.group(1) or link_m.group(2) or "").strip()
                 l = re.sub(r"\s+", "", l)
+            d = ""
+            if desc_m:
+                raw = (desc_m.group(1) or desc_m.group(2) or "").strip()
+                d = to_4_sentences(clean_text(raw))
             if t and len(t) > 15:
-                results.append((source, t, l))
+                results.append((source, t, l, d))
         return results[:10]
     except Exception as e:
         print(f"  Failed to fetch {source}: {e}")
         return []
 
 
-def score(title):
-    t = title.lower()
+def score(item):
+    t = item[1].lower()
     s = 0
     for w in HIGH_VALUE_WORDS:
         if w in t:
@@ -110,7 +137,7 @@ def main():
         print(f"  {source}: {len(headlines)} headlines")
         all_headlines.extend(headlines)
 
-    all_headlines.sort(key=lambda x: score(x[1]), reverse=True)
+    all_headlines.sort(key=score, reverse=True)
 
     # Skip articles already used in the morning edition
     all_headlines = all_headlines[offset:]
@@ -130,7 +157,7 @@ def main():
     for i, h in enumerate(all_headlines):
         if len(selected) >= 10:
             break
-        if i not in used_indices and score(h[1]) >= 0:
+        if i not in used_indices and score(h) >= 0:
             selected.append(h)
             used_indices.add(i)
 
@@ -147,11 +174,12 @@ def main():
         return
 
     lines = [f"DAILY MARKETING NEWS - {date_str}", ""]
-    for i, (source, title, link) in enumerate(selected, 1):
-        lines.append(f"{i}. [{source}]")
-        lines.append(f"   {title}")
+    for i, (source, title, link, summary) in enumerate(selected, 1):
+        lines.append(f"{i}. [{source}] {title}")
         if link:
             lines.append(f"   {link}")
+        if summary:
+            lines.append(f"   {summary}")
         lines.append("")
     lines += ["---", "Your daily Claude marketing digest"]
     body = "\n".join(lines)
