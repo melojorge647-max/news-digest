@@ -6,8 +6,8 @@ import os
 from email.mime.text import MIMEText
 from email.utils import parsedate_to_datetime
 
-GMAIL_USER = os.environ.get("GMAIL_USER", "melojorge647@gmail.com")
-GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "jotzxlsnfqtzynxe")
+GMAIL_USER = os.environ.get("GMAIL_USER", "")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 RECIPIENTS = ["melojorge647@gmail.com", "jorge@jmelomedia.com", "info@jmelomedia.com"]
 
 FEEDS = [
