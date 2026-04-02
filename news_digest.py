@@ -147,10 +147,18 @@ def main():
         print(f"  {source}: {len(headlines)} headlines")
         all_headlines.extend(headlines)
 
-    all_headlines.sort(key=score, reverse=True)
-
-    # Skip articles already used in the morning edition
-    all_headlines = all_headlines[offset:]
+    if slot == "Evening":
+        # Evening: sort by most recently published so you get fresh articles from the day
+        def pub_key(item):
+            try:
+                from email.utils import parsedate_to_datetime as p
+                return p(item[4]) if item[4] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+            except Exception:
+                return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+        all_headlines.sort(key=pub_key, reverse=True)
+    else:
+        # Morning: sort by relevance score
+        all_headlines.sort(key=score, reverse=True)
 
     selected = []
     used_indices = set()
