@@ -4,6 +4,7 @@ import urllib.request
 import re
 import os
 from email.mime.text import MIMEText
+from email.utils import parsedate_to_datetime
 
 GMAIL_USER = os.environ.get("GMAIL_USER", "melojorge647@gmail.com")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "jotzxlsnfqtzynxe")
@@ -65,6 +66,7 @@ def clean_text(raw):
     text = re.sub(r"&quot;", '"', text)
     text = re.sub(r"&#\d+;", "", text)
     text = re.sub(r"&[a-zA-Z]+;", "", text)
+    text = re.sub(r"<p>|</p>|<img[^>]*>|<a[^>]*>|</a>", " ", text)
     text = re.sub(r"The post .* appeared first on .*\.", "", text)
     text = re.sub(r"\[.*?\]", "", text)  # remove [shortcodes]
     text = re.sub(r"\s+", " ", text).strip()
@@ -89,6 +91,7 @@ def fetch_headlines(source, url):
             title_m = re.search(r"<title><!\[CDATA\[(.*?)\]\]></title>|<title>(.*?)</title>", item)
             link_m  = re.search(r"<link>(.*?)</link>|<link\s[^>]*href=[\"'](.*?)[\"']", item, re.DOTALL)
             desc_m  = re.search(r"<description><!\[CDATA\[(.*?)\]\]></description>|<description>(.*?)</description>", item, re.DOTALL)
+            date_m  = re.search(r"<pubDate>(.*?)</pubDate>", item)
             if not title_m:
                 continue
             t = (title_m.group(1) or title_m.group(2) or "").strip()
@@ -100,8 +103,15 @@ def fetch_headlines(source, url):
             if desc_m:
                 raw = (desc_m.group(1) or desc_m.group(2) or "").strip()
                 d = to_4_sentences(clean_text(raw))
+            pub = ""
+            if date_m:
+                try:
+                    dt = parsedate_to_datetime(date_m.group(1).strip())
+                    pub = dt.strftime("%b %d, %Y %I:%M %p %Z")
+                except Exception:
+                    pub = date_m.group(1).strip()
             if t and len(t) > 15:
-                results.append((source, t, l, d))
+                results.append((source, t, l, d, pub))
         return results[:10]
     except Exception as e:
         print(f"  Failed to fetch {source}: {e}")
@@ -148,7 +158,7 @@ def main():
     # Reserve 1 guaranteed slot per topic group
     for topic_keywords in GUARANTEED_TOPICS:
         for i, h in enumerate(all_headlines):
-            if i not in used_indices and matches_topic(h[1], topic_keywords):
+            if i not in used_indices and matches_topic(h[1], topic_keywords):  # h[1] is title
                 selected.append(h)
                 used_indices.add(i)
                 break
@@ -174,8 +184,10 @@ def main():
         return
 
     lines = [f"DAILY MARKETING NEWS - {date_str}", ""]
-    for i, (source, title, link, summary) in enumerate(selected, 1):
+    for i, (source, title, link, summary, pub) in enumerate(selected, 1):
         lines.append(f"{i}. [{source}] {title}")
+        if pub:
+            lines.append(f"   Published: {pub}")
         if link:
             lines.append(f"   {link}")
         if summary:
