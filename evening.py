@@ -47,6 +47,23 @@ LOW_VALUE_WORDS = [
     "checklist", "step by step", "beginners", "101",
 ]
 
+# Article must contain at least one of these to be included at all
+REQUIRED_KEYWORDS = [
+    "seo", "search", "google", "bing", "ai", "ads", "ppc", "paid",
+    "marketing", "meta", "facebook", "instagram", "tiktok", "linkedin",
+    "twitter", "x.com", "youtube", "social media", "content", "brand",
+    "website", "web", "digital", "local", "rank", "traffic", "campaign",
+    "algorithm", "serp", "keyword", "backlink", "analytics", "conversion",
+    "email marketing", "wordpress", "wix", "squarespace", "webflow",
+    "landing page", "funnel", "lead", "chatgpt", "openai", "gemini",
+    "perplexity", "llm", "automation", "crm", "shopify", "ecommerce",
+]
+
+
+def is_marketing_relevant(title, summary):
+    combined = (title + " " + summary).lower()
+    return any(kw in combined for kw in REQUIRED_KEYWORDS)
+
 # At least one article must match one of these topic groups
 GUARANTEED_TOPICS = [
     ["wordpress", "wix", "squarespace", "webflow", "lovable", "website builder",
@@ -171,19 +188,19 @@ def main():
                 used_indices.add(i)
                 break
 
-    # Fill remaining slots up to 10 with top-scored articles
+    # Fill remaining slots up to 10 — must be marketing relevant
     for i, h in enumerate(all_headlines):
         if len(selected) >= 10:
             break
-        if i not in used_indices and score(h) >= 0:
+        if i not in used_indices and score(h) >= 0 and is_marketing_relevant(h[1], h[3]):
             selected.append(h)
             used_indices.add(i)
 
-    # Fall back to top unfiltered if still not enough
+    # Fall back: relevant articles regardless of score
     for i, h in enumerate(all_headlines):
         if len(selected) >= 10:
             break
-        if i not in used_indices:
+        if i not in used_indices and is_marketing_relevant(h[1], h[3]):
             selected.append(h)
             used_indices.add(i)
 
