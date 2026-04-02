@@ -3,7 +3,7 @@ name: Daily Marketing News Digest
 on:
   schedule:
     - cron: '0 11 * * *'   # 7:00 AM EDT (UTC-4) — Massachusetts morning
-    - cron: '30 1 * * *'   # 9:30 PM EDT (UTC-4) — Massachusetts evening / 7:00 AM India
+    - cron: '0 2 * * *'    # 10:00 PM EDT (UTC-4) — Massachusetts evening / 7:30 AM India
   workflow_dispatch:        # manual trigger from GitHub UI
 
 jobs:
