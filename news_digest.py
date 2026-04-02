@@ -137,13 +137,7 @@ def matches_topic(title, keywords):
 
 def main():
     date_str = datetime.date.today().strftime("%B %d, %Y")
-    utc_hour = datetime.datetime.utcnow().hour
-    # Morning = 7am EDT (11:00 UTC), Evening = 9:30pm EDT (01:30 UTC)
-    # Use UTC hour to detect slot: evening if between midnight and 6am UTC
-    if int(os.environ.get("ARTICLE_OFFSET", "-1")) >= 0:
-        offset = int(os.environ.get("ARTICLE_OFFSET", "0"))
-    else:
-        offset = 10 if utc_hour < 6 else 0
+    offset = int(os.environ.get("ARTICLE_OFFSET", "0"))
     slot = "Evening" if offset >= 10 else "Morning"
     print(f"Fetching headlines for {date_str} ({slot} edition)...")
 
