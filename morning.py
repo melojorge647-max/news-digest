@@ -39,6 +39,8 @@ BREAKING_WORDS = [
     "linkedin announces", "linkedin launches", "linkedin update", "linkedin algorithm",
     "meta update", "meta launches", "meta confirms",
     "reels update", "feed update", "feed algorithm",
+    "zuckerberg", "adam mosseri", "ryan roslansky", "sundar pichai", "satya nadella",
+    "ceo says", "ceo announces", "ceo confirms",
 ]
 
 # Marketing/SEO priority keywords — scored highly
