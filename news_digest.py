@@ -22,24 +22,38 @@ FEEDS = [
     ("Digiday",              "https://digiday.com/feed/"),
     ("WP Tavern",            "https://wptavern.com/feed"),
     ("Smashing Magazine",    "https://www.smashingmagazine.com/feed/"),
-    ("CSS-Tricks",           "https://css-tricks.com/feed/"),
     ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
-    ("TechCrunch AI",        "https://techcrunch.com/category/artificial-intelligence/feed/"),
+    ("WordStream",           "https://www.wordstream.com/blog/feed"),
+    ("Neil Patel",           "https://neilpatel.com/blog/feed/"),
 ]
 
-HIGH_VALUE_WORDS = [
-    "update", "new", "launch", "release", "change", "announces", "announced",
-    "algorithm", "core update", "rollout", "rolling out", "feature", "test",
-    "testing", "ai", "artificial intelligence", "chatgpt", "gemini", "openai",
-    "google search", "google ads", "meta ads", "tiktok", "linkedin", "instagram",
-    "facebook", "youtube", "bing", "perplexity", "ai overview", "sge",
-    "generative", "search generative", "local service", "lsa", "performance max",
-    "pmax", "smart bidding", "campaign", "ban", "policy", "penalty", "deindex",
-    "ranking", "serp", "zero click", "featured snippet", "knowledge panel",
-    "helpful content", "spam", "manual action", "broad core", "leak",
-    "api", "integration", "platform", "tool", "software", "breaking",
-    "wordpress", "wix", "squarespace", "webflow", "lovable", "on-page",
-    "on page", "page speed", "core web vitals", "website builder",
+# Highest priority — breaking news, algorithm changes, major announcements
+BREAKING_WORDS = [
+    "algorithm update", "core update", "broad core", "manual action", "penalty",
+    "rolling out", "rolls out", "announces", "announced", "launches", "launched",
+    "new feature", "breaking", "major change", "policy change", "ban", "deindex",
+    "helpful content", "spam update", "ranking update", "serp change", "leaked",
+    "google confirms", "google says", "google warns", "meta announces", "facebook announces",
+]
+
+# Marketing/SEO priority keywords — scored highly
+MARKETING_WORDS = [
+    "seo", "search engine", "google search", "google ads", "meta ads", "facebook ads",
+    "instagram ads", "linkedin ads", "tiktok ads", "local service ads", "lsa",
+    "performance max", "pmax", "smart bidding", "email marketing", "social media",
+    "content marketing", "link building", "backlink", "keyword", "serp", "ranking",
+    "local seo", "on-page", "on page", "technical seo", "page speed", "core web vitals",
+    "conversion rate", "landing page", "ppc", "paid search", "paid social",
+    "wordpress", "wix", "squarespace", "webflow", "website design", "web development",
+    "google analytics", "google search console", "google business profile",
+    "featured snippet", "knowledge panel", "zero click", "helpful content",
+]
+
+# AI keywords — capped at 2 articles per digest
+AI_WORDS = [
+    "artificial intelligence", "chatgpt", "openai", "gemini", "claude",
+    "llm", "large language model", "ai overview", "ai search", "generative ai",
+    "perplexity", "copilot", "gpt", "machine learning",
 ]
 
 LOW_VALUE_WORDS = [
@@ -47,16 +61,22 @@ LOW_VALUE_WORDS = [
     "checklist", "step by step", "beginners", "101",
 ]
 
-# Article must contain at least one of these to be included at all
+# Must contain at least one of these to be included
 REQUIRED_KEYWORDS = [
-    "seo", "search", "google", "bing", "ai", "ads", "ppc", "paid",
+    "seo", "search", "google", "bing", "ads", "ppc", "paid",
     "marketing", "meta", "facebook", "instagram", "tiktok", "linkedin",
-    "twitter", "x.com", "youtube", "social media", "content", "brand",
-    "website", "web", "digital", "local", "rank", "traffic", "campaign",
-    "algorithm", "serp", "keyword", "backlink", "analytics", "conversion",
-    "email marketing", "wordpress", "wix", "squarespace", "webflow",
-    "landing page", "funnel", "lead", "chatgpt", "openai", "gemini",
-    "perplexity", "llm", "automation", "crm", "shopify", "ecommerce",
+    "youtube", "social media", "content", "website", "web", "digital",
+    "local", "rank", "traffic", "campaign", "algorithm", "serp", "keyword",
+    "backlink", "analytics", "conversion", "email marketing", "wordpress",
+    "wix", "squarespace", "webflow", "landing page", "funnel", "lead",
+    "ai", "chatgpt", "openai", "automation", "crm", "shopify", "ecommerce",
+]
+
+# Guaranteed slots — at least 1 article from each group
+GUARANTEED_TOPICS = [
+    ["wordpress", "wix", "squarespace", "webflow", "lovable", "website builder",
+     "web design", "web development", "website design", "page speed", "core web vitals", "cms"],
+    ["instagram", "facebook", "meta ads", "reels", "social media"],
 ]
 
 
@@ -64,14 +84,10 @@ def is_marketing_relevant(title, summary):
     combined = (title + " " + summary).lower()
     return any(kw in combined for kw in REQUIRED_KEYWORDS)
 
-# At least one article must match one of these topic groups
-GUARANTEED_TOPICS = [
-    ["wordpress", "wix", "squarespace", "webflow", "lovable", "website builder",
-     "ai website", "html", "web design", "web development", "website design",
-     "on-page seo", "on page seo", "page speed", "core web vitals", "cms"],
-    ["instagram algorithm", "facebook algorithm", "instagram update", "facebook update",
-     "meta algorithm", "instagram feature", "facebook feature", "reels", "stories algorithm"],
-]
+
+def is_ai_article(title, summary):
+    combined = (title + " " + summary).lower()
+    return any(kw in combined for kw in AI_WORDS)
 
 
 def clean_text(raw):
@@ -145,14 +161,20 @@ def fetch_headlines(source, url):
 
 
 def score(item):
-    t = item[1].lower()
+    t = (item[1] + " " + item[3]).lower()
     s = 0
-    for w in HIGH_VALUE_WORDS:
+    for w in BREAKING_WORDS:
         if w in t:
-            s += 2
+            s += 5   # top priority: breaking news / algo changes
+    for w in MARKETING_WORDS:
+        if w in t:
+            s += 3   # high priority: marketing/seo specific
+    for w in AI_WORDS:
+        if w in t:
+            s += 1   # low priority: ai articles
     for w in LOW_VALUE_WORDS:
         if w in t:
-            s -= 3
+            s -= 3   # penalize generic guides
     return s
 
 
@@ -197,19 +219,27 @@ def main():
                 used_indices.add(i)
                 break
 
-    # Fill remaining slots up to 10 — must be marketing relevant
-    for i, h in enumerate(all_headlines):
-        if len(selected) >= 10:
-            break
-        if i not in used_indices and score(h) >= 0 and is_marketing_relevant(h[1], h[3]):
-            selected.append(h)
-            used_indices.add(i)
+    ai_count = sum(1 for h in selected if is_ai_article(h[1], h[3]))
 
-    # Fall back: relevant articles regardless of score
+    # Fill remaining slots — marketing relevant, cap AI at 2
     for i, h in enumerate(all_headlines):
         if len(selected) >= 10:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]):
+            if is_ai_article(h[1], h[3]):
+                if ai_count < 2:
+                    selected.append(h)
+                    used_indices.add(i)
+                    ai_count += 1
+            else:
+                selected.append(h)
+                used_indices.add(i)
+
+    # Fall back: any relevant non-AI articles
+    for i, h in enumerate(all_headlines):
+        if len(selected) >= 10:
+            break
+        if i not in used_indices and is_marketing_relevant(h[1], h[3]) and not is_ai_article(h[1], h[3]):
             selected.append(h)
             used_indices.add(i)
 
