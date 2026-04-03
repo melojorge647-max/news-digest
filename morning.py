@@ -34,6 +34,11 @@ BREAKING_WORDS = [
     "new feature", "breaking", "major change", "policy change", "ban", "deindex",
     "helpful content", "spam update", "ranking update", "serp change", "leaked",
     "google confirms", "google says", "google warns", "meta announces", "facebook announces",
+    "instagram announces", "instagram launches", "instagram update", "instagram algorithm",
+    "facebook update", "facebook algorithm", "facebook launches",
+    "linkedin announces", "linkedin launches", "linkedin update", "linkedin algorithm",
+    "meta update", "meta launches", "meta confirms",
+    "reels update", "feed update", "feed algorithm",
 ]
 
 # Marketing/SEO priority keywords — scored highly
