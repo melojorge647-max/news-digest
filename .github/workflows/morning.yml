@@ -2,7 +2,7 @@ name: Morning Digest (7am EDT)
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # 7:00 AM EDT (UTC-4)
+    - cron: '20 10 * * *'  # 6:20 AM EDT (UTC-4)
   workflow_dispatch:
 
 jobs:

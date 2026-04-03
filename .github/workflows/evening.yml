@@ -2,7 +2,7 @@ name: Evening Digest (10pm EDT)
 
 on:
   schedule:
-    - cron: '30 0 * * *'   # 8:30 PM EDT (UTC-4)
+    - cron: '50 23 * * *'  # 7:50 PM EDT (UTC-4)
   workflow_dispatch:
 
 jobs:
