@@ -25,6 +25,14 @@ FEEDS = [
     ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
     ("WordStream",           "https://www.wordstream.com/blog/feed"),
     ("Neil Patel",           "https://neilpatel.com/blog/feed/"),
+    # Local SEO for service businesses
+    ("BrightLocal",          "https://www.brightlocal.com/blog/feed/"),
+    ("Sterling Sky",         "https://sterlingsky.ca/feed/"),
+    ("Whitespark",           "https://whitespark.ca/blog/feed/"),
+    ("Near Media",           "https://www.nearmedia.co/feed/"),
+    # Creator economy / platform news
+    ("Social Media Today",   "https://www.socialmediatoday.com/rss.xml"),
+    ("The Verge",            "https://www.theverge.com/rss/index.xml"),
 ]
 
 # Highest priority — breaking news, algorithm changes, major announcements
@@ -41,6 +49,10 @@ BREAKING_WORDS = [
     "reels update", "feed update", "feed algorithm",
     "zuckerberg", "adam mosseri", "ryan roslansky", "sundar pichai", "satya nadella",
     "ceo says", "ceo announces", "ceo confirms",
+    # Creator economy / platform monetization
+    "paying creators", "creator fund", "creator monetization", "creator economy",
+    "bonus program", "revenue share", "creator program", "tipping", "subscriptions",
+    "platform pays", "monetize", "creator payout", "ad revenue sharing",
 ]
 
 # Marketing/SEO priority keywords — scored highly
@@ -54,6 +66,12 @@ MARKETING_WORDS = [
     "wordpress", "wix", "squarespace", "webflow", "website design", "web development",
     "google analytics", "google search console", "google business profile",
     "featured snippet", "knowledge panel", "zero click", "helpful content",
+    # Local SEO for service businesses
+    "google business profile", "gbp", "map pack", "local pack", "local search",
+    "local seo", "local ranking", "local service", "google maps ranking",
+    "plumber", "roofer", "hvac", "electrician", "contractor", "home service",
+    "service area", "review management", "citation", "local citation",
+    "near me", "local 3-pack", "local business", "google reviews",
 ]
 
 # AI keywords — capped at 2 articles per digest
@@ -84,6 +102,10 @@ GUARANTEED_TOPICS = [
     ["wordpress", "wix", "squarespace", "webflow", "lovable", "website builder",
      "web design", "web development", "website design", "page speed", "core web vitals", "cms"],
     ["instagram", "facebook", "meta ads", "reels", "social media"],
+    ["google business profile", "gbp", "map pack", "local pack", "local seo",
+     "local search", "local ranking", "plumber", "roofer", "hvac", "electrician",
+     "home service", "contractor", "near me", "local 3-pack", "local citation",
+     "google reviews", "service area business"],
 ]
 
 
@@ -205,7 +227,7 @@ def pick_morning_urls(all_headlines):
 
     ai_count = sum(1 for h in picked if is_ai_article(h[1], h[3]))
     for i, h in enumerate(by_score):
-        if len(picked) >= 10:
+        if len(picked) >= 12:
             break
         if i not in used and is_marketing_relevant(h[1], h[3]):
             if is_ai_article(h[1], h[3]):
@@ -259,7 +281,7 @@ def main():
 
     # Fill remaining slots — marketing relevant, cap AI at 2
     for i, h in enumerate(remaining):
-        if len(selected) >= 10:
+        if len(selected) >= 12:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]):
             if is_ai_article(h[1], h[3]):
@@ -273,7 +295,7 @@ def main():
 
     # Fall back: any relevant non-AI articles
     for i, h in enumerate(remaining):
-        if len(selected) >= 10:
+        if len(selected) >= 12:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]) and not is_ai_article(h[1], h[3]):
             selected.append(h)
