@@ -213,7 +213,7 @@ def fetch_headlines(source, url):
                     try:
                         dt = parsedate_to_datetime(date_m.group(1).strip())
                         age = datetime.datetime.now(datetime.timezone.utc) - dt
-                        if age.days > 7:
+                        if age.days > 4:
                             continue
                     except Exception:
                         pass
