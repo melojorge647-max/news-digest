@@ -1,9 +1,12 @@
-name: Evening Digest (10pm EDT)
+name: Evening Digest (8:30pm EDT)
 
 on:
   schedule:
     - cron: '50 23 * * *'  # 7:50 PM EDT (UTC-4)
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   send:
@@ -18,3 +21,11 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python evening.py
+      - name: Save sent URLs
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git pull origin master
+          git add sent_urls.txt
+          git diff --staged --quiet || git commit -m "Track sent URLs [skip ci]"
+          git push

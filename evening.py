@@ -245,39 +245,52 @@ def score(item):
     return s
 
 
+SENT_URLS_FILE = "sent_urls.txt"
+
+
+def load_sent_urls():
+    """Load URLs sent in the last 4 days; prune older entries."""
+    sent = set()
+    if not os.path.exists(SENT_URLS_FILE):
+        return sent
+    now = datetime.datetime.now(datetime.timezone.utc)
+    kept = []
+    with open(SENT_URLS_FILE, "r") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split("|", 1)
+            if len(parts) == 2:
+                url, ts = parts[0], parts[1]
+                try:
+                    dt = datetime.datetime.fromisoformat(ts)
+                    if (now - dt).days <= 4:
+                        sent.add(url)
+                        kept.append(line)
+                except Exception:
+                    sent.add(url)
+                    kept.append(line)
+            else:
+                sent.add(line)
+                kept.append(line)
+    with open(SENT_URLS_FILE, "w") as f:
+        f.write("\n".join(kept) + ("\n" if kept else ""))
+    return sent
+
+
+def save_sent_urls(urls):
+    """Append newly sent URLs with timestamp."""
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    with open(SENT_URLS_FILE, "a") as f:
+        for url in urls:
+            if url:
+                f.write(f"{url}|{now}\n")
+
+
 def matches_topic(title, keywords):
     t = title.lower()
     return any(kw in t for kw in keywords)
-
-
-def pick_morning_urls(all_headlines):
-    """Simulate what morning.py would pick so evening can exclude those articles."""
-    by_score = sorted(all_headlines, key=score, reverse=True)
-    picked = []
-    used = set()
-
-    for topic_keywords in GUARANTEED_TOPICS:
-        for i, h in enumerate(by_score):
-            if i not in used and matches_topic(h[1], topic_keywords):
-                picked.append(h)
-                used.add(i)
-                break
-
-    ai_count = sum(1 for h in picked if is_ai_article(h[1], h[3]))
-    for i, h in enumerate(by_score):
-        if len(picked) >= 12:
-            break
-        if i not in used and is_marketing_relevant(h[1], h[3]):
-            if is_ai_article(h[1], h[3]):
-                if ai_count < 2:
-                    picked.append(h)
-                    used.add(i)
-                    ai_count += 1
-            else:
-                picked.append(h)
-                used.add(i)
-
-    return {h[2] for h in picked}  # return set of URLs
 
 
 def main():
@@ -285,18 +298,20 @@ def main():
     slot = "Evening"
     print(f"Fetching headlines for {date_str} ({slot} edition)...")
 
+    sent_urls = load_sent_urls()
+    print(f"  Loaded {len(sent_urls)} previously sent URLs to skip")
+
     all_headlines = []
     for source, url in FEEDS:
         headlines = fetch_headlines(source, url)
         print(f"  {source}: {len(headlines)} headlines")
         all_headlines.extend(headlines)
 
-    # Compute what morning already sent and exclude those URLs
-    morning_urls = pick_morning_urls(all_headlines)
-    remaining = [h for h in all_headlines if h[2] not in morning_urls]
-    print(f"  Excluded {len(all_headlines) - len(remaining)} morning articles, {len(remaining)} remaining")
+    # Remove already-sent articles (includes this morning's digest)
+    remaining = [h for h in all_headlines if h[2] not in sent_urls]
+    print(f"  {len(remaining)} articles remaining after dedup")
 
-    # Evening: sort remaining by most recently published
+    # Evening: sort by most recently published
     def pub_key(item):
         try:
             return parsedate_to_datetime(item[4]) if item[4] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
@@ -370,7 +385,9 @@ def main():
         s.login(GMAIL_USER, GMAIL_APP_PASSWORD)
         s.sendmail(GMAIL_USER, RECIPIENTS, msg.as_string())
 
+    save_sent_urls([h[2] for h in selected])
     print("Email sent to:", ", ".join(RECIPIENTS))
+    print(f"Saved {len(selected)} URLs to {SENT_URLS_FILE}")
 
 
 if __name__ == "__main__":

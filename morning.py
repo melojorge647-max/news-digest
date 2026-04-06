@@ -245,6 +245,49 @@ def score(item):
     return s
 
 
+SENT_URLS_FILE = "sent_urls.txt"
+
+
+def load_sent_urls():
+    """Load URLs sent in the last 4 days; prune older entries."""
+    sent = set()
+    if not os.path.exists(SENT_URLS_FILE):
+        return sent
+    now = datetime.datetime.now(datetime.timezone.utc)
+    kept = []
+    with open(SENT_URLS_FILE, "r") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split("|", 1)
+            if len(parts) == 2:
+                url, ts = parts[0], parts[1]
+                try:
+                    dt = datetime.datetime.fromisoformat(ts)
+                    if (now - dt).days <= 4:
+                        sent.add(url)
+                        kept.append(line)
+                except Exception:
+                    sent.add(url)
+                    kept.append(line)
+            else:
+                sent.add(line)
+                kept.append(line)
+    with open(SENT_URLS_FILE, "w") as f:
+        f.write("\n".join(kept) + ("\n" if kept else ""))
+    return sent
+
+
+def save_sent_urls(urls):
+    """Append newly sent URLs with timestamp."""
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    with open(SENT_URLS_FILE, "a") as f:
+        for url in urls:
+            if url:
+                f.write(f"{url}|{now}\n")
+
+
 def matches_topic(title, keywords):
     t = title.lower()
     return any(kw in t for kw in keywords)
@@ -252,9 +295,11 @@ def matches_topic(title, keywords):
 
 def main():
     date_str = datetime.date.today().strftime("%B %d, %Y")
-    offset = 0
     slot = "Morning"
     print(f"Fetching headlines for {date_str} ({slot} edition)...")
+
+    sent_urls = load_sent_urls()
+    print(f"  Loaded {len(sent_urls)} previously sent URLs to skip")
 
     all_headlines = []
     for source, url in FEEDS:
@@ -262,18 +307,12 @@ def main():
         print(f"  {source}: {len(headlines)} headlines")
         all_headlines.extend(headlines)
 
-    if slot == "Evening":
-        # Evening: sort by most recently published so you get fresh articles from the day
-        def pub_key(item):
-            try:
-                from email.utils import parsedate_to_datetime as p
-                return p(item[4]) if item[4] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
-            except Exception:
-                return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
-        all_headlines.sort(key=pub_key, reverse=True)
-    else:
-        # Morning: sort by relevance score
-        all_headlines.sort(key=score, reverse=True)
+    # Remove already-sent articles
+    all_headlines = [h for h in all_headlines if h[2] not in sent_urls]
+    print(f"  {len(all_headlines)} articles remaining after dedup")
+
+    # Morning: sort by relevance score
+    all_headlines.sort(key=score, reverse=True)
 
     selected = []
     used_indices = set()
@@ -341,7 +380,9 @@ def main():
         s.login(GMAIL_USER, GMAIL_APP_PASSWORD)
         s.sendmail(GMAIL_USER, RECIPIENTS, msg.as_string())
 
+    save_sent_urls([h[2] for h in selected])
     print("Email sent to:", ", ".join(RECIPIENTS))
+    print(f"Saved {len(selected)} URLs to {SENT_URLS_FILE}")
 
 
 if __name__ == "__main__":
