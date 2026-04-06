@@ -35,27 +35,52 @@ FEEDS = [
     ("The Verge",            "https://www.theverge.com/rss/index.xml"),
 ]
 
-# Highest priority — breaking news, algorithm changes, major announcements
+# Highest priority — breaking news, algorithm changes, major announcements (+5 each)
 BREAKING_WORDS = [
+    # Google search
     "algorithm update", "core update", "broad core", "manual action", "penalty",
-    "rolling out", "rolls out", "announces", "announced", "launches", "launched",
-    "new feature", "breaking", "major change", "policy change", "ban", "deindex",
-    "helpful content", "spam update", "ranking update", "serp change", "leaked",
-    "google confirms", "google says", "google warns", "meta announces", "facebook announces",
+    "rolling out", "rolls out", "new feature", "breaking", "major change",
+    "policy change", "ban", "deindex", "spam update", "ranking update",
+    "serp change", "leaked", "ranking factor", "search ranking change",
+    "helpful content", "google confirms", "google says", "google warns",
+    # Meta / Facebook / Instagram
+    "meta announces", "meta confirms", "meta update", "meta launches",
+    "facebook announces", "facebook update", "facebook algorithm", "facebook launches",
     "instagram announces", "instagram launches", "instagram update", "instagram algorithm",
-    "facebook update", "facebook algorithm", "facebook launches",
-    "linkedin announces", "linkedin launches", "linkedin update", "linkedin algorithm",
-    "meta update", "meta launches", "meta confirms",
     "reels update", "feed update", "feed algorithm",
+    # LinkedIn
+    "linkedin announces", "linkedin launches", "linkedin update", "linkedin algorithm",
+    # TikTok
+    "tiktok announces", "tiktok launches", "tiktok update", "tiktok algorithm",
+    "tiktok ban", "tiktok changes",
+    # YouTube
+    "youtube announces", "youtube launches", "youtube update", "youtube algorithm",
+    "youtube monetization", "youtube changes",
+    # X / Twitter
+    "x announces", "twitter announces", "x update", "twitter update",
+    "x algorithm", "twitter algorithm", "x launches",
+    # Snapchat / Pinterest / Threads
+    "snapchat announces", "snapchat update", "pinterest announces", "pinterest update",
+    "threads announces", "threads update", "threads algorithm",
+    # Other search engines
+    "bing update", "bing announces", "bing algorithm", "bing changes",
+    "search engine update", "search update",
+    # Ads platforms
+    "google ads update", "meta ads update", "ad policy change", "ads announcement",
+    "performance max update", "smart bidding update",
+    # Creator economy / monetization
+    "paying creators", "creator fund", "creator monetization", "creator economy",
+    "bonus program", "revenue share", "creator program", "creator payout",
+    "ad revenue sharing", "platform pays", "monetize creators",
+    # CEOs / executives
     "zuckerberg", "adam mosseri", "ryan roslansky", "sundar pichai", "satya nadella",
     "ceo says", "ceo announces", "ceo confirms",
-    # Creator economy / platform monetization
-    "paying creators", "creator fund", "creator monetization", "creator economy",
-    "bonus program", "revenue share", "creator program", "tipping", "subscriptions",
-    "platform pays", "monetize", "creator payout", "ad revenue sharing",
+    # Local SEO breaking
+    "google business profile update", "gbp update", "map pack change", "local pack update",
+    "google maps update", "local search update",
 ]
 
-# Marketing/SEO priority keywords — scored highly
+# Marketing/SEO priority keywords — scored highly (+3 each)
 MARKETING_WORDS = [
     "seo", "search engine", "google search", "google ads", "meta ads", "facebook ads",
     "instagram ads", "linkedin ads", "tiktok ads", "local service ads", "lsa",
@@ -65,25 +90,35 @@ MARKETING_WORDS = [
     "conversion rate", "landing page", "ppc", "paid search", "paid social",
     "wordpress", "wix", "squarespace", "webflow", "website design", "web development",
     "google analytics", "google search console", "google business profile",
-    "featured snippet", "knowledge panel", "zero click", "helpful content",
+    "featured snippet", "knowledge panel", "zero click",
     # Local SEO for service businesses
-    "google business profile", "gbp", "map pack", "local pack", "local search",
-    "local seo", "local ranking", "local service", "google maps ranking",
-    "plumber", "roofer", "hvac", "electrician", "contractor", "home service",
-    "service area", "review management", "citation", "local citation",
+    "gbp", "map pack", "local pack", "local search", "local ranking",
+    "google maps ranking", "plumber", "roofer", "hvac", "electrician", "contractor",
+    "home service", "service area", "review management", "citation", "local citation",
     "near me", "local 3-pack", "local business", "google reviews",
 ]
 
-# AI keywords — capped at 2 articles per digest
+# AI keywords — capped at 2 articles per digest (+1 each)
 AI_WORDS = [
     "artificial intelligence", "chatgpt", "openai", "gemini", "claude",
     "llm", "large language model", "ai overview", "ai search", "generative ai",
     "perplexity", "copilot", "gpt", "machine learning",
 ]
 
+# Generic fluff — penalized heavily (-5 each)
 LOW_VALUE_WORDS = [
-    "how to", "guide", "tutorial", "tips for", "best practices",
-    "checklist", "step by step", "beginners", "101",
+    "how to", "guide to", "tutorial", "tips for", "best practices",
+    "checklist", "step by step", "beginners guide", "101", "complete guide",
+    "ultimate guide", "everything you need to know", "what is", "explained",
+    "introduction to", "getting started",
+]
+
+# Story/opinion content — buried unless nothing else is available (-8 each)
+STORY_WORDS = [
+    "opinion", "my experience", "case study", "interview with", "podcast",
+    "webinar", "roundup", "weekly recap", "monthly recap", "predictions for",
+    "lessons learned", "retrospective", "thought leadership", "personal story",
+    "i tested", "we tested", "here's what", "here is what",
 ]
 
 # Must contain at least one of these to be included
@@ -194,7 +229,7 @@ def score(item):
     s = 0
     for w in BREAKING_WORDS:
         if w in t:
-            s += 5   # top priority: breaking news / algo changes
+            s += 5   # top priority: breaking news / platform changes
     for w in MARKETING_WORDS:
         if w in t:
             s += 3   # high priority: marketing/seo specific
@@ -203,7 +238,10 @@ def score(item):
             s += 1   # low priority: ai articles
     for w in LOW_VALUE_WORDS:
         if w in t:
-            s -= 3   # penalize generic guides
+            s -= 5   # penalize generic how-to / guide content
+    for w in STORY_WORDS:
+        if w in t:
+            s -= 8   # heavily bury opinion/story/recap content
     return s
 
 
