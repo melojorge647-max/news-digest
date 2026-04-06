@@ -190,9 +190,38 @@ def matches_topic(title, keywords):
     return any(kw in t for kw in keywords)
 
 
+def pick_morning_urls(all_headlines):
+    """Simulate what morning.py would pick so evening can exclude those articles."""
+    by_score = sorted(all_headlines, key=score, reverse=True)
+    picked = []
+    used = set()
+
+    for topic_keywords in GUARANTEED_TOPICS:
+        for i, h in enumerate(by_score):
+            if i not in used and matches_topic(h[1], topic_keywords):
+                picked.append(h)
+                used.add(i)
+                break
+
+    ai_count = sum(1 for h in picked if is_ai_article(h[1], h[3]))
+    for i, h in enumerate(by_score):
+        if len(picked) >= 10:
+            break
+        if i not in used and is_marketing_relevant(h[1], h[3]):
+            if is_ai_article(h[1], h[3]):
+                if ai_count < 2:
+                    picked.append(h)
+                    used.add(i)
+                    ai_count += 1
+            else:
+                picked.append(h)
+                used.add(i)
+
+    return {h[2] for h in picked}  # return set of URLs
+
+
 def main():
     date_str = datetime.date.today().strftime("%B %d, %Y")
-    offset = 10
     slot = "Evening"
     print(f"Fetching headlines for {date_str} ({slot} edition)...")
 
@@ -202,26 +231,26 @@ def main():
         print(f"  {source}: {len(headlines)} headlines")
         all_headlines.extend(headlines)
 
-    if slot == "Evening":
-        # Evening: sort by most recently published so you get fresh articles from the day
-        def pub_key(item):
-            try:
-                from email.utils import parsedate_to_datetime as p
-                return p(item[4]) if item[4] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
-            except Exception:
-                return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
-        all_headlines.sort(key=pub_key, reverse=True)
-    else:
-        # Morning: sort by relevance score
-        all_headlines.sort(key=score, reverse=True)
+    # Compute what morning already sent and exclude those URLs
+    morning_urls = pick_morning_urls(all_headlines)
+    remaining = [h for h in all_headlines if h[2] not in morning_urls]
+    print(f"  Excluded {len(all_headlines) - len(remaining)} morning articles, {len(remaining)} remaining")
+
+    # Evening: sort remaining by most recently published
+    def pub_key(item):
+        try:
+            return parsedate_to_datetime(item[4]) if item[4] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+        except Exception:
+            return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+    remaining.sort(key=pub_key, reverse=True)
 
     selected = []
     used_indices = set()
 
     # Reserve 1 guaranteed slot per topic group
     for topic_keywords in GUARANTEED_TOPICS:
-        for i, h in enumerate(all_headlines):
-            if i not in used_indices and matches_topic(h[1], topic_keywords):  # h[1] is title
+        for i, h in enumerate(remaining):
+            if i not in used_indices and matches_topic(h[1], topic_keywords):
                 selected.append(h)
                 used_indices.add(i)
                 break
@@ -229,7 +258,7 @@ def main():
     ai_count = sum(1 for h in selected if is_ai_article(h[1], h[3]))
 
     # Fill remaining slots — marketing relevant, cap AI at 2
-    for i, h in enumerate(all_headlines):
+    for i, h in enumerate(remaining):
         if len(selected) >= 10:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]):
@@ -243,7 +272,7 @@ def main():
                 used_indices.add(i)
 
     # Fall back: any relevant non-AI articles
-    for i, h in enumerate(all_headlines):
+    for i, h in enumerate(remaining):
         if len(selected) >= 10:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]) and not is_ai_article(h[1], h[3]):
