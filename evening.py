@@ -208,16 +208,7 @@ def fetch_headlines(source, url):
                 except Exception:
                     pub = date_m.group(1).strip()
             if t and len(t) > 15:
-                # Filter out articles older than 7 days
-                if date_m:
-                    try:
-                        dt = parsedate_to_datetime(date_m.group(1).strip())
-                        age = datetime.datetime.now(datetime.timezone.utc) - dt
-                        if age.days > 2:
-                            continue
-                    except Exception:
-                        pass
-                results.append((source, t, l, d, pub))
+                results.append((source, t, l, d, pub, date_m.group(1).strip() if date_m else ""))
         return results[:10]
     except Exception as e:
         print(f"  Failed to fetch {source}: {e}")
@@ -308,23 +299,41 @@ def main():
         all_headlines.extend(headlines)
 
     # Remove already-sent articles (includes this morning's digest)
-    remaining = [h for h in all_headlines if h[2] not in sent_urls]
-    print(f"  {len(remaining)} articles remaining after dedup")
+    all_headlines = [h for h in all_headlines if h[2] not in sent_urls]
+    print(f"  {len(all_headlines)} articles remaining after dedup")
+
+    # Adaptive freshness: prefer 2 days, expand to 3 or 5 if pool is too thin
+    now = datetime.datetime.now(datetime.timezone.utc)
+    def article_age_days(h):
+        try:
+            dt = parsedate_to_datetime(h[5])
+            return (now - dt).days
+        except Exception:
+            return 0
+
+    for max_age in [2, 3, 5]:
+        pool = [h for h in all_headlines if article_age_days(h) <= max_age]
+        if len(pool) >= 12:
+            break
+    else:
+        pool = all_headlines
+
+    print(f"  Using {len(pool)} articles (max age: {max_age} days)")
 
     # Evening: sort by most recently published
     def pub_key(item):
         try:
-            return parsedate_to_datetime(item[4]) if item[4] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+            return parsedate_to_datetime(item[5]) if item[5] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
         except Exception:
             return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
-    remaining.sort(key=pub_key, reverse=True)
+    pool.sort(key=pub_key, reverse=True)
 
     selected = []
     used_indices = set()
 
     # Reserve 1 guaranteed slot per topic group
     for topic_keywords in GUARANTEED_TOPICS:
-        for i, h in enumerate(remaining):
+        for i, h in enumerate(pool):
             if i not in used_indices and matches_topic(h[1], topic_keywords):
                 selected.append(h)
                 used_indices.add(i)
@@ -333,7 +342,7 @@ def main():
     ai_count = sum(1 for h in selected if is_ai_article(h[1], h[3]))
 
     # Fill remaining slots — marketing relevant, cap AI at 2
-    for i, h in enumerate(remaining):
+    for i, h in enumerate(pool):
         if len(selected) >= 12:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]):
@@ -347,7 +356,7 @@ def main():
                 used_indices.add(i)
 
     # Fall back: any relevant non-AI articles
-    for i, h in enumerate(remaining):
+    for i, h in enumerate(pool):
         if len(selected) >= 12:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]) and not is_ai_article(h[1], h[3]):

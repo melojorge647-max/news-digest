@@ -208,16 +208,7 @@ def fetch_headlines(source, url):
                 except Exception:
                     pub = date_m.group(1).strip()
             if t and len(t) > 15:
-                # Filter out articles older than 7 days
-                if date_m:
-                    try:
-                        dt = parsedate_to_datetime(date_m.group(1).strip())
-                        age = datetime.datetime.now(datetime.timezone.utc) - dt
-                        if age.days > 2:
-                            continue
-                    except Exception:
-                        pass
-                results.append((source, t, l, d, pub))
+                results.append((source, t, l, d, pub, date_m.group(1).strip() if date_m else ""))
         return results[:10]
     except Exception as e:
         print(f"  Failed to fetch {source}: {e}")
