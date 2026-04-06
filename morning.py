@@ -31,8 +31,9 @@ FEEDS = [
     ("Whitespark",           "https://whitespark.ca/blog/feed/"),
     ("Near Media",           "https://www.nearmedia.co/feed/"),
     # Creator economy / platform news
-    ("Social Media Today",   "https://www.socialmediatoday.com/rss.xml"),
-    ("The Verge",            "https://www.theverge.com/rss/index.xml"),
+    ("Social Media Today",   "https://www.socialmediatoday.com/rss/"),
+    ("Contractor Mag",       "https://www.contractormag.com/rss"),
+    ("ACHR News",            "https://www.achrnews.com/rss/topic/1775-business"),
 ]
 
 # Highest priority — breaking news, algorithm changes, major announcements (+5 each)
@@ -141,6 +142,11 @@ GUARANTEED_TOPICS = [
      "local search", "local ranking", "plumber", "roofer", "hvac", "electrician",
      "home service", "contractor", "near me", "local 3-pack", "local citation",
      "google reviews", "service area business"],
+    ["home service marketing", "contractor marketing", "plumber marketing",
+     "hvac marketing", "roofer marketing", "electrician marketing",
+     "service business marketing", "local service ads", "contractor leads",
+     "home services advertising", "trade business", "contractor advertising",
+     "local service business", "home improvement marketing"],
 ]
 
 
@@ -338,7 +344,7 @@ def main():
 
     # Fill remaining slots — marketing relevant, cap AI at 2
     for i, h in enumerate(pool):
-        if len(selected) >= 12:
+        if len(selected) >= 13:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]):
             if is_ai_article(h[1], h[3]):
@@ -352,7 +358,7 @@ def main():
 
     # Fall back: any relevant non-AI articles
     for i, h in enumerate(pool):
-        if len(selected) >= 12:
+        if len(selected) >= 13:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]) and not is_ai_article(h[1], h[3]):
             selected.append(h)
