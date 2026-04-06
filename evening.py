@@ -368,7 +368,7 @@ def main():
         return
 
     lines = [f"DAILY MARKETING NEWS - {date_str}", ""]
-    for i, (source, title, link, summary, pub) in enumerate(selected, 1):
+    for i, (source, title, link, summary, pub, _raw_date) in enumerate(selected, 1):
         lines.append(f"{i}. [{source}] {title}")
         if pub:
             lines.append(f"   Published: {pub}")
