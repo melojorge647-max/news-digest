@@ -213,7 +213,7 @@ def fetch_headlines(source, url):
                     try:
                         dt = parsedate_to_datetime(date_m.group(1).strip())
                         age = datetime.datetime.now(datetime.timezone.utc) - dt
-                        if age.days > 4:
+                        if age.days > 2:
                             continue
                     except Exception:
                         pass
@@ -265,7 +265,7 @@ def load_sent_urls():
                 url, ts = parts[0], parts[1]
                 try:
                     dt = datetime.datetime.fromisoformat(ts)
-                    if (now - dt).days <= 4:
+                    if (now - dt).days <= 2:
                         sent.add(url)
                         kept.append(line)
                 except Exception:
