@@ -262,7 +262,7 @@ def load_sent_urls():
                 url, ts = parts[0], parts[1]
                 try:
                     dt = datetime.datetime.fromisoformat(ts)
-                    if (now - dt).days <= 2:
+                    if (now - dt).days <= 3:
                         sent.add(url)
                         kept.append(line)
                 except Exception:
@@ -317,9 +317,9 @@ def main():
         except Exception:
             return 0
 
-    for max_age in [2, 3, 5]:
+    for max_age in [2, 3, 5, 7]:
         pool = [h for h in all_headlines if article_age_days(h) <= max_age]
-        if len(pool) >= 12:
+        if len(pool) >= 30:
             break
     else:
         pool = all_headlines  # fallback: use everything
