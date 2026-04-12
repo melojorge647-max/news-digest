@@ -315,14 +315,15 @@ def main():
             dt = parsedate_to_datetime(h[5])
             return (now - dt).days
         except Exception:
-            return 0
+            return 999  # no date = exclude
 
     for max_age in [2, 3, 5, 7]:
         pool = [h for h in all_headlines if article_age_days(h) <= max_age]
         if len(pool) >= 30:
             break
     else:
-        pool = all_headlines
+        # Never go unlimited — hard cap at 7 days no matter what
+        pool = [h for h in all_headlines if article_age_days(h) <= 7]
 
     print(f"  Using {len(pool)} articles (max age: {max_age} days)")
 
