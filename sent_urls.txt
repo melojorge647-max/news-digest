@@ -1,16 +1,3 @@
-https://wptavern.com/podcast/206-jonathan-desrosiers-on-wordpress-sustainability-community-engagement-and-release-strategies|2026-04-09T11:28:43.081943+00:00
-https://www.wordstream.com/blog/instagram-ads-cost|2026-04-09T11:28:43.081943+00:00
-https://www.sterlingsky.ca/the-state-of-local-seo-in-2026/|2026-04-09T11:28:43.081943+00:00
-https://www.sterlingsky.ca/services-in-google-business-profile-impact-ranking/|2026-04-09T11:28:43.081943+00:00
-https://www.nearmedia.co/ep-248-state-of-google-business-profile-2026-impressions-are-down-54-but-actions-arent-with-adam-dorfman/|2026-04-09T11:28:43.081943+00:00
-https://www.nearmedia.co/attorneys-embrace-ai-lsa-secrets-lawyer-finding-review-diversification/|2026-04-09T11:28:43.081943+00:00
-https://www.nearmedia.co/ep-244-ai-visibility-vs-google-rankings-rand-fishkin-on-the-future-of-search-zero-click-brand-measurement/|2026-04-09T11:28:43.081943+00:00
-https://www.searchenginejournal.com/googles-ceo-predicts-search-will-become-an-ai-agent-manager/571526/|2026-04-09T11:28:43.081943+00:00
-https://www.searchenginejournal.com/entity-authority-ai-search-victorious-spa/570686/|2026-04-09T11:28:43.081943+00:00
-https://feedpress.me/link/9375/14723651/targeted-impact-link-building-guide|2026-04-09T11:28:43.081943+00:00
-https://ahrefs.com/blog/what-ai-writing-tools-get-wrong-and-the-stack-i-use/|2026-04-09T11:28:43.081943+00:00
-https://www.sterlingsky.ca/local-seo-audit-checklist/|2026-04-09T11:28:43.081943+00:00
-https://www.sterlingsky.ca/google-business-review-extortion-scam-how-to-fight-back/|2026-04-09T11:28:43.081943+00:00
 https://wptavern.com/podcast/209-simon-pollard-on-navigating-the-new-normal-for-wordpress-community-and-events|2026-04-10T01:04:20.962334+00:00
 https://www.searchenginejournal.com/dont-go-chasing-ai-yet-a-framework-for-prioritizing-seo-vs-ai-search/571603/|2026-04-10T01:04:20.962334+00:00
 https://neilpatel.com/blog/ai-paid-search-adapt-to-ai-overviews-stealing-clicks/|2026-04-10T01:04:20.962334+00:00
@@ -94,3 +81,7 @@ https://neilpatel.com/blog/challenge-of-marketing-attribution/|2026-04-13T01:10:
 https://www.semrush.com/blog/google-keyword-planner/|2026-04-13T01:10:34.189880+00:00
 https://www.wordstream.com/blog/may-marketing-ideas|2026-04-13T01:10:34.189880+00:00
 https://www.wordstream.com/blog/seo-ab-testing|2026-04-13T01:10:34.189880+00:00
+https://digiday.com/media/im-playing-the-long-game-journalists-are-striking-out-alone-and-discovering-the-business-is-toughest-beat-of-all/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss|2026-04-13T11:44:49.400592+00:00
+https://digiday.com/media/in-graphic-detail-new-data-shows-publishers-face-growing-ai-bot-third-party-scraper-activity/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss|2026-04-13T11:44:49.400592+00:00
+https://digiday.com/media-buying/media-buying-briefing-what-buyers-got-out-of-the-newfronts-and-expect-to-happen-in-the-upfronts/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss|2026-04-13T11:44:49.400592+00:00
+https://digiday.com/marketing/fear-of-believing-youre-irrelevant-economic-headwinds-global-tensions-wont-keep-marketers-from-cannes-lions/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss|2026-04-13T11:44:49.400592+00:00
