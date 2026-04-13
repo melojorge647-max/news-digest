@@ -25,63 +25,44 @@ FEEDS = [
     ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
     ("WordStream",           "https://www.wordstream.com/blog/feed"),
     ("Neil Patel",           "https://neilpatel.com/blog/feed/"),
-    # Local SEO for service businesses
     ("BrightLocal",          "https://www.brightlocal.com/blog/feed/"),
     ("Sterling Sky",         "https://sterlingsky.ca/feed/"),
-    ("Whitespark",           "https://whitespark.ca/blog/feed/"),
     ("Near Media",           "https://www.nearmedia.co/feed/"),
-    # Creator economy / platform news
     ("Social Media Today",   "https://www.socialmediatoday.com/rss/"),
-    ("Contractor Mag",       "https://www.contractormag.com/rss"),
-    ("ACHR News",            "https://www.achrnews.com/rss/topic/1775-business"),
 ]
 
-# Highest priority — breaking news, algorithm changes, major announcements (+5 each)
 BREAKING_WORDS = [
-    # Google search
     "algorithm update", "core update", "broad core", "manual action", "penalty",
     "rolling out", "rolls out", "new feature", "breaking", "major change",
     "policy change", "ban", "deindex", "spam update", "ranking update",
     "serp change", "leaked", "ranking factor", "search ranking change",
     "helpful content", "google confirms", "google says", "google warns",
-    # Meta / Facebook / Instagram
     "meta announces", "meta confirms", "meta update", "meta launches",
     "facebook announces", "facebook update", "facebook algorithm", "facebook launches",
     "instagram announces", "instagram launches", "instagram update", "instagram algorithm",
     "reels update", "feed update", "feed algorithm",
-    # LinkedIn
     "linkedin announces", "linkedin launches", "linkedin update", "linkedin algorithm",
-    # TikTok
     "tiktok announces", "tiktok launches", "tiktok update", "tiktok algorithm",
     "tiktok ban", "tiktok changes",
-    # YouTube
     "youtube announces", "youtube launches", "youtube update", "youtube algorithm",
     "youtube monetization", "youtube changes",
-    # X / Twitter
     "x announces", "twitter announces", "x update", "twitter update",
     "x algorithm", "twitter algorithm", "x launches",
-    # Snapchat / Pinterest / Threads
     "snapchat announces", "snapchat update", "pinterest announces", "pinterest update",
     "threads announces", "threads update", "threads algorithm",
-    # Other search engines
     "bing update", "bing announces", "bing algorithm", "bing changes",
     "search engine update", "search update",
-    # Ads platforms
     "google ads update", "meta ads update", "ad policy change", "ads announcement",
     "performance max update", "smart bidding update",
-    # Creator economy / monetization
     "paying creators", "creator fund", "creator monetization", "creator economy",
     "bonus program", "revenue share", "creator program", "creator payout",
     "ad revenue sharing", "platform pays", "monetize creators",
-    # CEOs / executives
     "zuckerberg", "adam mosseri", "ryan roslansky", "sundar pichai", "satya nadella",
     "ceo says", "ceo announces", "ceo confirms",
-    # Local SEO breaking
     "google business profile update", "gbp update", "map pack change", "local pack update",
     "google maps update", "local search update",
 ]
 
-# Marketing/SEO priority keywords — scored highly (+3 each)
 MARKETING_WORDS = [
     "seo", "search engine", "google search", "google ads", "meta ads", "facebook ads",
     "instagram ads", "linkedin ads", "tiktok ads", "local service ads", "lsa",
@@ -92,21 +73,18 @@ MARKETING_WORDS = [
     "wordpress", "wix", "squarespace", "webflow", "website design", "web development",
     "google analytics", "google search console", "google business profile",
     "featured snippet", "knowledge panel", "zero click",
-    # Local SEO for service businesses
     "gbp", "map pack", "local pack", "local search", "local ranking",
     "google maps ranking", "plumber", "roofer", "hvac", "electrician", "contractor",
     "home service", "service area", "review management", "citation", "local citation",
     "near me", "local 3-pack", "local business", "google reviews",
 ]
 
-# AI keywords — capped at 2 articles per digest (+1 each)
 AI_WORDS = [
     "artificial intelligence", "chatgpt", "openai", "gemini", "claude",
     "llm", "large language model", "ai overview", "ai search", "generative ai",
     "perplexity", "copilot", "gpt", "machine learning",
 ]
 
-# Generic fluff — penalized heavily (-5 each)
 LOW_VALUE_WORDS = [
     "how to", "guide to", "tutorial", "tips for", "best practices",
     "checklist", "step by step", "beginners guide", "101", "complete guide",
@@ -114,15 +92,13 @@ LOW_VALUE_WORDS = [
     "introduction to", "getting started",
 ]
 
-# Story/opinion content — buried unless nothing else is available (-8 each)
 STORY_WORDS = [
     "opinion", "my experience", "case study", "interview with", "podcast",
     "webinar", "roundup", "weekly recap", "monthly recap", "predictions for",
     "lessons learned", "retrospective", "thought leadership", "personal story",
-    "i tested", "we tested", "here's what", "here is what",
+    "i tested", "we tested",
 ]
 
-# Must contain at least one of these to be included
 REQUIRED_KEYWORDS = [
     "seo", "search", "google", "bing", "ads", "ppc", "paid",
     "marketing", "meta", "facebook", "instagram", "tiktok", "linkedin",
@@ -131,9 +107,9 @@ REQUIRED_KEYWORDS = [
     "backlink", "analytics", "conversion", "email marketing", "wordpress",
     "wix", "squarespace", "webflow", "landing page", "funnel", "lead",
     "ai", "chatgpt", "openai", "automation", "crm", "shopify", "ecommerce",
+    "plumber", "roofer", "hvac", "electrician", "contractor", "home service",
 ]
 
-# Guaranteed slots — at least 1 article from each group
 GUARANTEED_TOPICS = [
     ["wordpress", "wix", "squarespace", "webflow", "lovable", "website builder",
      "web design", "web development", "website design", "page speed", "core web vitals", "cms"],
@@ -149,6 +125,9 @@ GUARANTEED_TOPICS = [
      "local service business", "home improvement marketing"],
 ]
 
+MAX_ARTICLES = 13
+MAX_AGE_DAYS = 3
+
 
 def is_marketing_relevant(title, summary):
     combined = (title + " " + summary).lower()
@@ -161,7 +140,6 @@ def is_ai_article(title, summary):
 
 
 def clean_text(raw):
-    """Strip HTML tags, decode entities, collapse whitespace."""
     text = re.sub(r"<[^>]+>", " ", raw)
     text = re.sub(r"&amp;", "&", text)
     text = re.sub(r"&lt;", "<", text)
@@ -169,15 +147,13 @@ def clean_text(raw):
     text = re.sub(r"&quot;", '"', text)
     text = re.sub(r"&#\d+;", "", text)
     text = re.sub(r"&[a-zA-Z]+;", "", text)
-    text = re.sub(r"<p>|</p>|<img[^>]*>|<a[^>]*>|</a>", " ", text)
     text = re.sub(r"The post .* appeared first on .*\.", "", text)
-    text = re.sub(r"\[.*?\]", "", text)  # remove [shortcodes]
+    text = re.sub(r"\[.*?\]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
 def to_4_sentences(text):
-    """Return up to 4 sentences from a block of text."""
     sentences = re.split(r"(?<=[.!?])\s+", text)
     sentences = [s.strip() for s in sentences if len(s.strip()) > 20]
     return " ".join(sentences[:4])
@@ -190,6 +166,7 @@ def fetch_headlines(source, url):
             xml = r.read().decode("utf-8", errors="ignore")
         items = re.findall(r"<item>(.*?)</item>", xml, re.DOTALL)
         results = []
+        now = datetime.datetime.now(datetime.timezone.utc)
         for item in items:
             title_m = re.search(r"<title><!\[CDATA\[(.*?)\]\]></title>|<title>(.*?)</title>", item)
             link_m  = re.search(r"<link>(.*?)</link>|<link\s[^>]*href=[\"'](.*?)[\"']", item, re.DOTALL)
@@ -198,6 +175,18 @@ def fetch_headlines(source, url):
             if not title_m:
                 continue
             t = (title_m.group(1) or title_m.group(2) or "").strip()
+            if not t or len(t) <= 15:
+                continue
+            if date_m:
+                try:
+                    dt = parsedate_to_datetime(date_m.group(1).strip())
+                    if (now - dt).days > MAX_AGE_DAYS:
+                        continue
+                    pub = dt.strftime("%b %d, %Y %I:%M %p %Z")
+                except Exception:
+                    continue
+            else:
+                continue
             l = ""
             if link_m:
                 l = (link_m.group(1) or link_m.group(2) or "").strip()
@@ -206,15 +195,7 @@ def fetch_headlines(source, url):
             if desc_m:
                 raw = (desc_m.group(1) or desc_m.group(2) or "").strip()
                 d = to_4_sentences(clean_text(raw))
-            pub = ""
-            if date_m:
-                try:
-                    dt = parsedate_to_datetime(date_m.group(1).strip())
-                    pub = dt.strftime("%b %d, %Y %I:%M %p %Z")
-                except Exception:
-                    pub = date_m.group(1).strip()
-            if t and len(t) > 15:
-                results.append((source, t, l, d, pub, date_m.group(1).strip() if date_m else ""))
+            results.append((source, t, l, d, pub))
         return results[:10]
     except Exception as e:
         print(f"  Failed to fetch {source}: {e}")
@@ -226,63 +207,20 @@ def score(item):
     s = 0
     for w in BREAKING_WORDS:
         if w in t:
-            s += 5   # top priority: breaking news / platform changes
+            s += 5
     for w in MARKETING_WORDS:
         if w in t:
-            s += 3   # high priority: marketing/seo specific
+            s += 3
     for w in AI_WORDS:
         if w in t:
-            s += 1   # low priority: ai articles
+            s += 1
     for w in LOW_VALUE_WORDS:
         if w in t:
-            s -= 5   # penalize generic how-to / guide content
+            s -= 5
     for w in STORY_WORDS:
         if w in t:
-            s -= 8   # heavily bury opinion/story/recap content
+            s -= 8
     return s
-
-
-SENT_URLS_FILE = "sent_urls.txt"
-
-
-def load_sent_urls():
-    """Load URLs sent in the last 4 days; prune older entries."""
-    sent = set()
-    if not os.path.exists(SENT_URLS_FILE):
-        return sent
-    now = datetime.datetime.now(datetime.timezone.utc)
-    kept = []
-    with open(SENT_URLS_FILE, "r") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            parts = line.split("|", 1)
-            if len(parts) == 2:
-                url, ts = parts[0], parts[1]
-                try:
-                    dt = datetime.datetime.fromisoformat(ts)
-                    if (now - dt).days <= 3:
-                        sent.add(url)
-                        kept.append(line)
-                except Exception:
-                    sent.add(url)
-                    kept.append(line)
-            else:
-                sent.add(line)
-                kept.append(line)
-    with open(SENT_URLS_FILE, "w") as f:
-        f.write("\n".join(kept) + ("\n" if kept else ""))
-    return sent
-
-
-def save_sent_urls(urls):
-    """Append newly sent URLs with timestamp."""
-    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    with open(SENT_URLS_FILE, "a") as f:
-        for url in urls:
-            if url:
-                f.write(f"{url}|{now}\n")
 
 
 def matches_topic(title, keywords):
@@ -290,55 +228,14 @@ def matches_topic(title, keywords):
     return any(kw in t for kw in keywords)
 
 
-def main():
-    date_str = datetime.date.today().strftime("%B %d, %Y")
-    slot = "Evening"
-    print(f"Fetching headlines for {date_str} ({slot} edition)...")
-
-    sent_urls = load_sent_urls()
-    print(f"  Loaded {len(sent_urls)} previously sent URLs to skip")
-
-    all_headlines = []
-    for source, url in FEEDS:
-        headlines = fetch_headlines(source, url)
-        print(f"  {source}: {len(headlines)} headlines")
-        all_headlines.extend(headlines)
-
-    # Remove already-sent articles (includes this morning's digest)
-    all_headlines = [h for h in all_headlines if h[2] not in sent_urls]
-    print(f"  {len(all_headlines)} articles remaining after dedup")
-
-    # Adaptive freshness: prefer 2 days, expand to 3 or 5 if pool is too thin
-    now = datetime.datetime.now(datetime.timezone.utc)
-    def article_age_days(h):
-        try:
-            dt = parsedate_to_datetime(h[5])
-            return (now - dt).days
-        except Exception:
-            return 999  # no date = exclude
-
-    for max_age in [2, 3, 5, 7]:
-        pool = [h for h in all_headlines if article_age_days(h) <= max_age]
-        if len(pool) >= 30:
-            break
-    else:
-        # Never go unlimited — hard cap at 7 days no matter what
-        pool = [h for h in all_headlines if article_age_days(h) <= 7]
-
-    print(f"  Using {len(pool)} articles (max age: {max_age} days)")
-
-    # Evening: sort by most recently published
-    def pub_key(item):
-        try:
-            return parsedate_to_datetime(item[5]) if item[5] else datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
-        except Exception:
-            return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
-    pool.sort(key=pub_key, reverse=True)
+def select_articles(pool, exclude_urls=None):
+    if exclude_urls is None:
+        exclude_urls = set()
+    pool = [h for h in pool if h[2] not in exclude_urls]
 
     selected = []
     used_indices = set()
 
-    # Reserve 1 guaranteed slot per topic group
     for topic_keywords in GUARANTEED_TOPICS:
         for i, h in enumerate(pool):
             if i not in used_indices and matches_topic(h[1], topic_keywords):
@@ -348,9 +245,8 @@ def main():
 
     ai_count = sum(1 for h in selected if is_ai_article(h[1], h[3]))
 
-    # Fill remaining slots — marketing relevant, cap AI at 2
     for i, h in enumerate(pool):
-        if len(selected) >= 13:
+        if len(selected) >= MAX_ARTICLES:
             break
         if i not in used_indices and is_marketing_relevant(h[1], h[3]):
             if is_ai_article(h[1], h[3]):
@@ -362,20 +258,57 @@ def main():
                 selected.append(h)
                 used_indices.add(i)
 
-    # Fall back: any relevant non-AI articles
     for i, h in enumerate(pool):
-        if len(selected) >= 13:
+        if len(selected) >= MAX_ARTICLES:
             break
-        if i not in used_indices and is_marketing_relevant(h[1], h[3]) and not is_ai_article(h[1], h[3]):
+        if i not in used_indices and is_marketing_relevant(h[1], h[3]):
             selected.append(h)
             used_indices.add(i)
+
+    return selected
+
+
+def get_morning_urls(all_headlines):
+    """Simulate what morning.py picks so evening can exclude those articles."""
+    by_score = sorted(all_headlines, key=score, reverse=True)
+    picked = select_articles(by_score)
+    return {h[2] for h in picked}
+
+
+def main():
+    date_str = datetime.date.today().strftime("%B %d, %Y")
+    slot = "Evening"
+    print(f"Fetching headlines for {date_str} ({slot} edition)...")
+
+    all_headlines = []
+    for source, url in FEEDS:
+        headlines = fetch_headlines(source, url)
+        print(f"  {source}: {len(headlines)} headlines")
+        all_headlines.extend(headlines)
+
+    print(f"  {len(all_headlines)} total articles within {MAX_AGE_DAYS} days")
+
+    # Exclude what morning already sent
+    morning_urls = get_morning_urls(all_headlines)
+    print(f"  Excluding {len(morning_urls)} morning articles")
+
+    # Evening: sort by most recently published
+    def pub_key(item):
+        try:
+            return parsedate_to_datetime(item[4])
+        except Exception:
+            return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+
+    all_headlines.sort(key=pub_key, reverse=True)
+
+    selected = select_articles(all_headlines, exclude_urls=morning_urls)
 
     if not selected:
         print("No headlines fetched — aborting.")
         return
 
-    lines = [f"DAILY MARKETING NEWS - {date_str}", ""]
-    for i, (source, title, link, summary, pub, _raw_date) in enumerate(selected, 1):
+    lines = [f"DAILY MARKETING NEWS - {date_str} (Evening)", ""]
+    for i, (source, title, link, summary, pub) in enumerate(selected, 1):
         lines.append(f"{i}. [{source}] {title}")
         if pub:
             lines.append(f"   Published: {pub}")
@@ -387,12 +320,10 @@ def main():
     lines += ["---", "Your daily Claude marketing digest"]
     body = "\n".join(lines)
 
-    print("\nDigest preview:")
-    print(body)
-    print()
+    print(f"\nSending {len(selected)} articles...")
 
     msg = MIMEText(body)
-    msg["Subject"] = f"Daily Marketing News ({slot}) - {date_str}"
+    msg["Subject"] = f"Daily Marketing News (Evening) - {date_str}"
     msg["From"] = GMAIL_USER
     msg["To"] = ", ".join(RECIPIENTS)
 
@@ -401,9 +332,7 @@ def main():
         s.login(GMAIL_USER, GMAIL_APP_PASSWORD)
         s.sendmail(GMAIL_USER, RECIPIENTS, msg.as_string())
 
-    save_sent_urls([h[2] for h in selected])
     print("Email sent to:", ", ".join(RECIPIENTS))
-    print(f"Saved {len(selected)} URLs to {SENT_URLS_FILE}")
 
 
 if __name__ == "__main__":
