@@ -161,11 +161,10 @@ GUARANTEED_TOPICS = [
      "local search", "local ranking", "plumber", "roofer", "hvac", "electrician",
      "home service", "contractor", "near me", "local 3-pack", "local citation",
      "google reviews", "service area business"],
-    ["home service marketing", "contractor marketing", "plumber marketing",
-     "hvac marketing", "roofer marketing", "electrician marketing",
-     "service business marketing", "local service ads", "contractor leads",
-     "home services advertising", "trade business", "contractor advertising",
-     "local service business", "home improvement marketing"],
+    ["home service", "contractor marketing", "plumber", "hvac", "roofer",
+     "electrician", "landscaper", "lawn care", "service business",
+     "local service ads", "contractor leads", "home improvement",
+     "trade business", "field service", "home services"],
 ]
 
 MAX_ARTICLES = 13
