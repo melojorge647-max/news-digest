@@ -11,24 +11,36 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 RECIPIENTS = ["melojorge647@gmail.com", "jorge@jmelomedia.com", "info@jmelomedia.com", "camrynalvares03@gmail.com"]
 
 FEEDS = [
+    # SEO / Search
     ("Search Engine Land",   "https://searchengineland.com/feed"),
     ("Search Engine Journal","https://www.searchenginejournal.com/feed/"),
     ("SE Roundtable",        "https://www.seroundtable.com/feed.xml"),
-    ("Social Media Examiner","https://www.socialmediaexaminer.com/feed/"),
-    ("Marketing Brew",       "https://www.marketingbrew.com/feed.xml"),
     ("Moz Blog",             "https://moz.com/blog/feed"),
-    ("Semrush Blog",         "https://www.semrush.com/blog/feed/"),
     ("Ahrefs Blog",          "https://ahrefs.com/blog/feed/"),
-    ("Search Engine Watch",  "https://www.searchenginewatch.com/feed/"),
+    ("Backlinko",            "https://backlinko.com/blog/feed"),
+    # Paid Ads
+    ("WordStream",           "https://www.wordstream.com/blog/feed"),
+    ("PPC Hero",             "https://www.ppchero.com/feed/"),
+    # Social Media
+    ("Social Media Examiner","https://www.socialmediaexaminer.com/feed/"),
+    ("Social Media Today",   "https://www.socialmediatoday.com/rss/"),
+    ("Sprout Social",        "https://sproutsocial.com/insights/feed/"),
+    # General Marketing
+    ("Marketing Brew",       "https://www.marketingbrew.com/feed.xml"),
+    ("HubSpot Marketing",    "https://blog.hubspot.com/marketing/rss.xml"),
+    ("MarTech",              "https://martech.org/feed/"),
+    ("AdWeek",               "https://www.adweek.com/feed/"),
+    # Web / CMS
     ("WP Tavern",            "https://wptavern.com/feed"),
     ("Smashing Magazine",    "https://www.smashingmagazine.com/feed/"),
     ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
-    ("WordStream",           "https://www.wordstream.com/blog/feed"),
-    ("Neil Patel",           "https://neilpatel.com/blog/feed/"),
+    # Local SEO
     ("BrightLocal",          "https://www.brightlocal.com/blog/feed/"),
     ("Sterling Sky",         "https://sterlingsky.ca/feed/"),
     ("Near Media",           "https://www.nearmedia.co/feed/"),
-    ("Social Media Today",   "https://www.socialmediatoday.com/rss/"),
+    # Tools
+    ("Semrush Blog",         "https://www.semrush.com/blog/feed/"),
+    ("Neil Patel",           "https://neilpatel.com/blog/feed/"),
 ]
 
 BREAKING_WORDS = [
