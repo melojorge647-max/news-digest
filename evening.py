@@ -19,7 +19,7 @@ FEEDS = [
     ("Moz Blog",             "https://moz.com/blog/feed"),
     ("Semrush Blog",         "https://www.semrush.com/blog/feed/"),
     ("Ahrefs Blog",          "https://ahrefs.com/blog/feed/"),
-    ("Digiday",              "https://digiday.com/feed/"),
+    ("Search Engine Watch",  "https://www.searchenginewatch.com/feed/"),
     ("WP Tavern",            "https://wptavern.com/feed"),
     ("Smashing Magazine",    "https://www.smashingmagazine.com/feed/"),
     ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
@@ -100,14 +100,45 @@ STORY_WORDS = [
 ]
 
 REQUIRED_KEYWORDS = [
-    "seo", "search", "google", "bing", "ads", "ppc", "paid",
-    "marketing", "meta", "facebook", "instagram", "tiktok", "linkedin",
-    "youtube", "social media", "content", "website", "web", "digital",
-    "local", "rank", "traffic", "campaign", "algorithm", "serp", "keyword",
-    "backlink", "analytics", "conversion", "email marketing", "wordpress",
-    "wix", "squarespace", "webflow", "landing page", "funnel", "lead",
-    "ai", "chatgpt", "openai", "automation", "crm", "shopify", "ecommerce",
-    "plumber", "roofer", "hvac", "electrician", "contractor", "home service",
+    # SEO / search
+    "seo", "search engine optimization", "google search", "search ranking",
+    "serp", "backlink", "link building", "keyword research", "on-page seo",
+    "technical seo", "core web vitals", "page speed", "google algorithm",
+    "featured snippet", "knowledge panel", "search console", "sitemap",
+    # Google products
+    "google ads", "google analytics", "google business profile",
+    "google maps", "google shopping", "google my business",
+    # Paid ads
+    "ppc", "paid search", "paid social", "facebook ads", "instagram ads",
+    "meta ads", "tiktok ads", "linkedin ads", "youtube ads",
+    "local service ads", "performance max", "smart bidding", "ad campaign",
+    "ad creative", "ad spend", "roas", "cost per click", "cpc", "cpm",
+    # Social media marketing
+    "social media marketing", "instagram marketing", "facebook marketing",
+    "tiktok marketing", "linkedin marketing", "youtube marketing",
+    "social media algorithm", "instagram algorithm", "facebook algorithm",
+    "tiktok algorithm", "reels", "content creator", "creator monetization",
+    # Email / CRO
+    "email marketing", "email campaign", "open rate", "click rate",
+    "conversion rate", "landing page", "a/b test", "cro",
+    # Web / CMS
+    "wordpress", "wix", "squarespace", "webflow", "website design",
+    "web development", "website builder", "cms",
+    # Local SEO / service biz
+    "local seo", "local search", "map pack", "local pack", "gbp",
+    "google reviews", "review management", "local ranking", "citation",
+    "plumber marketing", "hvac marketing", "roofer marketing",
+    "contractor marketing", "home service marketing", "local service ads",
+    # Platforms / tools
+    "shopify", "ecommerce marketing", "marketing automation",
+    "marketing strategy", "digital marketing", "marketing campaign",
+    # Social media for small biz / marketers
+    "instagram update", "facebook update", "tiktok update", "linkedin update",
+    "youtube update", "threads update", "social media update",
+    "instagram feature", "facebook feature", "tiktok feature",
+    "organic reach", "engagement rate", "hashtag strategy",
+    "social media ads", "boosted post", "paid promotion",
+    "small business marketing", "business page", "creator tools",
 ]
 
 GUARANTEED_TOPICS = [
