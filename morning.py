@@ -73,6 +73,12 @@ BREAKING_WORDS = [
     "ceo says", "ceo announces", "ceo confirms",
     "google business profile update", "gbp update", "map pack change", "local pack update",
     "google maps update", "local search update",
+    # Research / data / exclusive findings — Reel-worthy
+    "new study", "new research", "data shows", "report finds", "survey finds",
+    "according to new", "just announced", "just released", "exclusive:", "breaking:",
+    "first look", "new report", "industry report", "benchmark report",
+    "study reveals", "research reveals", "findings show", "data reveals",
+    "percent of marketers", "percent of businesses", "marketers say",
 ]
 
 MARKETING_WORDS = [
@@ -263,6 +269,16 @@ def score(item):
     for w in STORY_WORDS:
         if w in t:
             s -= 8
+    # Freshness bonus — newest articles float to top for Reel-worthy breaking news
+    try:
+        dt = parsedate_to_datetime(item[4])
+        age_hours = (datetime.datetime.now(datetime.timezone.utc) - dt).total_seconds() / 3600
+        if age_hours <= 24:
+            s += 10
+        elif age_hours <= 48:
+            s += 5
+    except Exception:
+        pass
     return s
 
 
