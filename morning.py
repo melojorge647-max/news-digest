@@ -12,43 +12,41 @@ RECIPIENTS = ["melojorge647@gmail.com", "jorge@jmelomedia.com", "info@jmelomedia
 
 FEEDS = [
     # SEO / Search
-    ("Search Engine Land",   "https://searchengineland.com/feed"),
-    ("Search Engine Journal","https://www.searchenginejournal.com/feed/"),
-    ("SE Roundtable",        "https://www.seroundtable.com/feed.xml"),
-    ("Moz Blog",             "https://moz.com/blog/feed"),
-    ("Ahrefs Blog",          "https://ahrefs.com/blog/feed/"),
-    ("Backlinko",            "https://backlinko.com/blog/feed"),
+    ("Search Engine Land",    "https://searchengineland.com/feed"),
+    ("Search Engine Journal", "https://www.searchenginejournal.com/feed/"),
+    ("SE Roundtable",         "https://www.seroundtable.com/feed.xml"),
+    ("Moz Blog",              "https://moz.com/blog/feed"),
+    ("Google Search Central", "https://developers.google.com/search/blog/feeds/blog.xml"),
     # Paid Ads
-    ("WordStream",           "https://www.wordstream.com/blog/feed"),
-    ("PPC Hero",             "https://www.ppchero.com/feed/"),
+    ("WordStream",            "https://www.wordstream.com/blog/feed"),
+    ("PPC Hero",              "https://www.ppchero.com/feed/"),
     # Social Media
-    ("Social Media Examiner","https://www.socialmediaexaminer.com/feed/"),
-    ("Social Media Today",   "https://www.socialmediatoday.com/rss/"),
-    ("Sprout Social",        "https://sproutsocial.com/insights/feed/"),
-    # General Marketing
-    ("Marketing Brew",       "https://www.marketingbrew.com/feed.xml"),
-    ("HubSpot Marketing",    "https://blog.hubspot.com/marketing/rss.xml"),
-    ("MarTech",              "https://martech.org/feed/"),
-    ("AdWeek",               "https://www.adweek.com/feed/"),
+    ("Social Media Examiner", "https://www.socialmediaexaminer.com/feed/"),
+    ("Social Media Today",    "https://www.socialmediatoday.com/rss/"),
+    ("Sprout Social",         "https://sproutsocial.com/insights/feed/"),
+    # General Marketing (news-focused)
+    ("Marketing Brew",        "https://www.marketingbrew.com/feed.xml"),
+    ("MarTech",               "https://martech.org/feed/"),
+    ("AdWeek",                "https://www.adweek.com/feed/"),
+    ("The Drum",              "https://www.thedrum.com/rss"),
+    ("Digiday",               "https://digiday.com/feed/"),
     # Web / CMS
-    ("WP Tavern",            "https://wptavern.com/feed"),
-    ("Smashing Magazine",    "https://www.smashingmagazine.com/feed/"),
-    ("Web Designer Depot",   "https://webdesignerdepot.com/feed/"),
+    ("WP Tavern",             "https://wptavern.com/feed"),
+    ("WordPress.org News",    "https://wordpress.org/news/feed/"),
     # Local SEO
-    ("BrightLocal",          "https://www.brightlocal.com/blog/feed/"),
-    ("Sterling Sky",         "https://sterlingsky.ca/feed/"),
-    ("Near Media",           "https://www.nearmedia.co/feed/"),
+    ("BrightLocal",           "https://www.brightlocal.com/blog/feed/"),
+    ("Sterling Sky",          "https://sterlingsky.ca/feed/"),
+    ("Near Media",            "https://www.nearmedia.co/feed/"),
     # Tools
-    ("Semrush Blog",         "https://www.semrush.com/blog/feed/"),
-    ("Neil Patel",           "https://neilpatel.com/blog/feed/"),
+    ("Semrush Blog",          "https://www.semrush.com/blog/feed/"),
 ]
 
 BREAKING_WORDS = [
     "algorithm update", "core update", "broad core", "manual action", "penalty",
-    "rolling out", "rolls out", "new feature", "breaking", "major change",
+    "rolling out", "rolls out", "rolled out", "new feature", "breaking", "major change",
     "policy change", "ban", "deindex", "spam update", "ranking update",
     "serp change", "leaked", "ranking factor", "search ranking change",
-    "helpful content", "google confirms", "google says", "google warns",
+    "helpful content", "google confirms", "google says", "google warns", "google announces",
     "meta announces", "meta confirms", "meta update", "meta launches",
     "facebook announces", "facebook update", "facebook algorithm", "facebook launches",
     "instagram announces", "instagram launches", "instagram update", "instagram algorithm",
@@ -73,7 +71,12 @@ BREAKING_WORDS = [
     "ceo says", "ceo announces", "ceo confirms",
     "google business profile update", "gbp update", "map pack change", "local pack update",
     "google maps update", "local search update",
-    # Research / data / exclusive findings — Reel-worthy
+    # News-signal words
+    "algorithm change", "ranking change", "new ad format", "feature update",
+    "platform update", "now live", "available now", "in testing", "introduces new",
+    "deprecating", "shutting down", "enforcement update", "officially launches",
+    "changes to", "now rolling", "test new",
+    # Research / data / exclusive findings
     "new study", "new research", "data shows", "report finds", "survey finds",
     "according to new", "just announced", "just released", "exclusive:", "breaking:",
     "first look", "new report", "industry report", "benchmark report",
@@ -107,7 +110,9 @@ LOW_VALUE_WORDS = [
     "how to", "guide to", "tutorial", "tips for", "best practices",
     "checklist", "step by step", "beginners guide", "101", "complete guide",
     "ultimate guide", "everything you need to know", "what is", "explained",
-    "introduction to", "getting started",
+    "introduction to", "getting started", "learn how", "a beginner",
+    "the complete", "the ultimate", "top tips", "quick tips", "pro tips",
+    "expert tips", "here's how", "for beginners", "you need to know",
 ]
 
 STORY_WORDS = [
@@ -175,6 +180,7 @@ GUARANTEED_TOPICS = [
 
 MAX_ARTICLES = 13
 MAX_AGE_DAYS = 3
+MIN_SCORE = 3
 
 
 def is_marketing_relevant(title, summary):
@@ -207,43 +213,91 @@ def to_4_sentences(text):
     return " ".join(sentences[:4])
 
 
+def parse_pub_date(date_str):
+    """Parse RFC 2822 (RSS) or ISO 8601 (Atom) date strings."""
+    date_str = date_str.strip()
+    try:
+        return parsedate_to_datetime(date_str)
+    except Exception:
+        pass
+    try:
+        normalized = re.sub(r"(\.\d+)?Z$", "+00:00", date_str)
+        return datetime.datetime.fromisoformat(normalized)
+    except Exception:
+        return None
+
+
 def fetch_headlines(source, url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=10) as r:
             xml = r.read().decode("utf-8", errors="ignore")
+
+        # Try RSS <item> tags first, fall back to Atom <entry> tags
         items = re.findall(r"<item>(.*?)</item>", xml, re.DOTALL)
+        is_atom = not items
+        if is_atom:
+            items = re.findall(r"<entry>(.*?)</entry>", xml, re.DOTALL)
+
         results = []
         now = datetime.datetime.now(datetime.timezone.utc)
         for item in items:
-            title_m = re.search(r"<title><!\[CDATA\[(.*?)\]\]></title>|<title>(.*?)</title>", item)
-            link_m  = re.search(r"<link>(.*?)</link>|<link\s[^>]*href=[\"'](.*?)[\"']", item, re.DOTALL)
-            desc_m  = re.search(r"<description><!\[CDATA\[(.*?)\]\]></description>|<description>(.*?)</description>", item, re.DOTALL)
-            date_m  = re.search(r"<pubDate>(.*?)</pubDate>", item)
+            title_m = re.search(
+                r"<title><!\[CDATA\[(.*?)\]\]></title>|<title[^>]*>(.*?)</title>",
+                item, re.DOTALL)
+            if is_atom:
+                link_m = re.search(
+                    r'<link[^>]+rel=["\']alternate["\'][^>]+href=["\']([^"\']+)["\']'
+                    r'|<link[^>]+href=["\']([^"\']+)["\'][^>]+rel=["\']alternate["\']'
+                    r'|<link[^>]+href=["\']([^"\']+)["\'][^/]*/>',
+                    item)
+                desc_m = re.search(
+                    r"<summary[^>]*><!\[CDATA\[(.*?)\]\]></summary>"
+                    r"|<summary[^>]*>(.*?)</summary>",
+                    item, re.DOTALL)
+                date_m = re.search(
+                    r"<published>(.*?)</published>|<updated>(.*?)</updated>", item)
+            else:
+                link_m = re.search(
+                    r"<link>(.*?)</link>|<link\s[^>]*href=[\"'](.*?)[\"']",
+                    item, re.DOTALL)
+                desc_m = re.search(
+                    r"<description><!\[CDATA\[(.*?)\]\]></description>"
+                    r"|<description>(.*?)</description>",
+                    item, re.DOTALL)
+                date_m = re.search(r"<pubDate>(.*?)</pubDate>", item)
+
             if not title_m:
                 continue
-            t = (title_m.group(1) or title_m.group(2) or "").strip()
+            t = next((g for g in title_m.groups() if g), "").strip()
+            t = clean_text(t)
             if not t or len(t) <= 15:
                 continue
-            # Age filter — skip articles with no date or older than MAX_AGE_DAYS
+
             if date_m:
                 try:
-                    dt = parsedate_to_datetime(date_m.group(1).strip())
+                    date_str = next((g for g in date_m.groups() if g), "")
+                    dt = parse_pub_date(date_str)
+                    if dt is None:
+                        continue
                     if (now - dt).days > MAX_AGE_DAYS:
                         continue
                     pub = dt.strftime("%b %d, %Y %I:%M %p %Z")
                 except Exception:
-                    continue  # unparseable date = skip
+                    continue
             else:
-                continue  # no date = skip
+                continue
+
             l = ""
             if link_m:
-                l = (link_m.group(1) or link_m.group(2) or "").strip()
+                l = next((g for g in link_m.groups() if g), "").strip()
                 l = re.sub(r"\s+", "", l)
+
             d = ""
             if desc_m:
-                raw = (desc_m.group(1) or desc_m.group(2) or "").strip()
+                raw = next((g for g in desc_m.groups() if g), "").strip()
                 d = to_4_sentences(clean_text(raw))
+
             results.append((source, t, l, d, pub))
         return results[:10]
     except Exception as e:
@@ -252,7 +306,8 @@ def fetch_headlines(source, url):
 
 
 def score(item):
-    t = (item[1] + " " + item[3]).lower()
+    title = item[1]
+    t = (title + " " + item[3]).lower()
     s = 0
     for w in BREAKING_WORDS:
         if w in t:
@@ -265,18 +320,26 @@ def score(item):
             s += 1
     for w in LOW_VALUE_WORDS:
         if w in t:
-            s -= 5
+            s -= 12
     for w in STORY_WORDS:
         if w in t:
-            s -= 8
+            s -= 15
+    # Penalty for numbered list-style tutorial titles ("7 Ways to...", "10 Best...")
+    if re.match(r'^\d+\s+', title.strip()):
+        title_low = title.lower()
+        if any(x in title_low for x in [
+                'way', 'tip', 'reason', 'tool', 'example',
+                'step', 'tactic', 'best ', 'top ', 'trick']):
+            s -= 12
     # Freshness bonus — newest articles float to top for Reel-worthy breaking news
     try:
-        dt = parsedate_to_datetime(item[4])
-        age_hours = (datetime.datetime.now(datetime.timezone.utc) - dt).total_seconds() / 3600
-        if age_hours <= 24:
-            s += 10
-        elif age_hours <= 48:
-            s += 5
+        dt = parse_pub_date(item[4])
+        if dt:
+            age_hours = (datetime.datetime.now(datetime.timezone.utc) - dt).total_seconds() / 3600
+            if age_hours <= 24:
+                s += 10
+            elif age_hours <= 48:
+                s += 5
     except Exception:
         pass
     return s
@@ -288,6 +351,9 @@ def matches_topic(title, keywords):
 
 
 def select_articles(pool):
+    # Drop articles below minimum quality threshold
+    pool = [h for h in pool if score(h) >= MIN_SCORE]
+
     selected = []
     used_indices = set()
 
@@ -314,14 +380,6 @@ def select_articles(pool):
             else:
                 selected.append(h)
                 used_indices.add(i)
-
-    # Fallback: any relevant article
-    for i, h in enumerate(pool):
-        if len(selected) >= MAX_ARTICLES:
-            break
-        if i not in used_indices and is_marketing_relevant(h[1], h[3]):
-            selected.append(h)
-            used_indices.add(i)
 
     return selected
 
