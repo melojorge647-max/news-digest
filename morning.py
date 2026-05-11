@@ -3,12 +3,19 @@ import datetime
 import urllib.request
 import re
 import os
+import base64
+import json
 from email.mime.text import MIMEText
 from email.utils import parsedate_to_datetime
 
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 RECIPIENTS = ["melojorge647@gmail.com", "jorge@jmelomedia.com", "info@jmelomedia.com", "camrynalvares03@gmail.com"]
+
+GITHUB_REPO   = "melojorge647-max/news-digest"
+SENT_FILE     = "sent_urls.txt"
+SENT_MAX_HOURS = 80  # Keep URLs excluded for slightly more than 3 days
 
 FEEDS = [
     # SEO / Search
@@ -178,10 +185,105 @@ GUARANTEED_TOPICS = [
      "trade business", "field service", "home services"],
 ]
 
-MAX_ARTICLES = 13
-MAX_AGE_DAYS = 3
-MIN_SCORE = 3
+MAX_ARTICLES  = 13
+MAX_AGE_DAYS  = 3
+MIN_SCORE     = 3
 
+
+# ---------------------------------------------------------------------------
+# Sent-URL tracking via GitHub Contents API (no git operations)
+# ---------------------------------------------------------------------------
+
+def _gh_request(method, path, payload=None):
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json",
+    }
+    data = json.dumps(payload).encode() if payload else None
+    req = urllib.request.Request(url, data=data, headers=headers, method=method)
+    with urllib.request.urlopen(req, timeout=10) as r:
+        return json.loads(r.read())
+
+
+def load_sent_urls():
+    """Return set of URLs sent within the past SENT_MAX_HOURS hours."""
+    if not GITHUB_TOKEN:
+        return set()
+    try:
+        resp = _gh_request("GET", SENT_FILE)
+        raw = base64.b64decode(resp["content"]).decode("utf-8")
+        cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=SENT_MAX_HOURS)
+        urls = set()
+        for line in raw.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split("\t", 1)
+            if len(parts) == 2:
+                try:
+                    ts = datetime.datetime.fromisoformat(parts[0])
+                    if ts >= cutoff:
+                        urls.add(parts[1])
+                except Exception:
+                    pass
+        print(f"  Loaded {len(urls)} previously sent URLs (last {SENT_MAX_HOURS}h)")
+        return urls
+    except Exception as e:
+        print(f"  Could not load sent URLs: {e}")
+        return set()
+
+
+def save_sent_urls(new_urls):
+    """Append new_urls with timestamps; prune entries older than SENT_MAX_HOURS."""
+    if not GITHUB_TOKEN or not new_urls:
+        return
+    try:
+        try:
+            resp = _gh_request("GET", SENT_FILE)
+            existing_raw = base64.b64decode(resp["content"]).decode("utf-8")
+            sha = resp["sha"]
+        except Exception:
+            existing_raw = ""
+            sha = None
+
+        cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=SENT_MAX_HOURS)
+        kept = []
+        for line in existing_raw.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split("\t", 1)
+            if len(parts) == 2:
+                try:
+                    if datetime.datetime.fromisoformat(parts[0]) >= cutoff:
+                        kept.append(line)
+                except Exception:
+                    pass
+
+        now_str = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        for url in new_urls:
+            if url:
+                kept.append(f"{now_str}\t{url}")
+
+        content = "\n".join(kept) + "\n"
+        payload = {
+            "message": f"chore: log {len(new_urls)} sent URLs",
+            "content": base64.b64encode(content.encode()).decode(),
+            "committer": {"name": "digest-bot", "email": "digest-bot@noreply"},
+        }
+        if sha:
+            payload["sha"] = sha
+        _gh_request("PUT", SENT_FILE, payload)
+        print(f"  Saved {len(new_urls)} sent URLs")
+    except Exception as e:
+        print(f"  Could not save sent URLs: {e}")
+
+
+# ---------------------------------------------------------------------------
+# Core helpers
+# ---------------------------------------------------------------------------
 
 def is_marketing_relevant(title, summary):
     combined = (title + " " + summary).lower()
@@ -350,9 +452,11 @@ def matches_topic(title, keywords):
     return any(kw in t for kw in keywords)
 
 
-def select_articles(pool):
-    # Drop articles below minimum quality threshold
-    pool = [h for h in pool if score(h) >= MIN_SCORE]
+def select_articles(pool, exclude_urls=None):
+    if exclude_urls is None:
+        exclude_urls = set()
+    # Drop previously sent articles and anything below minimum quality score
+    pool = [h for h in pool if h[2] not in exclude_urls and score(h) >= MIN_SCORE]
 
     selected = []
     used_indices = set()
@@ -389,6 +493,9 @@ def main():
     slot = "Morning"
     print(f"Fetching headlines for {date_str} ({slot} edition)...")
 
+    # Load cross-day dedup list before fetching
+    sent_urls = load_sent_urls()
+
     all_headlines = []
     for source, url in FEEDS:
         headlines = fetch_headlines(source, url)
@@ -400,7 +507,7 @@ def main():
     # Morning: sort by score (most important news first)
     all_headlines.sort(key=score, reverse=True)
 
-    selected = select_articles(all_headlines)
+    selected = select_articles(all_headlines, exclude_urls=sent_urls)
 
     if not selected:
         print("No headlines fetched — aborting.")
@@ -432,6 +539,9 @@ def main():
         s.sendmail(GMAIL_USER, RECIPIENTS, msg.as_string())
 
     print("Email sent to:", ", ".join(RECIPIENTS))
+
+    # Persist sent URLs so next runs skip these articles
+    save_sent_urls({h[2] for h in selected if h[2]})
 
 
 if __name__ == "__main__":
