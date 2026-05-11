@@ -83,6 +83,14 @@ BREAKING_WORDS = [
     "platform update", "now live", "available now", "in testing", "introduces new",
     "deprecating", "shutting down", "enforcement update", "officially launches",
     "changes to", "now rolling", "test new",
+    # Legal / regulatory / privacy
+    "ftc", "antitrust", "doj sues", "regulators", "fined", "settlement",
+    "privacy update", "third-party cookies", "cookie deprecation",
+    "ios update", "apple privacy", "tracking changes", "data privacy",
+    "gdpr", "class action",
+    # Business moves in ad/marketing tech
+    "acquires", "acquisition", "merges with", "merger", "shuts down", "layoffs",
+    "raises funding", "ipo", "goes public", "buys", "purchased by",
     # Research / data / exclusive findings
     "new study", "new research", "data shows", "report finds", "survey finds",
     "according to new", "just announced", "just released", "exclusive:", "breaking:",
@@ -187,7 +195,7 @@ GUARANTEED_TOPICS = [
 
 MAX_ARTICLES  = 13
 MAX_AGE_DAYS  = 3
-MIN_SCORE     = 3
+MIN_SCORE     = 10
 
 
 # ---------------------------------------------------------------------------
