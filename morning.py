@@ -464,25 +464,21 @@ def select_articles(pool, exclude_urls=None):
     if exclude_urls is None:
         exclude_urls = set()
 
-    # Remove previously sent URLs first
-    pool = [h for h in pool if h[2] not in exclude_urls]
+    # Remove previously sent URLs, keep only marketing-relevant articles
+    pool = [h for h in pool if h[2] not in exclude_urls and is_marketing_relevant(h[1], h[3])]
 
-    # Primary pool: articles that scored above the quality threshold
-    primary = [h for h in pool if score(h) >= MIN_SCORE]
-    print(f"  {len(primary)} articles at MIN_SCORE>={MIN_SCORE} (of {len(pool)} unsent)")
+    # Sort by score — breaking news floats to top, tutorials sink to bottom
+    pool.sort(key=score, reverse=True)
 
-    # Fallback pool: best available marketing articles if primary is thin
-    fallback = [h for h in pool if is_marketing_relevant(h[1], h[3]) and h not in primary]
-
-    work_pool = primary if len(primary) >= 5 else primary + fallback
-    work_pool = sorted(work_pool, key=score, reverse=True)
+    news_count = sum(1 for h in pool if score(h) >= MIN_SCORE)
+    print(f"  {news_count} breaking-news articles + {len(pool) - news_count} other marketing articles available")
 
     selected = []
     seen = set()
 
-    # Guaranteed topic slots first
+    # Guaranteed topic slots — picks highest-scoring article for each topic
     for topic_keywords in GUARANTEED_TOPICS:
-        for h in work_pool:
+        for h in pool:
             if h[2] not in seen and matches_topic(h[1], topic_keywords):
                 selected.append(h)
                 seen.add(h[2])
@@ -490,21 +486,20 @@ def select_articles(pool, exclude_urls=None):
 
     ai_count = sum(1 for h in selected if is_ai_article(h[1], h[3]))
 
-    # Fill remaining slots with marketing-relevant articles, AI capped at 2
-    for h in work_pool:
+    # Fill remaining slots in score order — important news always comes before filler
+    for h in pool:
         if len(selected) >= MAX_ARTICLES:
             break
         if h[2] in seen:
             continue
-        if is_marketing_relevant(h[1], h[3]):
-            if is_ai_article(h[1], h[3]):
-                if ai_count < 2:
-                    selected.append(h)
-                    seen.add(h[2])
-                    ai_count += 1
-            else:
+        if is_ai_article(h[1], h[3]):
+            if ai_count < 2:
                 selected.append(h)
                 seen.add(h[2])
+                ai_count += 1
+        else:
+            selected.append(h)
+            seen.add(h[2])
 
     return selected
 
