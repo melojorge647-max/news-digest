@@ -195,7 +195,7 @@ GUARANTEED_TOPICS = [
 
 MAX_ARTICLES  = 13
 MAX_AGE_DAYS  = 3
-MIN_SCORE     = 10
+MIN_SCORE     = 5   # Must have at least one breaking-news signal to qualify
 
 
 # ---------------------------------------------------------------------------
@@ -463,33 +463,46 @@ def matches_topic(title, keywords):
 def select_articles(pool, exclude_urls=None):
     if exclude_urls is None:
         exclude_urls = set()
-    # Drop previously sent articles and anything below minimum quality score
-    pool = [h for h in pool if h[2] not in exclude_urls and score(h) >= MIN_SCORE]
+
+    # Remove previously sent URLs first
+    pool = [h for h in pool if h[2] not in exclude_urls]
+
+    # Primary pool: articles that scored above the quality threshold
+    primary = [h for h in pool if score(h) >= MIN_SCORE]
+    print(f"  {len(primary)} articles at MIN_SCORE>={MIN_SCORE} (of {len(pool)} unsent)")
+
+    # Fallback pool: best available marketing articles if primary is thin
+    fallback = [h for h in pool if is_marketing_relevant(h[1], h[3]) and h not in primary]
+
+    work_pool = primary if len(primary) >= 5 else primary + fallback
+    work_pool = sorted(work_pool, key=score, reverse=True)
 
     selected = []
-    used_indices = set()
+    seen = set()
 
     for topic_keywords in GUARANTEED_TOPICS:
-        for i, h in enumerate(pool):
-            if i not in used_indices and matches_topic(h[1], topic_keywords):
+        for h in work_pool:
+            if h[2] not in seen and matches_topic(h[1], topic_keywords):
                 selected.append(h)
-                used_indices.add(i)
+                seen.add(h[2])
                 break
 
     ai_count = sum(1 for h in selected if is_ai_article(h[1], h[3]))
 
-    for i, h in enumerate(pool):
+    for h in work_pool:
         if len(selected) >= MAX_ARTICLES:
             break
-        if i not in used_indices and is_marketing_relevant(h[1], h[3]):
+        if h[2] in seen:
+            continue
+        if is_marketing_relevant(h[1], h[3]):
             if is_ai_article(h[1], h[3]):
                 if ai_count < 2:
                     selected.append(h)
-                    used_indices.add(i)
+                    seen.add(h[2])
                     ai_count += 1
             else:
                 selected.append(h)
-                used_indices.add(i)
+                seen.add(h[2])
 
     return selected
 
