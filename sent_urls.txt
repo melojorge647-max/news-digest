@@ -12,3 +12,10 @@
 2026-05-24T01:48:23.416904+00:00	https://wptavern.com/podcast/217-leonardo-losovic-on-affordable-and-accurate-wordpress-translations-using-ai
 2026-05-24T01:48:23.416904+00:00	https://www.semrush.com/blog/ga4-adds-ai-assistant-channel/
 2026-05-24T01:48:23.416904+00:00	https://www.adweek.com/convergent-tv/sports-tv-ad-spend-20-billion-live-games/
+2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/wordpress-7-0-is-a-winner-heres-what-you-need-to-know/575510/
+2026-05-24T11:44:44.541623+00:00	https://www.semrush.com/blog/seo-basics/
+2026-05-24T11:44:44.541623+00:00	https://www.semrush.com/blog/seo-audit-tools/
+2026-05-24T11:44:44.541623+00:00	https://sproutsocial.com/insights/social-media-content-batching/
+2026-05-24T11:44:44.541623+00:00	https://www.semrush.com/blog/what-is-ppc/
+2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/llm-guidance-doesnt-transfer-the-way-seo-guidance-did/575077/
+2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/ask-an-seo-how-do-you-stress-test-a-staging-environment/573559/
