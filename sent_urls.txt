@@ -19,3 +19,4 @@
 2026-05-24T11:44:44.541623+00:00	https://www.semrush.com/blog/what-is-ppc/
 2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/llm-guidance-doesnt-transfer-the-way-seo-guidance-did/575077/
 2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/ask-an-seo-how-do-you-stress-test-a-staging-environment/573559/
+2026-05-25T13:44:26.142206+00:00	https://www.searchenginejournal.com/google-says-ai-mode-can-now-scale-faster-across-languages/575791/
