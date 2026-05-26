@@ -20,3 +20,6 @@
 2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/ask-an-seo-how-do-you-stress-test-a-staging-environment/573559/
 2026-05-25T13:44:26.142206+00:00	https://www.searchenginejournal.com/google-says-ai-mode-can-now-scale-faster-across-languages/575791/
 2026-05-26T01:32:16.309057+00:00	https://www.searchenginejournal.com/seo-pulse-google-launches-core-update-amid-i-o-ai-search-overhaul/575676/
+2026-05-26T13:24:48.878212+00:00	https://www.searchenginejournal.com/google-search-sessions-show-how-users-pause-scroll-reconsider-before-clicking/575243/
+2026-05-26T13:24:48.878212+00:00	https://www.searchenginejournal.com/modern-local-seo-ai-visibility-how-to-get-clients-into-ai-results-recap/575732/
+2026-05-26T13:24:48.878212+00:00	https://wordpress.org/news/2026/05/wceu-2026-sessions/
