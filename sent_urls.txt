@@ -1,4 +1,3 @@
-2026-05-22T12:35:46.982787+00:00	https://www.searchenginejournal.com/seo-pulse-google-launches-core-update-amid-i-o-ai-search-overhaul/575676/
 2026-05-24T01:48:23.416904+00:00	https://sproutsocial.com/insights/impact-of-social-media-on-business/
 2026-05-24T01:48:23.416904+00:00	https://www.semrush.com/blog/google-adds-information-agents-and-universal-cart/
 2026-05-24T01:48:23.416904+00:00	https://www.searchenginejournal.com/google-i-o-didnt-end-seo-the-risk-is-somewhere-else/575660/
@@ -20,3 +19,4 @@
 2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/llm-guidance-doesnt-transfer-the-way-seo-guidance-did/575077/
 2026-05-24T11:44:44.541623+00:00	https://www.searchenginejournal.com/ask-an-seo-how-do-you-stress-test-a-staging-environment/573559/
 2026-05-25T13:44:26.142206+00:00	https://www.searchenginejournal.com/google-says-ai-mode-can-now-scale-faster-across-languages/575791/
+2026-05-26T01:32:16.309057+00:00	https://www.searchenginejournal.com/seo-pulse-google-launches-core-update-amid-i-o-ai-search-overhaul/575676/
