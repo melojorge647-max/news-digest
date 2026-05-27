@@ -23,3 +23,5 @@
 2026-05-26T13:24:48.878212+00:00	https://www.searchenginejournal.com/google-search-sessions-show-how-users-pause-scroll-reconsider-before-clicking/575243/
 2026-05-26T13:24:48.878212+00:00	https://www.searchenginejournal.com/modern-local-seo-ai-visibility-how-to-get-clients-into-ai-results-recap/575732/
 2026-05-26T13:24:48.878212+00:00	https://wordpress.org/news/2026/05/wceu-2026-sessions/
+2026-05-27T01:53:27.098617+00:00	https://ppchero.com/why-server-side-tracking-is-no-longer-optional-for-paid-media/
+2026-05-27T01:53:27.098617+00:00	https://www.searchenginejournal.com/google-is-retiring-standalone-display-campaigns-in-favor-of-demand-gen/575889/
