@@ -10,3 +10,8 @@
 2026-05-27T13:52:35.405862+00:00	https://www.adweek.com/media/pitch-deck-how-olyzon-sold-sir-martin-sorrells-s4s-ventures-on-its-10m-ctv-ai-bet/
 2026-05-28T01:26:28.505404+00:00	https://wptavern.com/podcast/218-luke-carbis-on-the-future-of-wordpress-plugins-ai-ethics-and-new-directory-standards
 2026-05-28T01:26:28.505404+00:00	https://digiday.com/sponsored/why-publishers-are-betting-on-video-to-counter-ai-search/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-05-28T14:07:40.646695+00:00	https://www.adweek.com/agencies/mariana-okelly-leaves-leo-burnett-to-lead-creative-at-donercolle-partners/
+2026-05-28T14:07:40.646695+00:00	https://www.searchenginejournal.com/ai-convergence-seo/575879/
+2026-05-28T14:07:40.646695+00:00	https://digiday.com/media/vox-media-cro-geoff-schiller-joins-screenvision-as-ceo/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-05-28T14:07:40.646695+00:00	https://www.searchenginejournal.com/wordpress-market-share-in-decline/576042/
+2026-05-28T14:07:40.646695+00:00	https://www.searchenginejournal.com/ask-a-ppc-is-performance-max-actually-better-than-running-separate-campaigns/573174/
