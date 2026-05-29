@@ -1,4 +1,3 @@
-2026-05-26T01:32:16.309057+00:00	https://www.searchenginejournal.com/seo-pulse-google-launches-core-update-amid-i-o-ai-search-overhaul/575676/
 2026-05-26T13:24:48.878212+00:00	https://www.searchenginejournal.com/google-search-sessions-show-how-users-pause-scroll-reconsider-before-clicking/575243/
 2026-05-26T13:24:48.878212+00:00	https://www.searchenginejournal.com/modern-local-seo-ai-visibility-how-to-get-clients-into-ai-results-recap/575732/
 2026-05-26T13:24:48.878212+00:00	https://wordpress.org/news/2026/05/wceu-2026-sessions/
@@ -16,3 +15,5 @@
 2026-05-28T14:07:40.646695+00:00	https://www.searchenginejournal.com/ask-a-ppc-is-performance-max-actually-better-than-running-separate-campaigns/573174/
 2026-05-29T01:48:32.776118+00:00	https://ppchero.com/chatgpt-ads-are-here-everything-we-know-so-far/
 2026-05-29T01:48:32.776118+00:00	https://www.adweek.com/brand-marketing/how-crocs-turned-ugly-into-cultural-cool-ft-chief-brand-officer-terence-reilly/
+2026-05-29T13:39:32.202496+00:00	https://www.semrush.com/blog/how-to-do-seo-competitive-analysis/
+2026-05-29T13:39:32.202496+00:00	https://sproutsocial.com/insights/tiktok-link-in-bio-guide/
