@@ -1,8 +1,3 @@
-2026-05-28T14:07:40.646695+00:00	https://www.adweek.com/agencies/mariana-okelly-leaves-leo-burnett-to-lead-creative-at-donercolle-partners/
-2026-05-28T14:07:40.646695+00:00	https://www.searchenginejournal.com/ai-convergence-seo/575879/
-2026-05-28T14:07:40.646695+00:00	https://digiday.com/media/vox-media-cro-geoff-schiller-joins-screenvision-as-ceo/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-05-28T14:07:40.646695+00:00	https://www.searchenginejournal.com/wordpress-market-share-in-decline/576042/
-2026-05-28T14:07:40.646695+00:00	https://www.searchenginejournal.com/ask-a-ppc-is-performance-max-actually-better-than-running-separate-campaigns/573174/
 2026-05-29T01:48:32.776118+00:00	https://ppchero.com/chatgpt-ads-are-here-everything-we-know-so-far/
 2026-05-29T01:48:32.776118+00:00	https://www.adweek.com/brand-marketing/how-crocs-turned-ugly-into-cultural-cool-ft-chief-brand-officer-terence-reilly/
 2026-05-29T13:39:32.202496+00:00	https://www.semrush.com/blog/how-to-do-seo-competitive-analysis/
@@ -14,3 +9,5 @@
 2026-05-30T01:31:38.814389+00:00	https://www.searchenginejournal.com/ai-content-alone-wont-fix-your-seo-rankings-heres-what-will/577380/
 2026-05-30T11:47:53.930760+00:00	https://ppchero.com/why-server-side-tracking-is-no-longer-optional-for-paid-media/
 2026-05-31T11:52:25.323977+00:00	https://wptavern.com/podcast/218-luke-carbis-on-the-future-of-wordpress-plugins-ai-ethics-and-new-directory-standards
+2026-06-01T02:03:08.624430+00:00	https://digiday.com/media/vox-media-cro-geoff-schiller-joins-screenvision-as-ceo/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-01T02:03:08.624430+00:00	https://www.searchenginejournal.com/ai-convergence-seo/575879/
