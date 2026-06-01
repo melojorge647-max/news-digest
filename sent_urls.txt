@@ -1,5 +1,3 @@
-2026-05-29T01:48:32.776118+00:00	https://ppchero.com/chatgpt-ads-are-here-everything-we-know-so-far/
-2026-05-29T01:48:32.776118+00:00	https://www.adweek.com/brand-marketing/how-crocs-turned-ugly-into-cultural-cool-ft-chief-brand-officer-terence-reilly/
 2026-05-29T13:39:32.202496+00:00	https://www.semrush.com/blog/how-to-do-seo-competitive-analysis/
 2026-05-29T13:39:32.202496+00:00	https://sproutsocial.com/insights/tiktok-link-in-bio-guide/
 2026-05-30T01:31:38.814389+00:00	https://www.nearmedia.co/ep-258-from-keyword-rankings-to-brand-reverence-the-new-local-ai-seo-blueprint-with-darren-shaw/
@@ -11,3 +9,6 @@
 2026-05-31T11:52:25.323977+00:00	https://wptavern.com/podcast/218-luke-carbis-on-the-future-of-wordpress-plugins-ai-ethics-and-new-directory-standards
 2026-06-01T02:03:08.624430+00:00	https://digiday.com/media/vox-media-cro-geoff-schiller-joins-screenvision-as-ceo/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-01T02:03:08.624430+00:00	https://www.searchenginejournal.com/ai-convergence-seo/575879/
+2026-06-01T16:19:53.719721+00:00	https://www.searchenginejournal.com/what-googles-new-ai-guide-actually-debunks-and-what-it-doesnt/575497/
+2026-06-01T16:19:53.719721+00:00	https://www.semrush.com/blog/google-to-add-ai-performance-report-to-merchant-center/
+2026-06-01T16:19:53.719721+00:00	https://ppchero.com/6-ppc-myths-every-advertiser-should-stop-believing/
