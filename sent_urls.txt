@@ -1,5 +1,3 @@
-2026-06-01T02:03:08.624430+00:00	https://digiday.com/media/vox-media-cro-geoff-schiller-joins-screenvision-as-ceo/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-01T02:03:08.624430+00:00	https://www.searchenginejournal.com/ai-convergence-seo/575879/
 2026-06-01T16:19:53.719721+00:00	https://www.searchenginejournal.com/what-googles-new-ai-guide-actually-debunks-and-what-it-doesnt/575497/
 2026-06-01T16:19:53.719721+00:00	https://www.semrush.com/blog/google-to-add-ai-performance-report-to-merchant-center/
 2026-06-01T16:19:53.719721+00:00	https://ppchero.com/6-ppc-myths-every-advertiser-should-stop-believing/
@@ -27,3 +25,6 @@
 2026-06-04T02:11:28.323719+00:00	https://www.wordstream.com/blog/prompt-based-keyword-research
 2026-06-04T02:11:28.323719+00:00	https://www.semrush.com/blog/google-adds-ai-performance-reports/
 2026-06-04T02:11:28.323719+00:00	https://ppchero.com/how-to-create-your-first-search-campaign/
+2026-06-04T13:32:42.912147+00:00	https://www.searchenginejournal.com/why-users-are-fleeing-to-ai-free-search-what-it-means-for-seo/577691/
+2026-06-04T13:32:42.912147+00:00	https://www.searchenginejournal.com/ask-an-seo-what-does-entity-optimization-mean/575597/
+2026-06-04T13:32:42.912147+00:00	https://www.semrush.com/blog/keyword-strategy/
