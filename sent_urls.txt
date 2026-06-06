@@ -1,10 +1,3 @@
-2026-06-02T14:33:53.906906+00:00	https://www.searchenginejournal.com/why-great-content-no-longer-works-mit-research-shows-the-shift-reshaping-seo-strategy/575880/
-2026-06-02T14:33:53.906906+00:00	https://www.searchenginejournal.com/chatgpt-citations-changed-after-gpt-5-5-sistrix-data-shows/577694/
-2026-06-02T14:33:53.906906+00:00	https://www.nearmedia.co/ep-258-from-keyword-rankings-to-brand-reverence-the-new-local-ai-seo-blueprint-with-darren-shaw/
-2026-06-02T14:33:53.906906+00:00	https://www.searchenginejournal.com/how-to-fix-google-ads-smart-bidding-with-a-primary-vs-secondary-conversion-framework/574075/
-2026-06-02T14:33:53.906906+00:00	https://www.socialmediaexaminer.com/ai-for-better-ad-creative-3-steps-to-better-results/
-2026-06-02T14:33:53.906906+00:00	https://digiday.com/media/how-publishers-are-modeling-and-mitigating-a-future-with-significantly-less-google-search-traffic/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-02T14:33:53.906906+00:00	https://www.searchenginejournal.com/how-to-use-lighthouse-to-test-your-website-for-agentic-readiness/577421/
 2026-06-03T02:13:12.916894+00:00	https://www.searchenginejournal.com/microsoft-web-iq-gives-ai-agents-bing-grounding-apis/577736/
 2026-06-03T02:13:12.916894+00:00	https://www.adweek.com/brand-marketing/why-mcdonalds-microsoft-and-tiktok-are-sponsoring-tribeca-x-for-the-first-time/
 2026-06-03T02:13:12.916894+00:00	https://www.searchenginejournal.com/googles-may-core-update-complete-after-volatile-rollout/577704/
@@ -38,3 +31,6 @@
 2026-06-05T13:28:47.587355+00:00	https://ppchero.com/google-ai-max-what-it-is-what-it-does-and-whether-your-account-is-actually-ready/
 2026-06-05T13:28:47.587355+00:00	https://digiday.com/marketing/nest-new-york-brings-its-fragrance-layering-strategy-to-the-u-k/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-05T13:28:47.587355+00:00	https://www.semrush.com/blog/google-ads-competitor-analysis/
+2026-06-06T01:47:13.102623+00:00	https://www.searchenginejournal.com/google-analytics-is-adding-google-business-profile-data/578107/
+2026-06-06T01:47:13.102623+00:00	https://www.socialmediaexaminer.com/ai-for-better-ad-creative-3-steps-to-better-results/
+2026-06-06T01:47:13.102623+00:00	https://wordpress.org/news/2026/06/pts/
