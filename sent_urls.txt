@@ -1,7 +1,3 @@
-2026-06-04T02:11:28.323719+00:00	https://www.wordstream.com/blog/landing-page-copywriting
-2026-06-04T02:11:28.323719+00:00	https://www.wordstream.com/blog/prompt-based-keyword-research
-2026-06-04T02:11:28.323719+00:00	https://www.semrush.com/blog/google-adds-ai-performance-reports/
-2026-06-04T02:11:28.323719+00:00	https://ppchero.com/how-to-create-your-first-search-campaign/
 2026-06-04T13:32:42.912147+00:00	https://www.searchenginejournal.com/why-users-are-fleeing-to-ai-free-search-what-it-means-for-seo/577691/
 2026-06-04T13:32:42.912147+00:00	https://www.searchenginejournal.com/ask-an-seo-what-does-entity-optimization-mean/575597/
 2026-06-04T13:32:42.912147+00:00	https://www.semrush.com/blog/keyword-strategy/
@@ -28,3 +24,7 @@
 2026-06-07T01:58:09.325016+00:00	https://wptavern.com/podcast/219-austin-ginder-on-how-ai-is-exposing-hidden-threats-in-wordpress-plugin-updates
 2026-06-07T01:58:09.325016+00:00	https://www.semrush.com/blog/social-media-seo/
 2026-06-07T01:58:09.325016+00:00	https://www.semrush.com/blog/the-operational-gap-ai-seo-study/
+2026-06-07T12:03:23.701449+00:00	https://www.semrush.com/blog/google-adds-ai-performance-reports/
+2026-06-07T12:03:23.701449+00:00	https://www.searchenginejournal.com/googles-new-guidance-claims-authority-over-seo-tools-and-aeo-geo/578162/
+2026-06-07T12:03:23.701449+00:00	https://ppchero.com/how-to-create-your-first-search-campaign/
+2026-06-07T12:03:23.701449+00:00	https://www.adweek.com/media/exclusive-the-trade-desk-cro-anders-mortensen-out-after-7-months/
