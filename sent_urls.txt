@@ -1,10 +1,3 @@
-2026-06-03T15:07:31.044818+00:00	https://digiday.com/marketing/tariffs-forced-temu-to-slash-its-u-s-ad-spend-on-nearly-every-platform/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-03T15:07:31.044818+00:00	https://www.searchenginejournal.com/google-tests-dedicated-ai-search-reports-in-search-console/577793/
-2026-06-03T15:07:31.044818+00:00	https://digiday.com/marketing/why-dsw-and-other-brands-are-pivoting-back-to-old-marketing-tactics/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-03T15:07:31.044818+00:00	https://www.semrush.com/blog/the-operational-gap-ai-seo-study/
-2026-06-03T15:07:31.044818+00:00	https://www.searchenginejournal.com/what-not-to-automate-with-ai-the-seo-deskilling-trap/574887/
-2026-06-03T15:07:31.044818+00:00	https://www.semrush.com/blog/social-media-seo/
-2026-06-03T15:07:31.044818+00:00	https://wptavern.com/podcast/219-austin-ginder-on-how-ai-is-exposing-hidden-threats-in-wordpress-plugin-updates
 2026-06-04T02:11:28.323719+00:00	https://www.wordstream.com/blog/landing-page-copywriting
 2026-06-04T02:11:28.323719+00:00	https://www.wordstream.com/blog/prompt-based-keyword-research
 2026-06-04T02:11:28.323719+00:00	https://www.semrush.com/blog/google-adds-ai-performance-reports/
@@ -31,3 +24,7 @@
 2026-06-06T01:47:13.102623+00:00	https://www.socialmediaexaminer.com/ai-for-better-ad-creative-3-steps-to-better-results/
 2026-06-06T01:47:13.102623+00:00	https://wordpress.org/news/2026/06/pts/
 2026-06-06T11:48:47.748146+00:00	https://www.searchenginejournal.com/googles-updated-guidance-urges-ftc-complaints-against-shady-seos/578151/
+2026-06-07T01:58:09.325016+00:00	https://wordpress.org/news/2026/06/wceu-2026-recap/
+2026-06-07T01:58:09.325016+00:00	https://wptavern.com/podcast/219-austin-ginder-on-how-ai-is-exposing-hidden-threats-in-wordpress-plugin-updates
+2026-06-07T01:58:09.325016+00:00	https://www.semrush.com/blog/social-media-seo/
+2026-06-07T01:58:09.325016+00:00	https://www.semrush.com/blog/the-operational-gap-ai-seo-study/
