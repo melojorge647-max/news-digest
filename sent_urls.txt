@@ -1,6 +1,3 @@
-2026-06-04T13:32:42.912147+00:00	https://www.searchenginejournal.com/why-users-are-fleeing-to-ai-free-search-what-it-means-for-seo/577691/
-2026-06-04T13:32:42.912147+00:00	https://www.searchenginejournal.com/ask-an-seo-what-does-entity-optimization-mean/575597/
-2026-06-04T13:32:42.912147+00:00	https://www.semrush.com/blog/keyword-strategy/
 2026-06-05T01:55:00.755167+00:00	https://ppchero.com/6-ppc-myths-every-advertiser-should-stop-believing/
 2026-06-05T01:55:00.755167+00:00	https://martech.org/why-its-just-seo-could-cost-the-industry-billions/
 2026-06-05T01:55:00.755167+00:00	https://www.semrush.com/blog/google-to-add-ai-performance-report-to-merchant-center/
@@ -28,3 +25,5 @@
 2026-06-07T12:03:23.701449+00:00	https://www.searchenginejournal.com/googles-new-guidance-claims-authority-over-seo-tools-and-aeo-geo/578162/
 2026-06-07T12:03:23.701449+00:00	https://ppchero.com/how-to-create-your-first-search-campaign/
 2026-06-07T12:03:23.701449+00:00	https://www.adweek.com/media/exclusive-the-trade-desk-cro-anders-mortensen-out-after-7-months/
+2026-06-08T02:03:23.943596+00:00	https://www.semrush.com/blog/keyword-strategy/
+2026-06-08T02:03:23.943596+00:00	https://www.searchenginejournal.com/what-seos-should-read-before-labor-day-4-books-for-a-transformative-summer/577681/
