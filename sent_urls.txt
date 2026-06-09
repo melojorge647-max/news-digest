@@ -1,9 +1,3 @@
-2026-06-05T13:28:47.587355+00:00	https://www.searchenginejournal.com/seo-pulse-google-tests-ai-search-data-uk-requires-opt-out/578003/
-2026-06-05T13:28:47.587355+00:00	https://www.searchenginejournal.com/what-is-a-migration-hangover-traffic-drop-how-do-you-avoid-it/575102/
-2026-06-05T13:28:47.587355+00:00	https://www.semrush.com/blog/improve-seo/
-2026-06-05T13:28:47.587355+00:00	https://ppchero.com/google-ai-max-what-it-is-what-it-does-and-whether-your-account-is-actually-ready/
-2026-06-05T13:28:47.587355+00:00	https://digiday.com/marketing/nest-new-york-brings-its-fragrance-layering-strategy-to-the-u-k/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-05T13:28:47.587355+00:00	https://www.semrush.com/blog/google-ads-competitor-analysis/
 2026-06-06T01:47:13.102623+00:00	https://www.searchenginejournal.com/google-analytics-is-adding-google-business-profile-data/578107/
 2026-06-06T01:47:13.102623+00:00	https://www.socialmediaexaminer.com/ai-for-better-ad-creative-3-steps-to-better-results/
 2026-06-06T01:47:13.102623+00:00	https://wordpress.org/news/2026/06/pts/
@@ -26,3 +20,10 @@
 2026-06-08T14:31:36.943244+00:00	https://www.semrush.com/blog/google-ai-search-optimization-guide/
 2026-06-08T14:31:36.943244+00:00	https://ppchero.com/why-your-ppc-landing-pages-arent-converting/
 2026-06-08T14:31:36.943244+00:00	https://www.searchenginejournal.com/wordpress-announces-initiative-to-secure-all-plugins-and-themes/578189/
+2026-06-09T01:32:08.350920+00:00	https://www.semrush.com/blog/google-ads-competitor-analysis/
+2026-06-09T01:32:08.350920+00:00	https://www.searchenginejournal.com/ai-mentions-may-not-translate-to-trust-new-analysis-suggests/578388/
+2026-06-09T01:32:08.350920+00:00	https://www.adweek.com/media/inside-the-trade-desk-executive-exodus-who-left-and-where-they-went/
+2026-06-09T01:32:08.350920+00:00	https://ppchero.com/google-ai-max-what-it-is-what-it-does-and-whether-your-account-is-actually-ready/
+2026-06-09T01:32:08.350920+00:00	https://www.searchenginejournal.com/google-says-hyphenated-domain-names-are-okay-for-seo/578390/
+2026-06-09T01:32:08.350920+00:00	https://www.adweek.com/brand-marketing/exclusive-kantar-hires-martina-suess-cromer-as-its-top-us-marketer/
+2026-06-09T01:32:08.350920+00:00	https://digiday.com/marketing/nest-new-york-brings-its-fragrance-layering-strategy-to-the-u-k/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
