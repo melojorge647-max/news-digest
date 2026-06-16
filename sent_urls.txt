@@ -1,5 +1,3 @@
-2026-06-13T01:54:01.028988+00:00	https://martech.org/new-rules-for-bulk-email-senders-from-google-yahoo-what-you-need-to-know/
-2026-06-13T01:54:01.028988+00:00	https://www.searchenginejournal.com/monsterinsights-website-compromised-and-sending-phishing-emails/579140/
 2026-06-13T12:04:35.750939+00:00	https://www.semrush.com/blog/the-ghost-citations-study/
 2026-06-14T12:18:14.551660+00:00	https://www.semrush.com/blog/seo-writing/
 2026-06-14T12:18:14.551660+00:00	https://wptavern.com/podcast/220-cathy-mitchell-on-why-wordpress-events-matter-community-connection-and-giving-back
@@ -13,3 +11,7 @@
 2026-06-15T16:05:59.556751+00:00	https://www.searchenginejournal.com/googles-unexpected-take-on-site-folder-structure-and-seo/579268/
 2026-06-15T16:05:59.556751+00:00	https://www.searchenginejournal.com/agentic-commerce-and-the-new-rules-of-google-ads/577406/
 2026-06-16T02:12:37.888460+00:00	https://www.searchenginejournal.com/microsoft-advertising-launches-product-explorer/579316/
+2026-06-16T15:23:34.686750+00:00	https://www.searchenginejournal.com/ask-an-seo-why-gsc-impressions-are-up-but-traffic-is-falling-4-things-to-consider-first/569246/
+2026-06-16T15:23:34.686750+00:00	https://www.searchenginejournal.com/google-says-markdown-for-ai-seo-strips-away-the-parts-that-matter/579496/
+2026-06-16T15:23:34.686750+00:00	https://digiday.com/media-buying/taboola-expands-deeperdive-into-an-ad-network-for-ai-apps-and-agents/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-16T15:23:34.686750+00:00	https://www.searchenginejournal.com/ai-trust-signal-strategy-reviewly-spa/578121/
