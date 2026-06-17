@@ -20,3 +20,11 @@
 2026-06-17T02:06:26.938654+00:00	https://digiday.com/announcement/ford-amazon-prime-video-and-pokemon-are-among-the-2026-digiday-content-marketing-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-17T02:06:26.938654+00:00	https://www.searchenginejournal.com/the-4-layer-ai-ops-playbook-from-better-ai-outputs-to-strong-seo-results-recap/579419/
 2026-06-17T02:06:26.938654+00:00	https://digiday.com/announcement/kepler-samsung-ads-and-kraft-heinz-are-among-the-2026-digiday-media-buying-and-planning-awards-winners/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/the-integrated-search-brief-that-aligns-seo-ppc-content-in-the-ai-search-era/575028/
+2026-06-17T14:04:14.710967+00:00	https://www.adweek.com/commerce/meet-the-25-execs-behind-amazons-70-billion-ad-business/
+2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/google-explains-why-urls-blocked-by-robots-txt-can-still-be-indexed/579634/
+2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/why-publishing-more-content-is-making-your-seo-worse/576047/
+2026-06-17T14:04:14.710967+00:00	https://www.adweek.com/convergent-tv/fox-announces-end-to-end-agentic-ad-platform/
+2026-06-17T14:04:14.710967+00:00	https://wptavern.com/podcast/221-rahul-bansal-on-using-ai-everywhere-at-rtcamp
+2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/googles-says-its-fine-to-use-llms-txt-for-ai-seo/579608/
+2026-06-17T14:04:14.710967+00:00	https://digiday.com/marketing/dont-walk-past-the-gutter-bar-the-unofficial-cannes-lions-survival-guide-written-in-hindsight/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
