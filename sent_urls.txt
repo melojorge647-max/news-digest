@@ -1,4 +1,3 @@
-2026-06-13T12:04:35.750939+00:00	https://www.semrush.com/blog/the-ghost-citations-study/
 2026-06-14T12:18:14.551660+00:00	https://www.semrush.com/blog/seo-writing/
 2026-06-14T12:18:14.551660+00:00	https://wptavern.com/podcast/220-cathy-mitchell-on-why-wordpress-events-matter-community-connection-and-giving-back
 2026-06-14T12:18:14.551660+00:00	https://www.nearmedia.co/ep-260-goodbye-traffic-hello-sales-the-new-playbook-for-local-seo-visibility-with-cindy-krum-gregg-gifford-krystal-tang-part-2/
@@ -15,3 +14,9 @@
 2026-06-16T15:23:34.686750+00:00	https://www.searchenginejournal.com/google-says-markdown-for-ai-seo-strips-away-the-parts-that-matter/579496/
 2026-06-16T15:23:34.686750+00:00	https://digiday.com/media-buying/taboola-expands-deeperdive-into-an-ad-network-for-ai-apps-and-agents/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-16T15:23:34.686750+00:00	https://www.searchenginejournal.com/ai-trust-signal-strategy-reviewly-spa/578121/
+2026-06-17T02:06:26.938654+00:00	https://www.searchenginejournal.com/bing-rolls-out-ai-citation-share-in-webmaster-tools/579547/
+2026-06-17T02:06:26.938654+00:00	https://www.wordstream.com/blog/email-marketing
+2026-06-17T02:06:26.938654+00:00	https://www.adweek.com/agencies/warc-strait-of-hormuz-closure-could-cost-billions-in-ad-spend-growth/
+2026-06-17T02:06:26.938654+00:00	https://digiday.com/announcement/ford-amazon-prime-video-and-pokemon-are-among-the-2026-digiday-content-marketing-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-17T02:06:26.938654+00:00	https://www.searchenginejournal.com/the-4-layer-ai-ops-playbook-from-better-ai-outputs-to-strong-seo-results-recap/579419/
+2026-06-17T02:06:26.938654+00:00	https://digiday.com/announcement/kepler-samsung-ads-and-kraft-heinz-are-among-the-2026-digiday-media-buying-and-planning-awards-winners/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
