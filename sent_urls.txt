@@ -1,4 +1,3 @@
-2026-06-16T02:12:37.888460+00:00	https://www.searchenginejournal.com/microsoft-advertising-launches-product-explorer/579316/
 2026-06-16T15:23:34.686750+00:00	https://www.searchenginejournal.com/ask-an-seo-why-gsc-impressions-are-up-but-traffic-is-falling-4-things-to-consider-first/569246/
 2026-06-16T15:23:34.686750+00:00	https://www.searchenginejournal.com/google-says-markdown-for-ai-seo-strips-away-the-parts-that-matter/579496/
 2026-06-16T15:23:34.686750+00:00	https://digiday.com/media-buying/taboola-expands-deeperdive-into-an-ad-network-for-ai-apps-and-agents/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -32,3 +31,7 @@
 2026-06-19T02:32:53.106924+00:00	https://www.semrush.com/blog/google-analytics/
 2026-06-19T02:32:53.106924+00:00	https://www.searchenginejournal.com/google-microsoft-back-draft-ai-agent-discovery-spec/579894/
 2026-06-19T02:32:53.106924+00:00	https://digiday.com/sponsored/why-streaming-sponsorships-are-the-most-efficient-buy-in-tv/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-19T13:51:23.824491+00:00	https://www.searchenginejournal.com/ai-mode-sends-a-different-visitor-your-website-wasnt-built-for-them/576185/
+2026-06-19T13:51:23.824491+00:00	https://digiday.com/marketing/openai-expands-ads-manager-to-u-k-adds-cpc/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-19T13:51:23.824491+00:00	https://www.searchenginejournal.com/seo-pulse-ai-citation-share-ships-new-data-doubts-llms-txt/579942/
+2026-06-19T13:51:23.824491+00:00	https://digiday.com/marketing/invisible-cannes-the-hidden-workforce-behind-the-croisette/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
