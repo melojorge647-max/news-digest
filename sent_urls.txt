@@ -1,17 +1,3 @@
-2026-06-17T02:06:26.938654+00:00	https://www.searchenginejournal.com/bing-rolls-out-ai-citation-share-in-webmaster-tools/579547/
-2026-06-17T02:06:26.938654+00:00	https://www.wordstream.com/blog/email-marketing
-2026-06-17T02:06:26.938654+00:00	https://www.adweek.com/agencies/warc-strait-of-hormuz-closure-could-cost-billions-in-ad-spend-growth/
-2026-06-17T02:06:26.938654+00:00	https://digiday.com/announcement/ford-amazon-prime-video-and-pokemon-are-among-the-2026-digiday-content-marketing-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-17T02:06:26.938654+00:00	https://www.searchenginejournal.com/the-4-layer-ai-ops-playbook-from-better-ai-outputs-to-strong-seo-results-recap/579419/
-2026-06-17T02:06:26.938654+00:00	https://digiday.com/announcement/kepler-samsung-ads-and-kraft-heinz-are-among-the-2026-digiday-media-buying-and-planning-awards-winners/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/the-integrated-search-brief-that-aligns-seo-ppc-content-in-the-ai-search-era/575028/
-2026-06-17T14:04:14.710967+00:00	https://www.adweek.com/commerce/meet-the-25-execs-behind-amazons-70-billion-ad-business/
-2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/google-explains-why-urls-blocked-by-robots-txt-can-still-be-indexed/579634/
-2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/why-publishing-more-content-is-making-your-seo-worse/576047/
-2026-06-17T14:04:14.710967+00:00	https://www.adweek.com/convergent-tv/fox-announces-end-to-end-agentic-ad-platform/
-2026-06-17T14:04:14.710967+00:00	https://wptavern.com/podcast/221-rahul-bansal-on-using-ai-everywhere-at-rtcamp
-2026-06-17T14:04:14.710967+00:00	https://www.searchenginejournal.com/googles-says-its-fine-to-use-llms-txt-for-ai-seo/579608/
-2026-06-17T14:04:14.710967+00:00	https://digiday.com/marketing/dont-walk-past-the-gutter-bar-the-unofficial-cannes-lions-survival-guide-written-in-hindsight/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-18T02:04:21.979062+00:00	https://www.searchenginejournal.com/google-must-give-notice-before-significant-ranking-changes/579696/
 2026-06-18T02:04:21.979062+00:00	https://ppchero.com/4-new-must-use-google-shopping-feed-attributes-for-maximum-visibility/
 2026-06-18T02:04:21.979062+00:00	https://digiday.com/media/ford-amazon-prime-video-and-pokemon-are-among-the-2026-digiday-content-marketing-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -34,3 +20,4 @@
 2026-06-20T01:53:26.627499+00:00	https://wordpress.org/news/2026/06/kim-parsell-wcus-scholarship/
 2026-06-20T01:53:26.627499+00:00	https://www.nearmedia.co/ep-261-a-deep-dive-into-google-maps-lists-local-gems-and-the-impact-on-restaurant-discovery-with-craig-burton/
 2026-06-20T01:53:26.627499+00:00	https://digiday.com/marketing/as-ai-scrutiny-grows-dude-wipes-points-to-supply-chain-savings-and-productivity-gains/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-21T02:06:23.219109+00:00	https://wptavern.com/podcast/221-rahul-bansal-on-using-ai-everywhere-at-rtcamp
