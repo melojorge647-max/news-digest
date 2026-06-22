@@ -1,7 +1,3 @@
-2026-06-18T13:43:52.738683+00:00	https://www.socialmediaexaminer.com/how-to-blow-up-an-ecommerce-business-with-facebook-ads/
-2026-06-18T13:43:52.738683+00:00	https://www.searchenginejournal.com/why-calling-yourself-the-best-could-be-helping-your-competitors-win-in-ai-search/579778/
-2026-06-18T13:43:52.738683+00:00	https://www.searchenginejournal.com/rank-and-ai-citation-arent-the-same-number/579202/
-2026-06-18T13:43:52.738683+00:00	https://digiday.com/media/media-briefing-the-new-world-cup-seo-playbook-whats-in-and-whats-out/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-19T02:32:53.106924+00:00	https://wordpress.org/news/2026/06/global-partners-first-half-2026/
 2026-06-19T02:32:53.106924+00:00	https://www.adweek.com/commerce/shopify-wants-to-be-merchants-built-in-ai-agency/
 2026-06-19T02:32:53.106924+00:00	https://www.semrush.com/blog/category-entry-points-ai-search/
@@ -18,3 +14,5 @@
 2026-06-20T01:53:26.627499+00:00	https://digiday.com/marketing/as-ai-scrutiny-grows-dude-wipes-points-to-supply-chain-savings-and-productivity-gains/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-21T02:06:23.219109+00:00	https://wptavern.com/podcast/221-rahul-bansal-on-using-ai-everywhere-at-rtcamp
 2026-06-21T12:22:21.250679+00:00	https://ppchero.com/4-new-must-use-google-shopping-feed-attributes-for-maximum-visibility/
+2026-06-22T02:09:54.410966+00:00	https://www.searchenginejournal.com/rank-and-ai-citation-arent-the-same-number/579202/
+2026-06-22T02:09:54.410966+00:00	https://www.socialmediaexaminer.com/how-to-blow-up-an-ecommerce-business-with-facebook-ads/
