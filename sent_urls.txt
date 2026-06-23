@@ -1,6 +1,3 @@
-2026-06-20T01:53:26.627499+00:00	https://wordpress.org/news/2026/06/kim-parsell-wcus-scholarship/
-2026-06-20T01:53:26.627499+00:00	https://www.nearmedia.co/ep-261-a-deep-dive-into-google-maps-lists-local-gems-and-the-impact-on-restaurant-discovery-with-craig-burton/
-2026-06-20T01:53:26.627499+00:00	https://digiday.com/marketing/as-ai-scrutiny-grows-dude-wipes-points-to-supply-chain-savings-and-productivity-gains/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-21T02:06:23.219109+00:00	https://wptavern.com/podcast/221-rahul-bansal-on-using-ai-everywhere-at-rtcamp
 2026-06-21T12:22:21.250679+00:00	https://ppchero.com/4-new-must-use-google-shopping-feed-attributes-for-maximum-visibility/
 2026-06-22T02:09:54.410966+00:00	https://www.searchenginejournal.com/rank-and-ai-citation-arent-the-same-number/579202/
@@ -20,3 +17,10 @@
 2026-06-23T01:48:48.719564+00:00	https://digiday.com/marketing/openai-expands-ads-manager-to-u-k-adds-cpc/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-23T01:48:48.719564+00:00	https://www.searchenginejournal.com/google-and-shopify-back-cloudflares-ai-bot-gatekeeping-initiative/580182/
 2026-06-23T01:48:48.719564+00:00	https://www.adweek.com/dealroom/hightouch-raised-322-million-across-six-rounds-heres-how-the-company-skyrocketed-to-a-275-billion-valuation/
+2026-06-23T13:17:35.669190+00:00	https://digiday.com/media-buying/omnicom-media-and-disney-advertising-collaborate-to-enable-sequential-ads-in-streaming/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-23T13:17:35.669190+00:00	https://www.searchenginejournal.com/google-cautions-against-markdown-versions-of-websites-for-ai-seo/580235/
+2026-06-23T13:17:35.669190+00:00	https://www.nearmedia.co/ep-261-a-deep-dive-into-google-maps-lists-local-gems-and-the-impact-on-restaurant-discovery-with-craig-burton/
+2026-06-23T13:17:35.669190+00:00	https://wordpress.org/news/2026/06/kim-parsell-wcus-scholarship/
+2026-06-23T13:17:35.669190+00:00	https://www.socialmediaexaminer.com/the-future-of-ai-and-selling-how-one-workflow-closed-a-12k-deal/
+2026-06-23T13:17:35.669190+00:00	https://www.searchenginejournal.com/how-to-define-report-seo-kpis-that-actually-move-the-c-suite/576233/
+2026-06-23T13:17:35.669190+00:00	https://www.semrush.com/blog/technical-seo-checklist/
