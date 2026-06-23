@@ -1,7 +1,3 @@
-2026-06-19T13:51:23.824491+00:00	https://www.searchenginejournal.com/ai-mode-sends-a-different-visitor-your-website-wasnt-built-for-them/576185/
-2026-06-19T13:51:23.824491+00:00	https://digiday.com/marketing/openai-expands-ads-manager-to-u-k-adds-cpc/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-19T13:51:23.824491+00:00	https://www.searchenginejournal.com/seo-pulse-ai-citation-share-ships-new-data-doubts-llms-txt/579942/
-2026-06-19T13:51:23.824491+00:00	https://digiday.com/marketing/invisible-cannes-the-hidden-workforce-behind-the-croisette/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-20T01:53:26.627499+00:00	https://wordpress.org/news/2026/06/kim-parsell-wcus-scholarship/
 2026-06-20T01:53:26.627499+00:00	https://www.nearmedia.co/ep-261-a-deep-dive-into-google-maps-lists-local-gems-and-the-impact-on-restaurant-discovery-with-craig-burton/
 2026-06-20T01:53:26.627499+00:00	https://digiday.com/marketing/as-ai-scrutiny-grows-dude-wipes-points-to-supply-chain-savings-and-productivity-gains/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -19,3 +15,8 @@
 2026-06-22T15:33:09.621892+00:00	https://www.adweek.com/brand-marketing/embracing-the-spirit-of-cannes-without-actually-being-there/
 2026-06-22T15:33:09.621892+00:00	https://www.adweek.com/agencies/indie-agency-dept-takes-aim-at-holdco-ai-stacks-with-open-orchestration-layer/
 2026-06-22T15:33:09.621892+00:00	https://digiday.com/media/how-lipton-is-using-local-creators-instead-of-building-in-house-social-teams/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-23T01:48:48.719564+00:00	https://www.searchenginejournal.com/google-says-seo-tools-lack-access-to-its-internal-metrics/580176/
+2026-06-23T01:48:48.719564+00:00	https://www.adweek.com/agencies/cannes-lions-2026-gallery-events-celebrities-panels-activations-parties/
+2026-06-23T01:48:48.719564+00:00	https://digiday.com/marketing/openai-expands-ads-manager-to-u-k-adds-cpc/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-23T01:48:48.719564+00:00	https://www.searchenginejournal.com/google-and-shopify-back-cloudflares-ai-bot-gatekeeping-initiative/580182/
+2026-06-23T01:48:48.719564+00:00	https://www.adweek.com/dealroom/hightouch-raised-322-million-across-six-rounds-heres-how-the-company-skyrocketed-to-a-275-billion-valuation/
