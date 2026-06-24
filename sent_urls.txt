@@ -1,4 +1,3 @@
-2026-06-21T02:06:23.219109+00:00	https://wptavern.com/podcast/221-rahul-bansal-on-using-ai-everywhere-at-rtcamp
 2026-06-21T12:22:21.250679+00:00	https://ppchero.com/4-new-must-use-google-shopping-feed-attributes-for-maximum-visibility/
 2026-06-22T02:09:54.410966+00:00	https://www.searchenginejournal.com/rank-and-ai-citation-arent-the-same-number/579202/
 2026-06-22T02:09:54.410966+00:00	https://www.socialmediaexaminer.com/how-to-blow-up-an-ecommerce-business-with-facebook-ads/
@@ -33,3 +32,8 @@
 2026-06-24T01:33:10.775007+00:00	https://www.adweek.com/creativity/adidas-oasis-homage-among-8-grand-prix-winners-from-cannes-lions-2026-day-2/
 2026-06-24T01:33:10.775007+00:00	https://www.semrush.com/blog/eeat/
 2026-06-24T01:33:10.775007+00:00	https://digiday.com/announcement/awards/announcing-the-2026-digiday-media-top-workplaces/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-24T12:30:41.664270+00:00	https://ppchero.com/adapting-to-apple-search-ads-new-second-slot/
+2026-06-24T12:30:41.664270+00:00	https://www.adweek.com/creativity/cannes-lions-2026-gallery-day-1/
+2026-06-24T12:30:41.664270+00:00	https://www.searchenginejournal.com/ultimate-member-wordpress-plugin-vulnerability/580307/
+2026-06-24T12:30:41.664270+00:00	https://www.searchenginejournal.com/why-ai-visibility-depends-on-operational-alignment-not-just-seo/577683/
+2026-06-24T12:30:41.664270+00:00	https://digiday.com/future-of-tv/walmart-buys-the-google-ads-of-streaming-vibe-in-a-deal-tipped-at-a-1-billion-plus-valuation/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
