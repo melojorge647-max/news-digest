@@ -1,13 +1,3 @@
-2026-06-22T15:33:09.621892+00:00	https://www.adweek.com/media/cannes-billboard-wars-adtech-platforms-duke-it-out-on-the-croisette/
-2026-06-22T15:33:09.621892+00:00	https://wordpress.org/news/2026/06/open-web-merch/
-2026-06-22T15:33:09.621892+00:00	https://digiday.com/marketing/the-ai-search-boom-is-fueling-content-budgets-before-media-buys/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-22T15:33:09.621892+00:00	https://wordpress.org/news/2026/06/global-partners-first-half-2026/
-2026-06-22T15:33:09.621892+00:00	https://www.adweek.com/convergent-tv/nbcu-to-rock-brand-partnerships-with-new-unified-creative-offering/
-2026-06-22T15:33:09.621892+00:00	https://www.adweek.com/commerce/amazon-pushes-conversational-ai-ads-onto-the-open-internet/
-2026-06-22T15:33:09.621892+00:00	https://www.searchenginejournal.com/google-says-x-frame-options-matters-for-seo/580126/
-2026-06-22T15:33:09.621892+00:00	https://www.adweek.com/brand-marketing/embracing-the-spirit-of-cannes-without-actually-being-there/
-2026-06-22T15:33:09.621892+00:00	https://www.adweek.com/agencies/indie-agency-dept-takes-aim-at-holdco-ai-stacks-with-open-orchestration-layer/
-2026-06-22T15:33:09.621892+00:00	https://digiday.com/media/how-lipton-is-using-local-creators-instead-of-building-in-house-social-teams/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-23T01:48:48.719564+00:00	https://www.searchenginejournal.com/google-says-seo-tools-lack-access-to-its-internal-metrics/580176/
 2026-06-23T01:48:48.719564+00:00	https://www.adweek.com/agencies/cannes-lions-2026-gallery-events-celebrities-panels-activations-parties/
 2026-06-23T01:48:48.719564+00:00	https://digiday.com/marketing/openai-expands-ads-manager-to-u-k-adds-cpc/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -44,3 +34,7 @@
 2026-06-25T12:33:53.379126+00:00	https://www.searchenginejournal.com/wordpress-new-ai-feature/580500/
 2026-06-25T12:33:53.379126+00:00	https://www.searchenginejournal.com/ask-the-ppc-how-do-i-effectively-measure-campaign-success-across-multiple-platforms/576209/
 2026-06-25T12:33:53.379126+00:00	https://www.searchenginejournal.com/googles-mueller-explains-how-ai-search-impressions-get-counted/580491/
+2026-06-26T01:53:55.886023+00:00	https://wordpress.org/news/2026/06/open-web-merch/
+2026-06-26T01:53:55.886023+00:00	https://martech.org/the-marketing-variable-no-dashboard-can-measure/
+2026-06-26T01:53:55.886023+00:00	https://www.adweek.com/creativity/creating-campaigns-that-become-cultural-moments/
+2026-06-26T01:53:55.886023+00:00	https://www.wordstream.com/blog/local-seo-tips
