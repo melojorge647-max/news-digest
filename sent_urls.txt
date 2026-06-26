@@ -1,8 +1,3 @@
-2026-06-23T01:48:48.719564+00:00	https://www.searchenginejournal.com/google-says-seo-tools-lack-access-to-its-internal-metrics/580176/
-2026-06-23T01:48:48.719564+00:00	https://www.adweek.com/agencies/cannes-lions-2026-gallery-events-celebrities-panels-activations-parties/
-2026-06-23T01:48:48.719564+00:00	https://digiday.com/marketing/openai-expands-ads-manager-to-u-k-adds-cpc/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-06-23T01:48:48.719564+00:00	https://www.searchenginejournal.com/google-and-shopify-back-cloudflares-ai-bot-gatekeeping-initiative/580182/
-2026-06-23T01:48:48.719564+00:00	https://www.adweek.com/dealroom/hightouch-raised-322-million-across-six-rounds-heres-how-the-company-skyrocketed-to-a-275-billion-valuation/
 2026-06-23T13:17:35.669190+00:00	https://digiday.com/media-buying/omnicom-media-and-disney-advertising-collaborate-to-enable-sequential-ads-in-streaming/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-06-23T13:17:35.669190+00:00	https://www.searchenginejournal.com/google-cautions-against-markdown-versions-of-websites-for-ai-seo/580235/
 2026-06-23T13:17:35.669190+00:00	https://www.nearmedia.co/ep-261-a-deep-dive-into-google-maps-lists-local-gems-and-the-impact-on-restaurant-discovery-with-craig-burton/
@@ -38,3 +33,5 @@
 2026-06-26T01:53:55.886023+00:00	https://martech.org/the-marketing-variable-no-dashboard-can-measure/
 2026-06-26T01:53:55.886023+00:00	https://www.adweek.com/creativity/creating-campaigns-that-become-cultural-moments/
 2026-06-26T01:53:55.886023+00:00	https://www.wordstream.com/blog/local-seo-tips
+2026-06-26T12:28:23.650867+00:00	https://digiday.com/marketing/future-of-marketing-briefing-cmos-are-still-haunted-by-hard-questions-about-value-of-ad-creative/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-06-26T12:28:23.650867+00:00	https://www.searchenginejournal.com/google-seo-for-ai-agents/580589/
