@@ -1,6 +1,3 @@
-2026-06-29T14:29:58.049833+00:00	https://martech.org/the-marketing-variable-no-dashboard-can-measure/
-2026-06-29T14:29:58.049833+00:00	https://www.wordstream.com/blog/local-seo-tips
-2026-06-29T14:29:58.049833+00:00	https://www.searchenginejournal.com/google-meta-descriptions-not-required-for-seo-but-theyre-worthwhile/580694/
 2026-06-30T01:51:44.925174+00:00	https://www.adweek.com/commerce/the-future-of-retail-marketing-is-first-party-data/
 2026-06-30T01:51:44.925174+00:00	https://www.searchenginejournal.com/buying-reddit-to-win-ai-citations-is-the-new-link-farm/578016/
 2026-06-30T01:51:44.925174+00:00	https://digiday.com/marketing/future-of-marketing-briefing-cmos-are-still-haunted-by-hard-questions-about-value-of-ad-creative/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -28,3 +25,6 @@
 2026-07-02T12:22:57.964670+00:00	https://ppchero.com/googles-ai-is-only-as-good-as-the-data-you-give-it/
 2026-07-02T12:22:57.964670+00:00	https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/
 2026-07-02T12:22:57.964670+00:00	https://www.searchenginejournal.com/ask-an-seo-should-i-block-ai-crawlers-or-measure-their-value-first/580005/
+2026-07-03T01:19:04.748356+00:00	https://www.nearmedia.co/ep-263-stop-counting-stars-how-to-mine-competitor-reviews-for-high-converting-content-ideas/
+2026-07-03T01:19:04.748356+00:00	https://www.searchenginejournal.com/microsoft-just-proved-a-point-about-search-today/580664/
+2026-07-03T01:19:04.748356+00:00	https://www.searchenginejournal.com/google-ends-cache-served-amp-pages-in-search/581405/
