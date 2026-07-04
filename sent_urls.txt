@@ -1,8 +1,3 @@
-2026-07-01T01:57:34.468414+00:00	https://www.semrush.com/blog/ecommerce-ai-seo/
-2026-07-01T01:57:34.468414+00:00	https://ppchero.com/your-first-google-ads-account-how-to-get-started/
-2026-07-01T01:57:34.468414+00:00	https://martech.org/ai-made-email-marketing-easier-it-needs-us-to-make-it-better/
-2026-07-01T01:57:34.468414+00:00	https://www.adweek.com/creativity/mlb-hopes-to-walk-off-with-more-fans-using-content-creators/
-2026-07-01T01:57:34.468414+00:00	https://www.searchenginejournal.com/61-of-cmos-say-local-marketing-is-too-complex-heres-the-fix-spa/580542/
 2026-07-01T13:13:24.041842+00:00	https://digiday.com/marketing/digiday-research-the-marketers-2026-guide-to-creator-marketing-including-duolingo-ulta-and-youtube/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-07-01T13:13:24.041842+00:00	https://www.semrush.com/blog/competitor-ad-spend/
 2026-07-01T13:13:24.041842+00:00	https://www.searchenginejournal.com/fabrice-canel-longtime-bing-search-leader-retires-from-microsoft/581247/
@@ -24,3 +19,5 @@
 2026-07-04T01:19:15.675483+00:00	https://www.semrush.com/blog/video-seo/
 2026-07-04T01:19:15.675483+00:00	https://www.searchenginejournal.com/seo-pulse-where-clicks-go-what-agents-skip-whos-leaving-bing/581426/
 2026-07-04T01:19:15.675483+00:00	https://ppchero.com/what-metas-ai-connectors-change-about-running-paid-social/
+2026-07-04T11:48:01.889809+00:00	https://ppchero.com/your-first-google-ads-account-how-to-get-started/
+2026-07-04T11:48:01.889809+00:00	https://www.semrush.com/blog/ecommerce-ai-seo/
