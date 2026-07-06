@@ -1,6 +1,3 @@
-2026-07-03T01:19:04.748356+00:00	https://www.nearmedia.co/ep-263-stop-counting-stars-how-to-mine-competitor-reviews-for-high-converting-content-ideas/
-2026-07-03T01:19:04.748356+00:00	https://www.searchenginejournal.com/microsoft-just-proved-a-point-about-search-today/580664/
-2026-07-03T01:19:04.748356+00:00	https://www.searchenginejournal.com/google-ends-cache-served-amp-pages-in-search/581405/
 2026-07-03T12:21:34.573131+00:00	https://wordpress.org/news/2026/06/ai-leaders-graduates/
 2026-07-03T12:21:34.573131+00:00	https://www.searchenginejournal.com/ai-search-is-nothing-without-seo-it-knows-it/580452/
 2026-07-04T01:19:15.675483+00:00	https://www.semrush.com/blog/video-seo/
@@ -19,3 +16,6 @@
 2026-07-06T01:25:54.984711+00:00	https://www.searchenginejournal.com/safaris-mcp-server/581487/
 2026-07-06T01:25:54.984711+00:00	https://www.searchenginejournal.com/google-put-ai-visibility-inside-the-seo-tool-on-purpose/577889/
 2026-07-06T01:25:54.984711+00:00	https://ppchero.com/googles-ai-is-only-as-good-as-the-data-you-give-it/
+2026-07-06T14:03:24.214985+00:00	https://ppchero.com/guide-to-chatgpt-ads/
+2026-07-06T14:03:24.214985+00:00	https://www.nearmedia.co/ep-263-stop-counting-stars-how-to-mine-competitor-reviews-for-high-converting-content-ideas/
+2026-07-06T14:03:24.214985+00:00	https://www.searchenginejournal.com/google-answers-question-about-llms-author-txt-for-seo/581547/
