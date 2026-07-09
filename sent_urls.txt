@@ -1,5 +1,3 @@
-2026-07-05T11:49:49.057593+00:00	https://www.semrush.com/blog/what-is-seo/
-2026-07-05T11:49:49.057593+00:00	https://wptavern.com/podcast/223-ivana-cirkovic-on-how-wordpress-credits-bridges-education-and-industry-in-the-wordpress-ecosystem
 2026-07-06T01:25:54.984711+00:00	https://www.searchenginejournal.com/safaris-mcp-server/581487/
 2026-07-06T01:25:54.984711+00:00	https://www.searchenginejournal.com/google-put-ai-visibility-inside-the-seo-tool-on-purpose/577889/
 2026-07-06T01:25:54.984711+00:00	https://ppchero.com/googles-ai-is-only-as-good-as-the-data-you-give-it/
@@ -21,3 +19,10 @@
 2026-07-08T11:58:59.159783+00:00	https://www.nearmedia.co/gemini-for-gbp-siri-is-better-downstream-ai-yelps-big-win/
 2026-07-08T11:58:59.159783+00:00	https://www.searchenginejournal.com/an-easy-digital-pr-strategy-for-ai-seo/581710/
 2026-07-08T11:58:59.159783+00:00	https://digiday.com/media-buying/whats-really-driving-europes-e131-billion-ad-boom/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-07-09T01:19:19.874756+00:00	https://www.adweek.com/media/publishers-opt-out-google-search/
+2026-07-09T01:19:19.874756+00:00	https://martech.org/why-ai-search-makes-trust-your-most-important-visibility-signal/
+2026-07-09T01:19:19.874756+00:00	https://www.searchenginejournal.com/ai-search-is-exposing-seos-risk-of-losing-geo-outcomes/581805/
+2026-07-09T01:19:19.874756+00:00	https://wptavern.com/podcast/224-david-snead-on-building-trust-and-collaboration-in-the-hosting-industry-with-the-secure-hosting-alliance
+2026-07-09T01:19:19.874756+00:00	https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/
+2026-07-09T01:19:19.874756+00:00	https://www.searchenginejournal.com/google-search-campaigns-travel-things-to-do-events-beta/581816/
+2026-07-09T01:19:19.874756+00:00	https://www.searchenginejournal.com/google-clarifies-smart-bidding-update-after-advertiser-concerns/581804/
