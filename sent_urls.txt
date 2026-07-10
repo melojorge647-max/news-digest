@@ -1,7 +1,3 @@
-2026-07-07T01:25:39.184645+00:00	https://www.wordstream.com/blog/google-ads-lead-quality
-2026-07-07T01:25:39.184645+00:00	https://sproutsocial.com/insights/social-media-marketing-funnel/
-2026-07-07T01:25:39.184645+00:00	https://www.searchenginejournal.com/ai-search-is-nothing-without-seo-it-knows-it/580452/
-2026-07-07T01:25:39.184645+00:00	https://www.searchenginejournal.com/ai-content-didnt-stop-working-your-metrics-did/580976/
 2026-07-07T12:40:26.512307+00:00	https://www.searchenginejournal.com/the-web-is-growing-a-second-layer-almost-a-third-head/581147/
 2026-07-07T12:40:26.512307+00:00	https://digiday.com/media-buying/ad-tech-briefing-corporate-america-finally-buys-into-soccer-as-a-mainstream-sport-shadier-elements-of-the-ad-industry-are-obliging/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-07-07T12:40:26.512307+00:00	https://www.searchenginejournal.com/google-on-using-markdown-for-ai-seo/581606/
@@ -29,3 +25,10 @@
 2026-07-10T01:17:25.488503+00:00	https://www.searchenginejournal.com/how-enterprise-seo-teams-stopped-guessing-which-ai-search-strategies-paid-off/581786/
 2026-07-10T01:17:25.488503+00:00	https://wordpress.org/news/2026/07/wordpress-7-0-1-maintenance-release/
 2026-07-10T01:17:25.488503+00:00	https://www.searchenginejournal.com/google-says-search-hit-all-time-usage-high-during-world-cup/581796/
+2026-07-10T12:38:14.508445+00:00	https://ppchero.com/what-running-meta-ads-in-new-york-taught-me-about-competitive-local-markets/
+2026-07-10T12:38:14.508445+00:00	https://www.wordstream.com/blog/google-ads-lead-quality
+2026-07-10T12:38:14.508445+00:00	https://www.adweek.com/creativity/ads-of-the-week-8-campaigns-that-caught-our-eye-from-kfc-to-reebok/
+2026-07-10T12:38:14.508445+00:00	https://ppchero.com/guide-to-chatgpt-ads/
+2026-07-10T12:38:14.508445+00:00	https://www.searchenginejournal.com/free-ai-citations-wont-last-ive-watched-google-fence-off-a-wide-open-field-before/581471/
+2026-07-10T12:38:14.508445+00:00	https://digiday.com/marketing/nike-versus-adidas-whos-spending-more-in-race-to-claim-the-world-cup-crown/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-07-10T12:38:14.508445+00:00	https://sproutsocial.com/insights/social-media-marketing-funnel/
