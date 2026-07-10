@@ -1,9 +1,3 @@
-2026-07-06T01:25:54.984711+00:00	https://www.searchenginejournal.com/safaris-mcp-server/581487/
-2026-07-06T01:25:54.984711+00:00	https://www.searchenginejournal.com/google-put-ai-visibility-inside-the-seo-tool-on-purpose/577889/
-2026-07-06T01:25:54.984711+00:00	https://ppchero.com/googles-ai-is-only-as-good-as-the-data-you-give-it/
-2026-07-06T14:03:24.214985+00:00	https://ppchero.com/guide-to-chatgpt-ads/
-2026-07-06T14:03:24.214985+00:00	https://www.nearmedia.co/ep-263-stop-counting-stars-how-to-mine-competitor-reviews-for-high-converting-content-ideas/
-2026-07-06T14:03:24.214985+00:00	https://www.searchenginejournal.com/google-answers-question-about-llms-author-txt-for-seo/581547/
 2026-07-07T01:25:39.184645+00:00	https://www.wordstream.com/blog/google-ads-lead-quality
 2026-07-07T01:25:39.184645+00:00	https://sproutsocial.com/insights/social-media-marketing-funnel/
 2026-07-07T01:25:39.184645+00:00	https://www.searchenginejournal.com/ai-search-is-nothing-without-seo-it-knows-it/580452/
@@ -26,3 +20,12 @@
 2026-07-09T01:19:19.874756+00:00	https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/
 2026-07-09T01:19:19.874756+00:00	https://www.searchenginejournal.com/google-search-campaigns-travel-things-to-do-events-beta/581816/
 2026-07-09T01:19:19.874756+00:00	https://www.searchenginejournal.com/google-clarifies-smart-bidding-update-after-advertiser-concerns/581804/
+2026-07-10T01:17:25.488503+00:00	https://www.searchenginejournal.com/ask-a-ppc-how-to-optimize-ppc-accounts-with-less-search-term-visibility/581131/
+2026-07-10T01:17:25.488503+00:00	https://www.semrush.com/blog/best-ai-visibility-tools/
+2026-07-10T01:17:25.488503+00:00	https://www.wordstream.com/blog/cross-channel-marketing
+2026-07-10T01:17:25.488503+00:00	https://www.socialmediaexaminer.com/instagram-plus-stories-features-user-controlled-algorithms-and-episodic-reels-what-marketers-need-to-know/
+2026-07-10T01:17:25.488503+00:00	https://www.searchenginejournal.com/googles-new-merchant-listing-structured-data-improves-seo/581879/
+2026-07-10T01:17:25.488503+00:00	https://ppchero.com/5-post-click-leaks-draining-your-pcc-budget/
+2026-07-10T01:17:25.488503+00:00	https://www.searchenginejournal.com/how-enterprise-seo-teams-stopped-guessing-which-ai-search-strategies-paid-off/581786/
+2026-07-10T01:17:25.488503+00:00	https://wordpress.org/news/2026/07/wordpress-7-0-1-maintenance-release/
+2026-07-10T01:17:25.488503+00:00	https://www.searchenginejournal.com/google-says-search-hit-all-time-usage-high-during-world-cup/581796/
