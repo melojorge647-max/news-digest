@@ -1,6 +1,3 @@
-2026-07-07T12:40:26.512307+00:00	https://www.searchenginejournal.com/the-web-is-growing-a-second-layer-almost-a-third-head/581147/
-2026-07-07T12:40:26.512307+00:00	https://digiday.com/media-buying/ad-tech-briefing-corporate-america-finally-buys-into-soccer-as-a-mainstream-sport-shadier-elements-of-the-ad-industry-are-obliging/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-07-07T12:40:26.512307+00:00	https://www.searchenginejournal.com/google-on-using-markdown-for-ai-seo/581606/
 2026-07-08T01:13:11.357688+00:00	https://www.searchenginejournal.com/local-search-marketing-trends-uberall-spa/581648/
 2026-07-08T01:13:11.357688+00:00	https://www.adweek.com/creativity/twix-casts-a-ventriloquist-dummy-double-act-to-prove-two-is-better-than-one/
 2026-07-08T01:13:11.357688+00:00	https://www.semrush.com/blog/how-cardmarket-wins-search/
@@ -32,3 +29,8 @@
 2026-07-10T12:38:14.508445+00:00	https://www.searchenginejournal.com/free-ai-citations-wont-last-ive-watched-google-fence-off-a-wide-open-field-before/581471/
 2026-07-10T12:38:14.508445+00:00	https://digiday.com/marketing/nike-versus-adidas-whos-spending-more-in-race-to-claim-the-world-cup-crown/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-07-10T12:38:14.508445+00:00	https://sproutsocial.com/insights/social-media-marketing-funnel/
+2026-07-11T01:11:00.706798+00:00	https://www.semrush.com/blog/google-search-console-adds-social-and-video-reports/
+2026-07-11T01:11:00.706798+00:00	https://www.searchenginejournal.com/wordpress-7-0-1-maintenance-release-contains-31-bug-fixes/582045/
+2026-07-11T01:11:00.706798+00:00	https://sproutsocial.com/insights/cross-network-brand-monitoring/
+2026-07-11T01:11:00.706798+00:00	https://www.searchenginejournal.com/seo-pulse-google-adds-social-reporting-mueller-warns-against-markdown/581946/
+2026-07-11T01:11:00.706798+00:00	https://www.searchenginejournal.com/google-business-profiles-showing-empty-review-dashboards/582015/
