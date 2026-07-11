@@ -1,8 +1,3 @@
-2026-07-08T01:13:11.357688+00:00	https://www.searchenginejournal.com/local-search-marketing-trends-uberall-spa/581648/
-2026-07-08T01:13:11.357688+00:00	https://www.adweek.com/creativity/twix-casts-a-ventriloquist-dummy-double-act-to-prove-two-is-better-than-one/
-2026-07-08T01:13:11.357688+00:00	https://www.semrush.com/blog/how-cardmarket-wins-search/
-2026-07-08T01:13:11.357688+00:00	https://www.searchenginejournal.com/google-search-console-adds-social-video-platform-properties/581634/
-2026-07-08T01:13:11.357688+00:00	https://www.searchenginejournal.com/seo-study-5-lessons-from-running-ai-agents-across-every-search/581663/
 2026-07-08T11:58:59.159783+00:00	https://www.nearmedia.co/gemini-for-gbp-siri-is-better-downstream-ai-yelps-big-win/
 2026-07-08T11:58:59.159783+00:00	https://www.searchenginejournal.com/an-easy-digital-pr-strategy-for-ai-seo/581710/
 2026-07-08T11:58:59.159783+00:00	https://digiday.com/media-buying/whats-really-driving-europes-e131-billion-ad-boom/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -34,3 +29,4 @@
 2026-07-11T01:11:00.706798+00:00	https://sproutsocial.com/insights/cross-network-brand-monitoring/
 2026-07-11T01:11:00.706798+00:00	https://www.searchenginejournal.com/seo-pulse-google-adds-social-reporting-mueller-warns-against-markdown/581946/
 2026-07-11T01:11:00.706798+00:00	https://www.searchenginejournal.com/google-business-profiles-showing-empty-review-dashboards/582015/
+2026-07-11T11:27:19.384675+00:00	https://www.semrush.com/blog/how-cardmarket-wins-search/
