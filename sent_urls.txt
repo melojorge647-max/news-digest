@@ -15,3 +15,5 @@
 2026-07-15T01:01:49.589383+00:00	https://martech.org/run-this-ai-audit-before-your-next-budgeting-cycle/
 2026-07-15T01:01:49.589383+00:00	https://www.adweek.com/brand-marketing/fully-loaded-the-brand-strategy-behind-crocs-cultural-takeover/
 2026-07-15T01:01:49.589383+00:00	https://martech.org/digital-video-enters-a-new-era-of-competition/
+2026-07-15T11:52:46.408845+00:00	https://www.searchenginejournal.com/the-ppc-metrics-your-cfo-actually-cares-about-and-how-to-report-them/578813/
+2026-07-15T11:52:46.408845+00:00	https://digiday.com/marketing/digital-video-ad-spending-is-booming-trust-in-premium-inventory-isnt/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
