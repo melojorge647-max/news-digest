@@ -21,3 +21,7 @@
 2026-07-16T01:09:35.325218+00:00	https://wptavern.com/podcast/225-milan-petrovic-on-the-risks-of-legacy-php-in-wordpress-and-why-upgrading-matters-for-security
 2026-07-16T01:09:35.325218+00:00	https://www.searchenginejournal.com/google-says-no-seo-penalty-for-year-long-a-b-tests/582349/
 2026-07-16T01:09:35.325218+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/
+2026-07-16T11:55:26.403741+00:00	https://www.searchenginejournal.com/google-is-using-social-media-signals-to-mask-ai-search-click-loss/582227/
+2026-07-16T11:55:26.403741+00:00	https://www.searchenginejournal.com/ai-seo-writing-thats-specific-may-get-cited-more/582531/
+2026-07-16T11:55:26.403741+00:00	https://www.searchenginejournal.com/ask-an-seo-how-do-i-balance-content-that-converts-with-content-that-builds-brand-authority/566261/
+2026-07-16T11:55:26.403741+00:00	https://www.socialmediaexaminer.com/writing-winning-linkedin-content-without-ai/
