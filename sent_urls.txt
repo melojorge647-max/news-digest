@@ -1,9 +1,3 @@
-2026-07-16T11:55:26.403741+00:00	https://www.searchenginejournal.com/google-is-using-social-media-signals-to-mask-ai-search-click-loss/582227/
-2026-07-16T11:55:26.403741+00:00	https://www.searchenginejournal.com/ai-seo-writing-thats-specific-may-get-cited-more/582531/
-2026-07-16T11:55:26.403741+00:00	https://www.searchenginejournal.com/ask-an-seo-how-do-i-balance-content-that-converts-with-content-that-builds-brand-authority/566261/
-2026-07-16T11:55:26.403741+00:00	https://www.socialmediaexaminer.com/writing-winning-linkedin-content-without-ai/
-2026-07-17T01:13:54.110617+00:00	https://digiday.com/sponsored/rather-than-going-with-the-crowd-marketers-are-now-questioning-measurement-ambiguity/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-07-17T01:13:54.110617+00:00	https://www.searchenginejournal.com/ai-search-cites-reddit-5-proven-plays-to-boost-multi-location-visibility-recap/582568/
 2026-07-17T11:44:33.095462+00:00	https://wordpress.org/news/2026/07/wcus-2026-guide/
 2026-07-17T11:44:33.095462+00:00	https://ppchero.com/using-the-sales-feedback-loop-to-improve-b2b-ppc-leads/
 2026-07-17T11:44:33.095462+00:00	https://ppchero.com/why-your-google-shopping-ctr-is-terrible/
@@ -19,3 +13,6 @@
 2026-07-19T11:33:25.433104+00:00	https://wptavern.com/podcast/225-milan-petrovic-on-the-risks-of-legacy-php-in-wordpress-and-why-upgrading-matters-for-security
 2026-07-19T11:33:25.433104+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/
 2026-07-19T11:33:25.433104+00:00	https://ppchero.com/why-ai-search-rewards-problem-descriptions-not-product-descriptions/
+2026-07-20T12:27:05.508601+00:00	https://www.searchenginejournal.com/how-to-measure-ai-search-visibility/579893/
+2026-07-20T12:27:05.508601+00:00	https://www.searchenginejournal.com/google-downplays-search-console-error-reports-says-many-arent-real-problems/582890/
+2026-07-20T12:27:05.508601+00:00	https://digiday.com/sponsored/rather-than-going-with-the-crowd-marketers-are-now-questioning-measurement-ambiguity/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
