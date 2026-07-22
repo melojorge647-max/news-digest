@@ -1,4 +1,3 @@
-2026-07-19T01:11:21.930609+00:00	https://www.searchenginejournal.com/when-to-use-search-consoles-validate-fix-according-to-google/582791/
 2026-07-19T11:33:25.433104+00:00	https://wptavern.com/podcast/225-milan-petrovic-on-the-risks-of-legacy-php-in-wordpress-and-why-upgrading-matters-for-security
 2026-07-19T11:33:25.433104+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/
 2026-07-19T11:33:25.433104+00:00	https://ppchero.com/why-ai-search-rewards-problem-descriptions-not-product-descriptions/
@@ -19,3 +18,7 @@
 2026-07-22T01:09:51.627536+00:00	https://www.searchenginejournal.com/rundowns/the-new-google-business-profile-playbook-for-ai-local-search/
 2026-07-22T01:09:51.627536+00:00	https://www.searchenginejournal.com/court-dismisses-googles-dmca-claims-against-serpapi/583033/
 2026-07-22T01:09:51.627536+00:00	https://martech.org/your-best-practices-may-already-be-outdated/
+2026-07-22T12:08:18.984564+00:00	https://www.searchenginejournal.com/ai-overviews-now-answer-most-local-searches-how-to-get-your-business-cited/580757/
+2026-07-22T12:08:18.984564+00:00	https://ppchero.com/why-your-google-shopping-ctr-is-terrible/
+2026-07-22T12:08:18.984564+00:00	https://digiday.com/media/albertsons-new-micro-sitcom-is-a-big-deal-for-retail-media/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-07-22T12:08:18.984564+00:00	https://www.searchenginejournal.com/designing-a-measurement-framework-before-you-touch-ga4/580767/
