@@ -1,6 +1,3 @@
-2026-07-19T11:33:25.433104+00:00	https://wptavern.com/podcast/225-milan-petrovic-on-the-risks-of-legacy-php-in-wordpress-and-why-upgrading-matters-for-security
-2026-07-19T11:33:25.433104+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/
-2026-07-19T11:33:25.433104+00:00	https://ppchero.com/why-ai-search-rewards-problem-descriptions-not-product-descriptions/
 2026-07-20T12:27:05.508601+00:00	https://www.searchenginejournal.com/how-to-measure-ai-search-visibility/579893/
 2026-07-20T12:27:05.508601+00:00	https://www.searchenginejournal.com/google-downplays-search-console-error-reports-says-many-arent-real-problems/582890/
 2026-07-20T12:27:05.508601+00:00	https://digiday.com/sponsored/rather-than-going-with-the-crowd-marketers-are-now-questioning-measurement-ambiguity/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -22,3 +19,7 @@
 2026-07-22T12:08:18.984564+00:00	https://ppchero.com/why-your-google-shopping-ctr-is-terrible/
 2026-07-22T12:08:18.984564+00:00	https://digiday.com/media/albertsons-new-micro-sitcom-is-a-big-deal-for-retail-media/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-07-22T12:08:18.984564+00:00	https://www.searchenginejournal.com/designing-a-measurement-framework-before-you-touch-ga4/580767/
+2026-07-23T01:15:46.430470+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-3/
+2026-07-23T01:15:46.430470+00:00	https://wptavern.com/podcast/226-jessica-lyschik-on-why-accessibility-in-wordpress-themes-is-easier-than-you-think
+2026-07-23T01:15:46.430470+00:00	https://www.semrush.com/blog/what-are-backlinks/
+2026-07-23T01:15:46.430470+00:00	https://martech.org/your-newest-competitors-arent-other-brands/
