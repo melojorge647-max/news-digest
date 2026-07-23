@@ -23,3 +23,6 @@
 2026-07-23T01:15:46.430470+00:00	https://wptavern.com/podcast/226-jessica-lyschik-on-why-accessibility-in-wordpress-themes-is-easier-than-you-think
 2026-07-23T01:15:46.430470+00:00	https://www.semrush.com/blog/what-are-backlinks/
 2026-07-23T01:15:46.430470+00:00	https://martech.org/your-newest-competitors-arent-other-brands/
+2026-07-23T12:05:34.989751+00:00	https://digiday.com/marketing/lifestyle-brand-stanley-uses-ai-behind-the-scenes-but-execs-claim-it-wont-touch-ad-creative/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-07-23T12:05:34.989751+00:00	https://www.semrush.com/blog/what-is-a-landing-page/
+2026-07-23T12:05:34.989751+00:00	https://www.searchenginejournal.com/google-search-revenue-growth-eases-after-a-year-of-acceleration/583181/
