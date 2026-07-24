@@ -1,6 +1,3 @@
-2026-07-20T12:27:05.508601+00:00	https://www.searchenginejournal.com/how-to-measure-ai-search-visibility/579893/
-2026-07-20T12:27:05.508601+00:00	https://www.searchenginejournal.com/google-downplays-search-console-error-reports-says-many-arent-real-problems/582890/
-2026-07-20T12:27:05.508601+00:00	https://digiday.com/sponsored/rather-than-going-with-the-crowd-marketers-are-now-questioning-measurement-ambiguity/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-07-21T01:11:11.752470+00:00	https://www.searchenginejournal.com/google-is-bringing-local-services-ads-into-google-ads/582816/
 2026-07-21T01:11:11.752470+00:00	https://www.searchenginejournal.com/google-is-ai-modes-no-2-cited-domain-data-shows/582941/
 2026-07-21T01:11:11.752470+00:00	https://www.searchenginejournal.com/ai-answers-about-your-locations-are-often-wrong-check-before-customers-do/582205/
@@ -26,3 +23,5 @@
 2026-07-23T12:05:34.989751+00:00	https://digiday.com/marketing/lifestyle-brand-stanley-uses-ai-behind-the-scenes-but-execs-claim-it-wont-touch-ad-creative/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-07-23T12:05:34.989751+00:00	https://www.semrush.com/blog/what-is-a-landing-page/
 2026-07-23T12:05:34.989751+00:00	https://www.searchenginejournal.com/google-search-revenue-growth-eases-after-a-year-of-acceleration/583181/
+2026-07-24T01:11:30.550572+00:00	https://www.searchenginejournal.com/are-we-repeating-history-risking-backlink-penalties-again/583070/
+2026-07-24T01:11:30.550572+00:00	https://www.semrush.com/blog/content-seo-manager-study/
