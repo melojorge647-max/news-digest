@@ -1,8 +1,3 @@
-2026-07-22T01:09:51.627536+00:00	https://www.adweek.com/brand-marketing/amfs-retro-rebrand-aims-to-win-over-gen-z-without-losing-the-league-crowd/
-2026-07-22T01:09:51.627536+00:00	https://www.searchenginejournal.com/googles-ai-search-data-is-growing-but-the-gaps-remain/582558/
-2026-07-22T01:09:51.627536+00:00	https://www.searchenginejournal.com/rundowns/the-new-google-business-profile-playbook-for-ai-local-search/
-2026-07-22T01:09:51.627536+00:00	https://www.searchenginejournal.com/court-dismisses-googles-dmca-claims-against-serpapi/583033/
-2026-07-22T01:09:51.627536+00:00	https://martech.org/your-best-practices-may-already-be-outdated/
 2026-07-22T12:08:18.984564+00:00	https://www.searchenginejournal.com/ai-overviews-now-answer-most-local-searches-how-to-get-your-business-cited/580757/
 2026-07-22T12:08:18.984564+00:00	https://ppchero.com/why-your-google-shopping-ctr-is-terrible/
 2026-07-22T12:08:18.984564+00:00	https://digiday.com/media/albertsons-new-micro-sitcom-is-a-big-deal-for-retail-media/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -23,3 +18,4 @@
 2026-07-25T01:12:43.778455+00:00	https://www.searchenginejournal.com/seo-pulse-search-growth-slows-publishers-weigh-leaving-google/583329/
 2026-07-25T01:12:43.778455+00:00	https://www.semrush.com/blog/semrush-reviews/
 2026-07-25T01:12:43.778455+00:00	https://martech.org/podcast-measurement-standards-expand-for-the-video-era/
+2026-07-25T11:38:13.354700+00:00	https://www.searchenginejournal.com/google-says-why-it-may-ignore-robots-txt-and-negatively-impact-seo/583475/
