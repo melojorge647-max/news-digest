@@ -1,6 +1,3 @@
-2026-07-23T12:05:34.989751+00:00	https://digiday.com/marketing/lifestyle-brand-stanley-uses-ai-behind-the-scenes-but-execs-claim-it-wont-touch-ad-creative/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-07-23T12:05:34.989751+00:00	https://www.semrush.com/blog/what-is-a-landing-page/
-2026-07-23T12:05:34.989751+00:00	https://www.searchenginejournal.com/google-search-revenue-growth-eases-after-a-year-of-acceleration/583181/
 2026-07-24T01:11:30.550572+00:00	https://www.searchenginejournal.com/are-we-repeating-history-risking-backlink-penalties-again/583070/
 2026-07-24T01:11:30.550572+00:00	https://www.semrush.com/blog/content-seo-manager-study/
 2026-07-25T01:12:43.778455+00:00	https://www.adweek.com/convergent-tv/10-brands-that-won-the-world-cup-according-to-data/
@@ -14,3 +11,5 @@
 2026-07-26T01:16:09.688519+00:00	https://ppchero.com/why-your-google-shopping-ctr-is-terrible/
 2026-07-26T11:39:27.418621+00:00	https://wptavern.com/podcast/226-jessica-lyschik-on-why-accessibility-in-wordpress-themes-is-easier-than-you-think
 2026-07-26T11:39:27.418621+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-3/
+2026-07-27T01:19:58.989113+00:00	https://www.semrush.com/blog/what-is-a-landing-page/
+2026-07-27T01:19:58.989113+00:00	https://digiday.com/marketing/lifestyle-brand-stanley-uses-ai-behind-the-scenes-but-execs-claim-it-wont-touch-ad-creative/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
