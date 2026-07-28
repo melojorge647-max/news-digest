@@ -16,3 +16,6 @@
 2026-07-27T13:22:34.520061+00:00	https://www.semrush.com/blog/advanced-seo/
 2026-07-27T13:22:34.520061+00:00	https://digiday.com/media/kai-cenats-streamer-u-was-a-masterclass-for-brands-looking-to-tap-content-creators/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-07-27T13:22:34.520061+00:00	https://www.searchenginejournal.com/google-ads-target-based-bidding-update-for-ecommerce/581801/
+2026-07-28T01:06:49.686665+00:00	https://www.semrush.com/blog/keyword-mapping/
+2026-07-28T01:06:49.686665+00:00	https://www.searchenginejournal.com/chatgpt-links-out-most-on-travel-questions/583824/
+2026-07-28T01:06:49.686665+00:00	https://martech.org/chatgpt-ads-adds-conversion-bidding-and-stronger-measurement/
