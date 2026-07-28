@@ -1,10 +1,3 @@
-2026-07-25T01:12:43.778455+00:00	https://www.adweek.com/convergent-tv/10-brands-that-won-the-world-cup-according-to-data/
-2026-07-25T01:12:43.778455+00:00	https://martech.org/the-one-question-that-will-improve-all-your-email-campaigns/
-2026-07-25T01:12:43.778455+00:00	https://www.nearmedia.co/lsa-max-chatgpt-yelp-legal-karma-google-self-preferencing-fine/
-2026-07-25T01:12:43.778455+00:00	https://www.searchenginejournal.com/the-ai-overviews-youtube-gap-the-platform-your-team-skipped-for-20-years/582702/
-2026-07-25T01:12:43.778455+00:00	https://www.searchenginejournal.com/seo-pulse-search-growth-slows-publishers-weigh-leaving-google/583329/
-2026-07-25T01:12:43.778455+00:00	https://www.semrush.com/blog/semrush-reviews/
-2026-07-25T01:12:43.778455+00:00	https://martech.org/podcast-measurement-standards-expand-for-the-video-era/
 2026-07-25T11:38:13.354700+00:00	https://www.searchenginejournal.com/google-says-why-it-may-ignore-robots-txt-and-negatively-impact-seo/583475/
 2026-07-26T01:16:09.688519+00:00	https://ppchero.com/why-your-google-shopping-ctr-is-terrible/
 2026-07-26T11:39:27.418621+00:00	https://wptavern.com/podcast/226-jessica-lyschik-on-why-accessibility-in-wordpress-themes-is-easier-than-you-think
@@ -19,3 +12,7 @@
 2026-07-28T01:06:49.686665+00:00	https://www.semrush.com/blog/keyword-mapping/
 2026-07-28T01:06:49.686665+00:00	https://www.searchenginejournal.com/chatgpt-links-out-most-on-travel-questions/583824/
 2026-07-28T01:06:49.686665+00:00	https://martech.org/chatgpt-ads-adds-conversion-bidding-and-stronger-measurement/
+2026-07-28T12:16:18.621197+00:00	https://www.searchenginejournal.com/amazon-left-us-google-shopping-a-year-ago-never-came-back/583307/
+2026-07-28T12:16:18.621197+00:00	https://www.searchenginejournal.com/google-seo-test-shows-what-happens-in-5-second-rendering-window/583878/
+2026-07-28T12:16:18.621197+00:00	https://www.nearmedia.co/lsa-max-chatgpt-yelp-legal-karma-google-self-preferencing-fine/
+2026-07-28T12:16:18.621197+00:00	https://www.semrush.com/blog/semrush-reviews/
