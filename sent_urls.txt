@@ -1,8 +1,3 @@
-2026-07-27T13:22:34.520061+00:00	https://www.semrush.com/blog/ai-visibility-roi/
-2026-07-27T13:22:34.520061+00:00	https://digiday.com/marketing/michaels-claims-google-powered-ai-assistant-doubles-conversion-rate-of-traditional-search/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-07-27T13:22:34.520061+00:00	https://www.semrush.com/blog/advanced-seo/
-2026-07-27T13:22:34.520061+00:00	https://digiday.com/media/kai-cenats-streamer-u-was-a-masterclass-for-brands-looking-to-tap-content-creators/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-07-27T13:22:34.520061+00:00	https://www.searchenginejournal.com/google-ads-target-based-bidding-update-for-ecommerce/581801/
 2026-07-28T01:06:49.686665+00:00	https://www.semrush.com/blog/keyword-mapping/
 2026-07-28T01:06:49.686665+00:00	https://www.searchenginejournal.com/chatgpt-links-out-most-on-travel-questions/583824/
 2026-07-28T01:06:49.686665+00:00	https://martech.org/chatgpt-ads-adds-conversion-bidding-and-stronger-measurement/
@@ -27,3 +22,7 @@
 2026-07-30T01:03:49.762459+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-4/
 2026-07-30T12:07:42.317312+00:00	https://www.socialmediaexaminer.com/how-to-grow-on-instagram-without-reels/
 2026-07-30T12:07:42.317312+00:00	https://www.semrush.com/blog/content-optimization/
+2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/ai-visibility-roi/
+2026-07-31T01:15:50.509359+00:00	https://www.searchenginejournal.com/wp-engine-bigcommerce-wordpress-stores/584343/
+2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/advanced-seo/
+2026-07-31T01:15:50.509359+00:00	https://www.searchenginejournal.com/googles-generative-ai-search-console-data-is-a-trap-for-marketers/584018/
