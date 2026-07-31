@@ -1,6 +1,3 @@
-2026-07-28T01:06:49.686665+00:00	https://www.semrush.com/blog/keyword-mapping/
-2026-07-28T01:06:49.686665+00:00	https://www.searchenginejournal.com/chatgpt-links-out-most-on-travel-questions/583824/
-2026-07-28T01:06:49.686665+00:00	https://martech.org/chatgpt-ads-adds-conversion-bidding-and-stronger-measurement/
 2026-07-28T12:16:18.621197+00:00	https://www.searchenginejournal.com/amazon-left-us-google-shopping-a-year-ago-never-came-back/583307/
 2026-07-28T12:16:18.621197+00:00	https://www.searchenginejournal.com/google-seo-test-shows-what-happens-in-5-second-rendering-window/583878/
 2026-07-28T12:16:18.621197+00:00	https://www.nearmedia.co/lsa-max-chatgpt-yelp-legal-karma-google-self-preferencing-fine/
@@ -26,3 +23,5 @@
 2026-07-31T01:15:50.509359+00:00	https://www.searchenginejournal.com/wp-engine-bigcommerce-wordpress-stores/584343/
 2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/advanced-seo/
 2026-07-31T01:15:50.509359+00:00	https://www.searchenginejournal.com/googles-generative-ai-search-console-data-is-a-trap-for-marketers/584018/
+2026-07-31T12:21:51.345370+00:00	https://www.semrush.com/blog/keyword-mapping/
+2026-07-31T12:21:51.345370+00:00	https://digiday.com/marketing/future-of-marketing-media-measurement-is-becoming-an-asset-in-boardroom-theater/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
