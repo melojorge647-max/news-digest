@@ -1,18 +1,3 @@
-2026-07-29T01:10:58.906057+00:00	https://www.searchenginejournal.com/why-data-integrity-is-the-new-technical-seo-from-crawling-to-trust/582189/
-2026-07-29T01:10:58.906057+00:00	https://www.searchenginejournal.com/ai-opt-out-may-cost-publishers-a-top-stories-spot/584016/
-2026-07-29T01:10:58.906057+00:00	https://www.searchenginejournal.com/heavily-ai-flagged-pages-still-rank-across-googles-top-10/583983/
-2026-07-29T01:10:58.906057+00:00	https://www.searchenginejournal.com/google-on-seo-impact-of-urls-injected-into-html-by-cms-platforms/584037/
-2026-07-29T01:10:58.906057+00:00	https://digiday.com/sponsored/they-havent-been-given-the-receipts-why-one-brand-is-auditing-its-dsps-for-greater-transparency/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-07-29T01:10:58.906057+00:00	https://www.searchenginejournal.com/google-lost-its-scraping-case-now-you-have-to-pick-a-side-on-the-open-web/583066/
-2026-07-29T12:24:25.142604+00:00	https://www.searchenginejournal.com/how-perplexity-actually-picks-sources-i-read-the-stream-not-the-answers/583769/
-2026-07-30T01:03:49.762459+00:00	https://sproutsocial.com/insights/influencer-follower-count/
-2026-07-30T01:03:49.762459+00:00	https://www.searchenginejournal.com/google-opens-search-console-social-reporting-to-everyone/584144/
-2026-07-30T01:03:49.762459+00:00	https://www.searchenginejournal.com/rundowns/q3-ai-visibility-ai-citations-brand-mentions-content-refreshes-that-work/
-2026-07-30T01:03:49.762459+00:00	https://www.wordstream.com/blog/keyword-research-for-ai-era
-2026-07-30T01:03:49.762459+00:00	https://www.searchenginejournal.com/89-of-ai-search-demand-has-no-clear-owner-use-this-before-the-window-closes/583255/
-2026-07-30T01:03:49.762459+00:00	https://www.searchenginejournal.com/google-ads-bidding-strategies-where-to-spend-your-time-in-2026/581479/
-2026-07-30T01:03:49.762459+00:00	https://wptavern.com/podcast/227-maciek-palmowski-on-testing-secure-wordpress-hosting-does-the-marketing-match-reality
-2026-07-30T01:03:49.762459+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-4/
 2026-07-30T12:07:42.317312+00:00	https://www.socialmediaexaminer.com/how-to-grow-on-instagram-without-reels/
 2026-07-30T12:07:42.317312+00:00	https://www.semrush.com/blog/content-optimization/
 2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/ai-visibility-roi/
@@ -22,3 +7,8 @@
 2026-07-31T12:21:51.345370+00:00	https://www.semrush.com/blog/keyword-mapping/
 2026-07-31T12:21:51.345370+00:00	https://digiday.com/marketing/future-of-marketing-media-measurement-is-becoming-an-asset-in-boardroom-theater/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-01T01:17:25.004572+00:00	https://www.searchenginejournal.com/seo-pulse-social-search-data-for-all-ai-detected-pages-rank-lower/584337/
+2026-08-02T11:37:24.074294+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-4/
+2026-08-02T11:37:24.074294+00:00	https://wptavern.com/podcast/227-maciek-palmowski-on-testing-secure-wordpress-hosting-does-the-marketing-match-reality
+2026-08-02T11:37:24.074294+00:00	https://www.searchenginejournal.com/rundowns/q3-ai-visibility-ai-citations-brand-mentions-content-refreshes-that-work/
+2026-08-02T11:37:24.074294+00:00	https://sproutsocial.com/insights/influencer-follower-count/
+2026-08-02T11:37:24.074294+00:00	https://www.wordstream.com/blog/keyword-research-for-ai-era
