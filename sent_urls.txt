@@ -1,7 +1,3 @@
-2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/ai-visibility-roi/
-2026-07-31T01:15:50.509359+00:00	https://www.searchenginejournal.com/wp-engine-bigcommerce-wordpress-stores/584343/
-2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/advanced-seo/
-2026-07-31T01:15:50.509359+00:00	https://www.searchenginejournal.com/googles-generative-ai-search-console-data-is-a-trap-for-marketers/584018/
 2026-07-31T12:21:51.345370+00:00	https://www.semrush.com/blog/keyword-mapping/
 2026-07-31T12:21:51.345370+00:00	https://digiday.com/marketing/future-of-marketing-media-measurement-is-becoming-an-asset-in-boardroom-theater/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-01T01:17:25.004572+00:00	https://www.searchenginejournal.com/seo-pulse-social-search-data-for-all-ai-detected-pages-rank-lower/584337/
@@ -12,3 +8,8 @@
 2026-08-02T11:37:24.074294+00:00	https://www.wordstream.com/blog/keyword-research-for-ai-era
 2026-08-03T01:16:43.470071+00:00	https://www.semrush.com/blog/content-optimization/
 2026-08-03T01:16:43.470071+00:00	https://www.socialmediaexaminer.com/how-to-grow-on-instagram-without-reels/
+2026-08-03T13:21:25.605885+00:00	https://www.searchenginejournal.com/googles-documentation-refresh-offers-seo-lessons-on-content-updates/584464/
+2026-08-03T13:21:25.605885+00:00	https://www.searchenginejournal.com/free-advanced-link-training-lessons/584551/
+2026-08-03T13:21:25.605885+00:00	https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/
+2026-08-03T13:21:25.605885+00:00	https://www.searchenginejournal.com/reviews-reputation-listings-the-local-signals-ai-now-reads/583795/
+2026-08-03T13:21:25.605885+00:00	https://www.sterlingsky.ca/temporarily-closed-google-business-profile/
