@@ -1,5 +1,3 @@
-2026-07-30T12:07:42.317312+00:00	https://www.socialmediaexaminer.com/how-to-grow-on-instagram-without-reels/
-2026-07-30T12:07:42.317312+00:00	https://www.semrush.com/blog/content-optimization/
 2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/ai-visibility-roi/
 2026-07-31T01:15:50.509359+00:00	https://www.searchenginejournal.com/wp-engine-bigcommerce-wordpress-stores/584343/
 2026-07-31T01:15:50.509359+00:00	https://www.semrush.com/blog/advanced-seo/
@@ -12,3 +10,5 @@
 2026-08-02T11:37:24.074294+00:00	https://www.searchenginejournal.com/rundowns/q3-ai-visibility-ai-citations-brand-mentions-content-refreshes-that-work/
 2026-08-02T11:37:24.074294+00:00	https://sproutsocial.com/insights/influencer-follower-count/
 2026-08-02T11:37:24.074294+00:00	https://www.wordstream.com/blog/keyword-research-for-ai-era
+2026-08-03T01:16:43.470071+00:00	https://www.semrush.com/blog/content-optimization/
+2026-08-03T01:16:43.470071+00:00	https://www.socialmediaexaminer.com/how-to-grow-on-instagram-without-reels/
