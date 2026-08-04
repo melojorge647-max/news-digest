@@ -1,5 +1,3 @@
-2026-07-31T12:21:51.345370+00:00	https://www.semrush.com/blog/keyword-mapping/
-2026-07-31T12:21:51.345370+00:00	https://digiday.com/marketing/future-of-marketing-media-measurement-is-becoming-an-asset-in-boardroom-theater/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-01T01:17:25.004572+00:00	https://www.searchenginejournal.com/seo-pulse-social-search-data-for-all-ai-detected-pages-rank-lower/584337/
 2026-08-02T11:37:24.074294+00:00	https://wordpress.org/news/2026/07/wordpress-7-1-beta-4/
 2026-08-02T11:37:24.074294+00:00	https://wptavern.com/podcast/227-maciek-palmowski-on-testing-secure-wordpress-hosting-does-the-marketing-match-reality
@@ -13,3 +11,7 @@
 2026-08-03T13:21:25.605885+00:00	https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/
 2026-08-03T13:21:25.605885+00:00	https://www.searchenginejournal.com/reviews-reputation-listings-the-local-signals-ai-now-reads/583795/
 2026-08-03T13:21:25.605885+00:00	https://www.sterlingsky.ca/temporarily-closed-google-business-profile/
+2026-08-04T01:08:32.041302+00:00	https://www.sterlingsky.ca/local-seo-audit-checklist/
+2026-08-04T01:08:32.041302+00:00	https://www.wordstream.com/blog/google-local-services-ads
+2026-08-04T01:08:32.041302+00:00	https://www.searchenginejournal.com/woocommerce-social-login-wordpress-plugin-enables-full-site-takeover/584601/
+2026-08-04T01:08:32.041302+00:00	https://digiday.com/marketing/future-of-marketing-media-measurement-is-becoming-an-asset-in-boardroom-theater/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
