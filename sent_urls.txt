@@ -18,3 +18,5 @@
 2026-08-04T12:21:08.973308+00:00	https://www.socialmediaexaminer.com/how-to-build-ai-automations-with-claude-cowork/
 2026-08-05T01:07:49.068025+00:00	https://digiday.com/media/people-inc-ceo-were-not-turning-off-google-crawlers-yet/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-05T01:07:49.068025+00:00	https://www.searchenginejournal.com/google-reports-ai-search-impressions-how-to-read-them/582824/
+2026-08-05T12:19:43.761455+00:00	https://martech.org/why-the-f-a-c-t-s-model-is-the-key-to-search-everywhere-optimization/
+2026-08-05T12:19:43.761455+00:00	https://www.adweek.com/creativity/ab-inbev-toasts-beers-enduring-relevance-as-sales-regain-fizz/
