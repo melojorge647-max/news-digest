@@ -1,8 +1,3 @@
-2026-08-03T13:21:25.605885+00:00	https://www.searchenginejournal.com/googles-documentation-refresh-offers-seo-lessons-on-content-updates/584464/
-2026-08-03T13:21:25.605885+00:00	https://www.searchenginejournal.com/free-advanced-link-training-lessons/584551/
-2026-08-03T13:21:25.605885+00:00	https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/
-2026-08-03T13:21:25.605885+00:00	https://www.searchenginejournal.com/reviews-reputation-listings-the-local-signals-ai-now-reads/583795/
-2026-08-03T13:21:25.605885+00:00	https://www.sterlingsky.ca/temporarily-closed-google-business-profile/
 2026-08-04T01:08:32.041302+00:00	https://www.sterlingsky.ca/local-seo-audit-checklist/
 2026-08-04T01:08:32.041302+00:00	https://www.wordstream.com/blog/google-local-services-ads
 2026-08-04T01:08:32.041302+00:00	https://www.searchenginejournal.com/woocommerce-social-login-wordpress-plugin-enables-full-site-takeover/584601/
@@ -23,3 +18,8 @@
 2026-08-06T12:21:50.068062+00:00	https://www.adweek.com/media/cloud-is-the-cash-engine-funding-big-techs-725bn-ai-bill-and-meta-wants-in/
 2026-08-06T12:21:50.068062+00:00	https://digiday.com/marketing/openai-brings-product-carousels-to-chatgpt-ads/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-06T12:21:50.068062+00:00	https://www.searchenginejournal.com/how-ai-search-trends-are-changing-ppc-campaign-structures-ask-a-ppc/584004/
+2026-08-07T01:52:48.826204+00:00	https://www.nearmedia.co/start-with-google-alexa-local-seo-v-aeo-local-ai-varies-chat-ui-wins/
+2026-08-07T01:52:48.826204+00:00	https://wordpress.org/news/2026/08/wordpress-7-0-3-release/
+2026-08-07T01:52:48.826204+00:00	https://www.searchenginejournal.com/i-helped-scale-google-ads-to-billions-heres-how-id-build-an-ai-search-strategy-today/582556/
+2026-08-07T01:52:48.826204+00:00	https://www.searchenginejournal.com/wordpress-security-release-7-0-3-fixes-high-severity-xss-vulnerability/584927/
+2026-08-07T01:52:48.826204+00:00	https://www.searchenginejournal.com/wordpress-7-1-accessibility-change-may-break-some-plugins/584820/
