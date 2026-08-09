@@ -1,10 +1,3 @@
-2026-08-06T01:06:58.842164+00:00	https://wptavern.com/podcast/228-priscilla-collado-ramirez-on-reducing-wordpress-beginner-anxiety
-2026-08-06T01:06:58.842164+00:00	https://wordpress.org/news/2026/08/wordpress-7-1-release-candidate-1/
-2026-08-06T01:06:58.842164+00:00	https://www.searchenginejournal.com/ai-visibility-measurement-what-to-track-what-to-ignore/582009/
-2026-08-06T01:06:58.842164+00:00	https://ppchero.com/the-averages-illusion-why-your-account-average-lies-to-you/
-2026-08-06T01:06:58.842164+00:00	https://www.searchenginejournal.com/microsoft-advertising-adds-ai-visibility-insights-pmax-testing-and-creative-preview-updates/584760/
-2026-08-06T01:06:58.842164+00:00	https://www.searchenginejournal.com/ai-referrals-are-recreating-the-oldest-mistake-in-conversion-optimization/584331/
-2026-08-06T01:06:58.842164+00:00	https://www.searchenginejournal.com/google-loses-the-engineer-who-helped-build-search-and-modern-ai/584785/
 2026-08-06T12:21:50.068062+00:00	https://www.adweek.com/media/cloud-is-the-cash-engine-funding-big-techs-725bn-ai-bill-and-meta-wants-in/
 2026-08-06T12:21:50.068062+00:00	https://digiday.com/marketing/openai-brings-product-carousels-to-chatgpt-ads/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-06T12:21:50.068062+00:00	https://www.searchenginejournal.com/how-ai-search-trends-are-changing-ppc-campaign-structures-ask-a-ppc/584004/
@@ -20,3 +13,6 @@
 2026-08-08T00:33:05.900426+00:00	https://www.sterlingsky.ca/how-to-move-google-business-profile-across-state-lines/
 2026-08-08T00:33:05.900426+00:00	https://www.nearmedia.co/ep-268-ai-overviews-brand-search-local-seo-cyrus-shepard-on-earning-the-click-from-the-archives/
 2026-08-09T00:34:09.029870+00:00	https://www.searchenginejournal.com/ais-impact-is-outrunning-measurement-the-trust-and-attribution-gap-facing-brands/584141/
+2026-08-09T10:56:17.073510+00:00	https://ppchero.com/the-averages-illusion-why-your-account-average-lies-to-you/
+2026-08-09T10:56:17.073510+00:00	https://wordpress.org/news/2026/08/wordpress-7-1-release-candidate-1/
+2026-08-09T10:56:17.073510+00:00	https://wptavern.com/podcast/228-priscilla-collado-ramirez-on-reducing-wordpress-beginner-anxiety
