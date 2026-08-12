@@ -1,4 +1,3 @@
-2026-08-09T00:34:09.029870+00:00	https://www.searchenginejournal.com/ais-impact-is-outrunning-measurement-the-trust-and-attribution-gap-facing-brands/584141/
 2026-08-09T10:56:17.073510+00:00	https://ppchero.com/the-averages-illusion-why-your-account-average-lies-to-you/
 2026-08-09T10:56:17.073510+00:00	https://wordpress.org/news/2026/08/wordpress-7-1-release-candidate-1/
 2026-08-09T10:56:17.073510+00:00	https://wptavern.com/podcast/228-priscilla-collado-ramirez-on-reducing-wordpress-beginner-anxiety
@@ -21,3 +20,4 @@
 2026-08-12T00:43:31.896124+00:00	https://www.searchenginejournal.com/the-metric-most-seos-are-still-not-measuring-in-the-age-of-ai/584027/
 2026-08-12T00:43:31.896124+00:00	https://www.searchenginejournal.com/how-transunions-ai-findings-should-change-the-way-seos-pitch-geo/584922/
 2026-08-12T00:43:31.896124+00:00	https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/
+2026-08-12T11:12:15.607261+00:00	https://www.semrush.com/blog/chatgpt-prompts/
