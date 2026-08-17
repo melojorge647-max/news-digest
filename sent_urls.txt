@@ -1,13 +1,3 @@
-2026-08-14T00:44:06.631822+00:00	https://www.searchenginejournal.com/how-do-i-know-if-ai-overviews-are-taking-clicks-from-my-site-and-what-can-i-do-about-it-ask-an-seo/583417/
-2026-08-14T00:44:06.631822+00:00	https://www.searchenginejournal.com/ai-overviews-how-freshpet-stands-out-seo-geo/584796/
-2026-08-14T00:44:06.631822+00:00	https://www.semrush.com/blog/organic-traffic/
-2026-08-14T00:44:06.631822+00:00	https://www.semrush.com/blog/ai-keyword-research/
-2026-08-14T00:44:06.631822+00:00	https://www.adweek.com/tvnewser/week-of-aug-3-2026-cable-news-ratings/
-2026-08-14T00:44:06.631822+00:00	https://www.searchenginejournal.com/the-geo-trust-gap-seos-want-the-data-but-not-the-platforms-selling-it/585161/
-2026-08-14T00:44:06.631822+00:00	https://www.semrush.com/blog/local-keyword-research/
-2026-08-14T00:44:06.631822+00:00	https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/
-2026-08-14T00:44:06.631822+00:00	https://wordpress.org/news/2026/08/browser-extension/
-2026-08-14T00:44:06.631822+00:00	https://www.searchenginejournal.com/the-ppc-clean-up-how-to-audit-and-fix-value-inflation-in-google-ads/583009/
 2026-08-14T11:11:21.876562+00:00	https://ppchero.com/google-ads-quality-score-explained/
 2026-08-15T00:01:21.252020+00:00	https://www.adweek.com/creativity/this-back-to-school-season-denim-brands-hedge-their-bets-across-gen-z-subcultures/
 2026-08-15T10:43:07.649855+00:00	https://www.semrush.com/blog/topical-gravity/
@@ -17,3 +7,10 @@
 2026-08-16T10:43:27.398986+00:00	https://wordpress.org/news/2026/08/wordpress-7-0-4-release/
 2026-08-16T10:43:27.398986+00:00	https://wptavern.com/podcast/229-amy-kamala-on-art-tech-and-open-source-a-journey-through-wordpress-and-community
 2026-08-16T23:58:05.003818+00:00	https://www.socialmediaexaminer.com/a-proven-instagram-strategy-for-business-growth/
+2026-08-17T10:51:21.874780+00:00	https://www.semrush.com/blog/seo-for-new-website/
+2026-08-17T10:51:21.874780+00:00	https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/
+2026-08-17T10:51:21.874780+00:00	https://www.semrush.com/blog/ai-keyword-research/
+2026-08-17T10:51:21.874780+00:00	https://www.searchenginejournal.com/the-geo-trust-gap-seos-want-the-data-but-not-the-platforms-selling-it/585161/
+2026-08-17T10:51:21.874780+00:00	https://www.semrush.com/blog/seo-strategy/
+2026-08-17T10:51:21.874780+00:00	https://www.semrush.com/blog/prompt-research-for-ai-seo/
+2026-08-17T10:51:21.874780+00:00	https://wordpress.org/news/2026/08/browser-extension/
