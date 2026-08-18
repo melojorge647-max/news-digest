@@ -1,4 +1,3 @@
-2026-08-15T00:01:21.252020+00:00	https://www.adweek.com/creativity/this-back-to-school-season-denim-brands-hedge-their-bets-across-gen-z-subcultures/
 2026-08-15T10:43:07.649855+00:00	https://www.semrush.com/blog/topical-gravity/
 2026-08-15T23:58:43.441106+00:00	https://www.semrush.com/blog/chatgpt-prompts/
 2026-08-15T23:58:43.441106+00:00	https://www.searchenginejournal.com/seo-pulse-chatgpts-index-ga-benchmarks-google-refiles-complaint/585748/
@@ -17,3 +16,5 @@
 2026-08-18T00:00:31.969115+00:00	https://www.searchenginejournal.com/ai-assistants-are-choosing-local-businesses-for-your-customers/585275/
 2026-08-18T00:00:31.969115+00:00	https://www.searchenginejournal.com/the-paid-search-email-placement-right-place-right-time/583613/
 2026-08-18T00:00:31.969115+00:00	https://www.semrush.com/blog/seo-content/
+2026-08-18T10:50:17.960974+00:00	https://digiday.com/podcasts/marketers-embrace-ai-across-workflows-but-questions-over-guardrails-and-job-impacts-remain/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-08-18T10:50:17.960974+00:00	https://www.socialmediaexaminer.com/building-an-ai-creative-director-from-ideas-to-finished-content-with-claude/
