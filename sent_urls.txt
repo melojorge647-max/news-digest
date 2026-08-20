@@ -1,6 +1,3 @@
-2026-08-16T10:43:27.398986+00:00	https://ppchero.com/winning-in-demand-generation-when-every-pound-must-work-harder/
-2026-08-16T10:43:27.398986+00:00	https://wordpress.org/news/2026/08/wordpress-7-0-4-release/
-2026-08-16T10:43:27.398986+00:00	https://wptavern.com/podcast/229-amy-kamala-on-art-tech-and-open-source-a-journey-through-wordpress-and-community
 2026-08-16T23:58:05.003818+00:00	https://www.socialmediaexaminer.com/a-proven-instagram-strategy-for-business-growth/
 2026-08-17T10:51:21.874780+00:00	https://www.semrush.com/blog/seo-for-new-website/
 2026-08-17T10:51:21.874780+00:00	https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/
@@ -21,3 +18,11 @@
 2026-08-19T10:49:52.570543+00:00	https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral/
 2026-08-19T10:49:52.570543+00:00	https://digiday.com/marketing/openais-ads-business-hits-europe-at-the-six-month-mark/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-19T10:49:52.570543+00:00	https://www.semrush.com/blog/content-marketing-strategy-guide/
+2026-08-20T00:01:02.279947+00:00	https://www.searchenginejournal.com/why-reddits-chatgpt-citation-drop-isnt-fully-explained/586479/
+2026-08-20T00:01:02.279947+00:00	https://www.searchenginejournal.com/clicks-are-down-42-linkedin-reach-down-47-but-youre-raging-at-the-wrong-target/585862/
+2026-08-20T00:01:02.279947+00:00	https://www.searchenginejournal.com/how-to-track-google-ai-mode-traffic-in-search-console/586194/
+2026-08-20T00:01:02.279947+00:00	https://ppchero.com/everything-you-need-to-know-about-hero-conf-us-2026/
+2026-08-20T00:01:02.279947+00:00	https://ppchero.com/we-tested-ads-in-chatgpt/
+2026-08-20T00:01:02.279947+00:00	https://wordpress.org/news/2026/08/mary-lou/
+2026-08-20T00:01:02.279947+00:00	https://wptavern.com/podcast/230-adrian-sticea-on-navigating-the-decline-of-wordpress-work-on-upwork-and-the-rise-of-new-opportunities
+2026-08-20T00:01:02.279947+00:00	https://www.searchenginejournal.com/microsoft-advertising-rolls-out-ai-max-globally/586459/
