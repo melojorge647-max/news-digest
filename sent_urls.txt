@@ -1,6 +1,3 @@
-2026-08-19T00:00:45.305591+00:00	https://ppchero.com/the-silver-lining-of-august-17-how-googles-bidding-change-solves-budget-scaling-fluctuations/
-2026-08-19T00:00:45.305591+00:00	https://digiday.com/sponsored/publisher-monetization-in-the-ai-era/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-08-19T00:00:45.305591+00:00	https://www.searchenginejournal.com/how-google-aios-use-facebook-instagram-tiktok-from-300-million-us-searches/585244/
 2026-08-19T10:49:52.570543+00:00	https://www.semrush.com/blog/microsoft-clarity-scrape-to-referral/
 2026-08-19T10:49:52.570543+00:00	https://digiday.com/marketing/openais-ads-business-hits-europe-at-the-six-month-mark/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-08-19T10:49:52.570543+00:00	https://www.semrush.com/blog/content-marketing-strategy-guide/
@@ -33,3 +30,4 @@
 2026-08-22T00:01:02.615914+00:00	https://www.adweek.com/brand-marketing/5-marketer-moves-to-know-this-week-klarna-microsoft-and-gap/
 2026-08-22T00:01:02.615914+00:00	https://www.socialmediaexaminer.com/building-an-ai-creative-director-from-ideas-to-finished-content-with-claude/
 2026-08-22T00:01:02.615914+00:00	https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/
+2026-08-22T10:43:44.174141+00:00	https://ppchero.com/the-silver-lining-of-august-17-how-googles-bidding-change-solves-budget-scaling-fluctuations/
