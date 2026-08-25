@@ -1,6 +1,3 @@
-2026-08-21T10:52:13.681235+00:00	https://digiday.com/marketing/walmart-gets-close-to-3-billion-in-tariff-refunds/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-08-21T10:52:13.681235+00:00	https://www.searchenginejournal.com/what-ai-bot-data-from-hundreds-of-sites-reveals-about-ai-search-webinar/586556/
-2026-08-21T10:52:13.681235+00:00	https://www.semrush.com/blog/seo-content/
 2026-08-22T00:01:02.615914+00:00	https://ppchero.com/performance-max-brand-leak-audit/
 2026-08-22T00:01:02.615914+00:00	https://www.adweek.com/brand-marketing/brandweek-returns-to-atlanta-with-starbucks-crocs-mattel-coca-cola-and-more/
 2026-08-22T00:01:02.615914+00:00	https://www.adweek.com/brand-marketing/5-marketer-moves-to-know-this-week-klarna-microsoft-and-gap/
@@ -22,3 +19,9 @@
 2026-08-24T10:56:51.497034+00:00	https://www.semrush.com/blog/google-search-console/
 2026-08-24T10:56:51.497034+00:00	https://www.searchenginejournal.com/google-expands-personalization-across-search-discover-news/586528/
 2026-08-24T10:56:51.497034+00:00	https://www.searchenginejournal.com/google-answers-if-some-sites-can-ignore-geo-and-just-focus-on-seo/586737/
+2026-08-25T00:00:48.779634+00:00	https://ppchero.com/black-friday-2026/
+2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/google-ads-launches-new-search-and-ai-max-experimentation-tools/586549/
+2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/seos-are-becoming-the-tools-of-their-tools-the-ai-slop-backlash/586298/
+2026-08-25T00:00:48.779634+00:00	https://digiday.com/marketing/walmart-gets-close-to-3-billion-in-tariff-refunds/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/what-ai-bot-data-from-hundreds-of-sites-reveals-about-ai-search-webinar/586556/
+2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/how-to-audit-publisher-websites-in-2026/586349/
