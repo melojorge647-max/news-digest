@@ -1,11 +1,3 @@
-2026-08-23T23:59:14.198580+00:00	https://wordpress.org/news/2026/08/wcus-2026-recap/
-2026-08-24T10:56:51.497034+00:00	https://martech.org/business-websites-dominate-geminis-local-ai-citations/
-2026-08-24T10:56:51.497034+00:00	https://www.searchenginejournal.com/the-keyword-universe-was-always-smaller-than-we-thought/586065/
-2026-08-24T10:56:51.497034+00:00	https://www.searchenginejournal.com/ask-an-seo-how-do-i-identify-cannibalization-problems-consolidate-without-loss-of-visibility/553881/
-2026-08-24T10:56:51.497034+00:00	https://www.searchenginejournal.com/microsoft-ads-is-removing-max-cpc-from-new-campaigns/586527/
-2026-08-24T10:56:51.497034+00:00	https://www.semrush.com/blog/google-search-console/
-2026-08-24T10:56:51.497034+00:00	https://www.searchenginejournal.com/google-expands-personalization-across-search-discover-news/586528/
-2026-08-24T10:56:51.497034+00:00	https://www.searchenginejournal.com/google-answers-if-some-sites-can-ignore-geo-and-just-focus-on-seo/586737/
 2026-08-25T00:00:48.779634+00:00	https://ppchero.com/black-friday-2026/
 2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/google-ads-launches-new-search-and-ai-max-experimentation-tools/586549/
 2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/seos-are-becoming-the-tools-of-their-tools-the-ai-slop-backlash/586298/
@@ -29,3 +21,7 @@
 2026-08-27T05:07:16.519712+00:00	https://martech.org/lost-in-translation-why-content-and-data-teams-cant-speak-the-same-language/
 2026-08-27T05:07:16.519712+00:00	https://www.searchenginejournal.com/why-running-youtube-ads-like-search-will-burn-your-budget/584794/
 2026-08-27T05:07:16.519712+00:00	https://wptavern.com/podcast/231-damon-cook-on-how-wp-trend-watcher-keeps-him-up-to-date-with-wordpress
+2026-08-27T20:35:30.320884+00:00	https://wordpress.org/news/2026/08/open-weight/
+2026-08-27T20:35:30.320884+00:00	https://www.searchenginejournal.com/ai-search-citation-sources-trendos-spa/586289/
+2026-08-27T20:35:30.320884+00:00	https://www.searchenginejournal.com/chatgpt-searches-individual-subreddits-by-name/586925/
+2026-08-27T20:35:30.320884+00:00	https://www.socialmediaexaminer.com/reduce-token-usage-the-voice-activated-content-system-and-industry-news/
