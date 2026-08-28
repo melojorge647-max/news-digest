@@ -1,13 +1,3 @@
-2026-08-25T00:00:48.779634+00:00	https://ppchero.com/black-friday-2026/
-2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/google-ads-launches-new-search-and-ai-max-experimentation-tools/586549/
-2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/seos-are-becoming-the-tools-of-their-tools-the-ai-slop-backlash/586298/
-2026-08-25T00:00:48.779634+00:00	https://digiday.com/marketing/walmart-gets-close-to-3-billion-in-tariff-refunds/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/what-ai-bot-data-from-hundreds-of-sites-reveals-about-ai-search-webinar/586556/
-2026-08-25T00:00:48.779634+00:00	https://www.searchenginejournal.com/how-to-audit-publisher-websites-in-2026/586349/
-2026-08-25T10:54:05.652834+00:00	https://www.searchenginejournal.com/webflows-new-openai-codex-integration-simplifies-site-management/586931/
-2026-08-25T10:54:05.652834+00:00	https://www.searchenginejournal.com/google-local-services-ads-performance-max-webinar/586879/
-2026-08-25T10:54:05.652834+00:00	https://www.searchenginejournal.com/cloudflare-says-emdash-version-1-0-is-releasing-soon/586951/
-2026-08-25T10:54:05.652834+00:00	https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/
 2026-08-26T00:01:11.555660+00:00	https://www.adweek.com/media/front-office-sports-mobile-app/
 2026-08-26T00:01:11.555660+00:00	https://www.wordstream.com/blog/do-google-ads-work
 2026-08-26T00:01:11.555660+00:00	https://www.socialmediaexaminer.com/content-anchoring-new-instagram-tactics-and-industry-news/
@@ -26,3 +16,10 @@
 2026-08-27T20:35:30.320884+00:00	https://www.searchenginejournal.com/chatgpt-searches-individual-subreddits-by-name/586925/
 2026-08-27T20:35:30.320884+00:00	https://www.socialmediaexaminer.com/reduce-token-usage-the-voice-activated-content-system-and-industry-news/
 2026-08-28T07:06:03.634231+00:00	https://digiday.com/marketing/future-of-marketing-briefing-soccers-world-cup-buzz-isnt-moving-needle-on-premier-league-ad-spend/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-08-28T21:11:33.050530+00:00	https://www.searchenginejournal.com/google-answers-if-updates-come-with-actionable-seo-signals/587432/
+2026-08-28T21:11:33.050530+00:00	https://www.searchenginejournal.com/google-updates-site-reputation-abuse-policy-removes-penalties-in-eea/587423/
+2026-08-28T21:11:33.050530+00:00	https://www.searchenginejournal.com/add-google-preferred-sources-button-website/586908/
+2026-08-28T21:11:33.050530+00:00	https://www.nearmedia.co/ep-271-the-path-of-enshittification-apple-ads-googles-toll-booth-and-metas-18b-escape-hatch/
+2026-08-28T21:11:33.050530+00:00	https://martech.org/the-ai-performance-shake-up-whats-really-driving-results-across-channels-now/
+2026-08-28T21:11:33.050530+00:00	https://www.searchenginejournal.com/webmcp-connects-ai-agents-actions-inside-websites/587303/
+2026-08-28T21:11:33.050530+00:00	https://www.searchenginejournal.com/ai-changing-website-security-seo-teams-should-know/587352/
