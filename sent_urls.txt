@@ -1,5 +1,3 @@
-2026-08-29T15:06:42.956974+00:00	https://www.wordstream.com/blog/do-google-ads-work
-2026-08-29T15:06:42.956974+00:00	https://www.searchenginejournal.com/seo-pulse-judge-questions-google-ai-spam-update-fallout/587325/
 2026-08-30T14:53:57.584337+00:00	https://www.searchenginejournal.com/rank-math-wordpress-plugin-accused-of-secretly-taking-admin-access/587554/
 2026-08-31T17:38:54.621709+00:00	https://www.searchenginejournal.com/googles-mueller-shares-their-experience-with-markdown-for-ai-seo/587671/
 2026-08-31T17:38:54.621709+00:00	https://www.semrush.com/blog/seo-kpis/
@@ -16,3 +14,5 @@
 2026-09-01T14:58:10.787387+00:00	https://martech.org/best-in-class-martech-depends-on-your-business-context/
 2026-09-01T14:58:10.787387+00:00	https://www.searchenginejournal.com/how-we-earned-1000-links-geo-seo-recap/587850/
 2026-09-01T14:58:10.787387+00:00	https://www.searchenginejournal.com/wordpress-announces-a-proactive-security-initiative/587942/
+2026-09-02T01:27:00.522265+00:00	https://sproutsocial.com/insights/cross-posting-on-social-media/
+2026-09-02T01:27:00.522265+00:00	https://www.searchenginejournal.com/the-technical-signals-ai-search-uses-that-most-seos-still-arent-optimizing/586381/
