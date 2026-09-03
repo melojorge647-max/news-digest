@@ -26,3 +26,9 @@
 2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/the-next-ai-protocol-wont-save-your-seo-strategy/585714/
 2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/google-responds-to-sitemap-seo-technique-that-forces-daily-crawling/588222/
 2026-09-03T01:30:26.250852+00:00	https://www.wordstream.com/blog/google-ads-test-ideas
+2026-09-03T14:37:32.359131+00:00	https://www.adweek.com/social-marketing/what-primates-can-teach-us-about-social-media-marketing/
+2026-09-03T14:37:32.359131+00:00	https://www.searchenginejournal.com/ask-an-seo-should-i-block-ai-crawlers-at-robots-txt-or-server-level/586390/
+2026-09-03T14:37:32.359131+00:00	https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/
+2026-09-03T14:37:32.359131+00:00	https://www.searchenginejournal.com/google-says-ranking-recovery-takes-months-after-seo-issues-are-fixed/588268/
+2026-09-03T14:37:32.359131+00:00	https://www.adweek.com/tvnewser/week-of-aug-24-2026-evening-news-ratings/
+2026-09-03T14:37:32.359131+00:00	https://www.socialmediaexaminer.com/is-ai-making-it-so-anyone-can-run-effective-tiktok-ads/
