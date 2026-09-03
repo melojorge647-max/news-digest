@@ -1,4 +1,3 @@
-2026-08-30T14:53:57.584337+00:00	https://www.searchenginejournal.com/rank-math-wordpress-plugin-accused-of-secretly-taking-admin-access/587554/
 2026-08-31T17:38:54.621709+00:00	https://www.searchenginejournal.com/googles-mueller-shares-their-experience-with-markdown-for-ai-seo/587671/
 2026-08-31T17:38:54.621709+00:00	https://www.semrush.com/blog/seo-kpis/
 2026-08-31T17:38:54.621709+00:00	https://digiday.com/media/how-a-content-marketer-became-an-award-winning-cannabis-creator/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -24,3 +23,6 @@
 2026-09-02T14:33:08.856531+00:00	https://ppchero.com/getting-a-pipeline-you-can-defend-to-finance/
 2026-09-02T14:33:08.856531+00:00	https://www.adweek.com/agencies/boathouse-tyler-adams-life-fast-lane-supermoto-racer/
 2026-09-02T14:33:08.856531+00:00	https://digiday.com/media/why-brands-are-turning-to-older-creators-for-authenticity-ai-cant-fake/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/the-next-ai-protocol-wont-save-your-seo-strategy/585714/
+2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/google-responds-to-sitemap-seo-technique-that-forces-daily-crawling/588222/
+2026-09-03T01:30:26.250852+00:00	https://www.wordstream.com/blog/google-ads-test-ideas
