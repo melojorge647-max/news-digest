@@ -1,6 +1,3 @@
-2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/the-next-ai-protocol-wont-save-your-seo-strategy/585714/
-2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/google-responds-to-sitemap-seo-technique-that-forces-daily-crawling/588222/
-2026-09-03T01:30:26.250852+00:00	https://www.wordstream.com/blog/google-ads-test-ideas
 2026-09-03T14:37:32.359131+00:00	https://www.adweek.com/social-marketing/what-primates-can-teach-us-about-social-media-marketing/
 2026-09-03T14:37:32.359131+00:00	https://www.searchenginejournal.com/ask-an-seo-should-i-block-ai-crawlers-at-robots-txt-or-server-level/586390/
 2026-09-03T14:37:32.359131+00:00	https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/
@@ -15,3 +12,4 @@
 2026-09-06T01:21:03.030054+00:00	https://www.semrush.com/blog/create-ai-seo-search-marketing-report/
 2026-09-06T01:21:03.030054+00:00	https://ppchero.com/getting-a-pipeline-you-can-defend-to-finance/
 2026-09-06T01:21:03.030054+00:00	https://digiday.com/media/why-brands-are-turning-to-older-creators-for-authenticity-ai-cant-fake/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-09-06T13:43:08.741567+00:00	https://www.sterlingsky.ca/the-dynamic-serp-update-may-2026-core-update-changed-seo/
