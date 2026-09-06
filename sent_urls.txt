@@ -1,11 +1,3 @@
-2026-09-02T14:33:08.856531+00:00	https://www.searchenginejournal.com/entities-are-the-foundation-of-modern-seo/587886/
-2026-09-02T14:33:08.856531+00:00	https://www.searchenginejournal.com/what-happens-to-ppc-when-you-stop-managing-google-ads-through-google-ads/586580/
-2026-09-02T14:33:08.856531+00:00	https://wptavern.com/podcast/232-aaron-d-campbell-on-navigating-wordpress-security-in-the-ai-era
-2026-09-02T14:33:08.856531+00:00	https://www.semrush.com/blog/create-ai-seo-search-marketing-report/
-2026-09-02T14:33:08.856531+00:00	https://www.sterlingsky.ca/the-dynamic-serp-update-may-2026-core-update-changed-seo/
-2026-09-02T14:33:08.856531+00:00	https://ppchero.com/getting-a-pipeline-you-can-defend-to-finance/
-2026-09-02T14:33:08.856531+00:00	https://www.adweek.com/agencies/boathouse-tyler-adams-life-fast-lane-supermoto-racer/
-2026-09-02T14:33:08.856531+00:00	https://digiday.com/media/why-brands-are-turning-to-older-creators-for-authenticity-ai-cant-fake/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/the-next-ai-protocol-wont-save-your-seo-strategy/585714/
 2026-09-03T01:30:26.250852+00:00	https://www.searchenginejournal.com/google-responds-to-sitemap-seo-technique-that-forces-daily-crawling/588222/
 2026-09-03T01:30:26.250852+00:00	https://www.wordstream.com/blog/google-ads-test-ideas
@@ -19,3 +11,7 @@
 2026-09-05T01:26:34.864728+00:00	https://www.searchenginejournal.com/most-teams-can-measure-ai-visibility-few-can-move-it/588219/
 2026-09-05T13:28:27.319709+00:00	https://www.searchenginejournal.com/seo-pulse-search-console-ai-reports-go-global-mueller-recovery/588443/
 2026-09-05T13:28:27.319709+00:00	https://sproutsocial.com/insights/cross-posting-on-social-media/
+2026-09-06T01:21:03.030054+00:00	https://wptavern.com/podcast/232-aaron-d-campbell-on-navigating-wordpress-security-in-the-ai-era
+2026-09-06T01:21:03.030054+00:00	https://www.semrush.com/blog/create-ai-seo-search-marketing-report/
+2026-09-06T01:21:03.030054+00:00	https://ppchero.com/getting-a-pipeline-you-can-defend-to-finance/
+2026-09-06T01:21:03.030054+00:00	https://digiday.com/media/why-brands-are-turning-to-older-creators-for-authenticity-ai-cant-fake/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
