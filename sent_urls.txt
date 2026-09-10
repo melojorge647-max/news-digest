@@ -1,4 +1,3 @@
-2026-09-06T13:43:08.741567+00:00	https://www.sterlingsky.ca/the-dynamic-serp-update-may-2026-core-update-changed-seo/
 2026-09-07T01:19:10.677084+00:00	https://www.searchenginejournal.com/google-says-ranking-recovery-takes-months-after-seo-issues-are-fixed/588268/
 2026-09-07T01:19:10.677084+00:00	https://www.searchenginejournal.com/ask-an-seo-should-i-block-ai-crawlers-at-robots-txt-or-server-level/586390/
 2026-09-07T01:19:10.677084+00:00	https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/
@@ -21,3 +20,8 @@
 2026-09-09T14:39:37.168395+00:00	https://www.searchenginejournal.com/brands-are-tracking-ai-visibility-but-are-they-measuring-the-right-things/587888/
 2026-09-09T14:39:37.168395+00:00	https://www.searchenginejournal.com/the-ai-citation-mistake-optimizing-for-google-not-for-sources-webinar/588522/
 2026-09-09T14:39:37.168395+00:00	https://www.searchenginejournal.com/google-ads-introduces-local-customer-optimization/588886/
+2026-09-10T01:30:12.156667+00:00	https://ppchero.com/how-to-build-a-google-ads-dailing-pacing-script/
+2026-09-10T01:30:12.156667+00:00	https://sproutsocial.com/insights/brand-loyalty/
+2026-09-10T01:30:12.156667+00:00	https://www.semrush.com/blog/seoquake-relaunch/
+2026-09-10T01:30:12.156667+00:00	https://www.searchenginejournal.com/wordpress-co-founder-matt-mullenweg-ousted-from-automattic/589009/
+2026-09-10T01:30:12.156667+00:00	https://www.adweek.com/media/publishers-buying-search-traffic/
