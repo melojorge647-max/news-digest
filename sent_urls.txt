@@ -1,7 +1,3 @@
-2026-09-07T01:19:10.677084+00:00	https://www.searchenginejournal.com/google-says-ranking-recovery-takes-months-after-seo-issues-are-fixed/588268/
-2026-09-07T01:19:10.677084+00:00	https://www.searchenginejournal.com/ask-an-seo-should-i-block-ai-crawlers-at-robots-txt-or-server-level/586390/
-2026-09-07T01:19:10.677084+00:00	https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/
-2026-09-07T01:19:10.677084+00:00	https://www.socialmediaexaminer.com/is-ai-making-it-so-anyone-can-run-effective-tiktok-ads/
 2026-09-07T15:54:57.951432+00:00	https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/
 2026-09-07T15:54:57.951432+00:00	https://www.searchenginejournal.com/product-pages-get-24-of-ai-citations-reddit-youtube-4/587560/
 2026-09-07T15:54:57.951432+00:00	https://www.semrush.com/blog/topic-clusters/
@@ -25,3 +21,9 @@
 2026-09-10T01:30:12.156667+00:00	https://www.semrush.com/blog/seoquake-relaunch/
 2026-09-10T01:30:12.156667+00:00	https://www.searchenginejournal.com/wordpress-co-founder-matt-mullenweg-ousted-from-automattic/589009/
 2026-09-10T01:30:12.156667+00:00	https://www.adweek.com/media/publishers-buying-search-traffic/
+2026-09-10T14:30:20.476154+00:00	https://www.searchenginejournal.com/google-expands-data-manager-and-adds-uplift-measurement/589025/
+2026-09-10T14:30:20.476154+00:00	https://digiday.com/media-buying/ad-spend-forecasts-revised-upward-as-more-ad-dollars-are-handled-by-ai-tools/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-09-10T14:30:20.476154+00:00	https://wptavern.com/podcast/233-chris-reynolds-on-building-trust-with-project-contracts-for-reliable-ai-development
+2026-09-10T14:30:20.476154+00:00	https://www.searchenginejournal.com/ai-signals-multi-location-uberall-spa/587988/
+2026-09-10T14:30:20.476154+00:00	https://www.searchenginejournal.com/how-freshpet-earned-ais-trust-a-geo-ai-visibility-playbook-recap/588706/
+2026-09-10T14:30:20.476154+00:00	https://ppchero.com/google-ads-target-bid-strategy-changes/
