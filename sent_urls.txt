@@ -1,8 +1,3 @@
-2026-09-08T14:38:18.499443+00:00	https://www.adweek.com/media/my-code-chief-revenue-financial-operating-officers/
-2026-09-08T14:38:18.499443+00:00	https://www.semrush.com/blog/manufacturing-seo-ai-search/
-2026-09-08T14:38:18.499443+00:00	https://www.searchenginejournal.com/6-months-into-chatgpt-ads-advertisers-still-dont-know-what-good-looks-like/587583/
-2026-09-08T14:38:18.499443+00:00	https://www.socialmediaexaminer.com/instagram-content-strategy-tiktok-ads-tools-and-industry-news/
-2026-09-08T14:38:18.499443+00:00	https://www.searchenginejournal.com/most-teams-can-measure-ai-visibility-few-can-move-it/588219/
 2026-09-09T01:36:13.574291+00:00	https://martech.org/why-growing-restaurant-chains-win-at-local-search-and-ai-visibility/
 2026-09-09T01:36:13.574291+00:00	https://www.searchenginejournal.com/seo-pulse-search-console-ai-reports-go-global-mueller-recovery/588443/
 2026-09-09T01:36:13.574291+00:00	https://www.searchenginejournal.com/google-rolls-out-redesigned-search-results-across-the-eea/588870/
@@ -33,3 +28,10 @@
 2026-09-11T14:29:39.544930+00:00	https://www.searchenginejournal.com/new-ai-search-seo-kpis-4-signals-that-guide-real-decisions/588605/
 2026-09-11T14:29:39.544930+00:00	https://www.semrush.com/blog/claude-keyword-research/
 2026-09-11T14:29:39.544930+00:00	https://wordpress.org/news/2026/09/108-student-websites/
+2026-09-12T01:35:51.227661+00:00	https://www.searchenginejournal.com/the-2003-framework-that-was-already-doing-query-fan-out/588595/
+2026-09-12T01:35:51.227661+00:00	https://www.adweek.com/brand-marketing/brandweek-returns-to-atlanta-with-starbucks-crocs-mattel-coca-cola-and-more/
+2026-09-12T01:35:51.227661+00:00	https://www.adweek.com/agencies/ai-buying-platforms-will-manage-27-of-us-ad-spend-by-2030-report/
+2026-09-12T01:35:51.227661+00:00	https://www.wordstream.com/blog/google-attribution-models
+2026-09-12T01:35:51.227661+00:00	https://www.searchenginejournal.com/seo-for-paws-live-stream-conference-free-tickets-big-names-for-a-good-cause/588889/
+2026-09-12T01:35:51.227661+00:00	https://www.semrush.com/blog/manufacturing-seo-ai-search/
+2026-09-12T01:35:51.227661+00:00	https://www.socialmediaexaminer.com/instagram-content-strategy-tiktok-ads-tools-and-industry-news/
