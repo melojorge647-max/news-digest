@@ -1,10 +1,3 @@
-2026-09-11T01:30:12.573652+00:00	https://www.adweek.com/agencies/jury-nominations-open-for-2027-adweek-awards/
-2026-09-11T01:30:12.573652+00:00	https://www.semrush.com/blog/topic-clusters/
-2026-09-11T01:30:12.573652+00:00	https://www.searchenginejournal.com/google-deepmind-develops-new-ai-search-ranking-model/589062/
-2026-09-11T01:30:12.573652+00:00	https://sproutsocial.com/insights/social-media-ban/
-2026-09-11T01:30:12.573652+00:00	https://www.searchenginejournal.com/ask-a-ppc-how-do-i-keep-control-as-platforms-automate-my-account/587340/
-2026-09-11T01:30:12.573652+00:00	https://www.searchenginejournal.com/is-your-local-seo-strategy-ready-for-googles-next-ai-updates/589119/
-2026-09-11T01:30:12.573652+00:00	https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/
 2026-09-11T14:29:39.544930+00:00	https://www.searchenginejournal.com/new-ai-search-seo-kpis-4-signals-that-guide-real-decisions/588605/
 2026-09-11T14:29:39.544930+00:00	https://www.semrush.com/blog/claude-keyword-research/
 2026-09-11T14:29:39.544930+00:00	https://wordpress.org/news/2026/09/108-student-websites/
@@ -25,3 +18,7 @@
 2026-09-14T01:44:02.052208+00:00	https://ppchero.com/google-ads-target-bid-strategy-changes/
 2026-09-14T01:44:02.052208+00:00	https://digiday.com/media-buying/ad-spend-forecasts-revised-upward-as-more-ad-dollars-are-handled-by-ai-tools/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-09-14T01:44:02.052208+00:00	https://wptavern.com/podcast/233-chris-reynolds-on-building-trust-with-project-contracts-for-reliable-ai-development
+2026-09-14T16:24:04.573810+00:00	https://martech.org/the-ai-performance-shake-up-whats-really-driving-results-across-channels-now/
+2026-09-14T16:24:04.573810+00:00	https://www.searchenginejournal.com/how-to-connect-ai-search-visibility-to-local-leads/588096/
+2026-09-14T16:24:04.573810+00:00	https://www.adweek.com/tvnewser/week-of-aug-31-2026-cable-news-ratings/
+2026-09-14T16:24:04.573810+00:00	https://www.wordstream.com/blog/facebook-ads-benchmarks-2026
