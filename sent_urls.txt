@@ -1,6 +1,3 @@
-2026-09-16T15:01:52.543025+00:00	https://www.adweek.com/brand-marketing/how-crocs-became-one-of-tiktok-shops-top-sellers/
-2026-09-16T15:01:52.543025+00:00	https://digiday.com/future-of-tv/future-of-tv-briefing-every-major-streaming-subscription-price-increase-since-2019/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-09-16T15:01:52.543025+00:00	https://ppchero.com/proving-the-value-of-paid-search-with-incrementality-testing/
 2026-09-17T01:44:31.949372+00:00	https://www.searchenginejournal.com/google-search-profiles-10000-followers/589635/
 2026-09-17T01:44:31.949372+00:00	https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713/
 2026-09-17T01:44:31.949372+00:00	https://www.searchenginejournal.com/google-search-profile-badges-expose-the-publisher-traffic-crisis/589724/
@@ -18,3 +15,4 @@
 2026-09-19T01:39:56.320295+00:00	https://www.searchenginejournal.com/checking-a-page-is-part-of-a-retrieval-pipeline-for-ai/589284/
 2026-09-19T13:56:24.248589+00:00	https://www.searchenginejournal.com/seo-pulse-google-ai-payment-pilot-search-profiles-at-10000/589849/
 2026-09-19T13:56:24.248589+00:00	https://www.semrush.com/blog/agentic-seo/
+2026-09-20T01:42:38.056920+00:00	https://ppchero.com/proving-the-value-of-paid-search-with-incrementality-testing/
