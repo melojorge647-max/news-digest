@@ -1,7 +1,3 @@
-2026-09-18T14:32:58.969538+00:00	https://www.searchenginejournal.com/googles-ai-payment-pilot-vs-cloudflare-and-microsoft-models/589636/
-2026-09-18T14:32:58.969538+00:00	https://www.searchenginejournal.com/google-responds-to-cross-domain-canonical-de-indexing-report/589917/
-2026-09-18T14:32:58.969538+00:00	https://www.adweek.com/media/ai-agents-get-a-reality-check-att-and-crocs-want-automation-but-still-need-humans-in-the-loop/
-2026-09-18T14:32:58.969538+00:00	https://martech.org/your-marketing-automation-needs-more-context/
 2026-09-19T01:39:56.320295+00:00	https://www.nearmedia.co/ep-274-why-position-one-doesnt-exist-in-local-anymore-brighton-seo-recap/
 2026-09-19T01:39:56.320295+00:00	https://www.searchenginejournal.com/checking-a-page-is-part-of-a-retrieval-pipeline-for-ai/589284/
 2026-09-19T13:56:24.248589+00:00	https://www.searchenginejournal.com/seo-pulse-google-ai-payment-pilot-search-profiles-at-10000/589849/
@@ -14,3 +10,10 @@
 2026-09-21T16:30:17.021927+00:00	https://www.semrush.com/blog/ai-citation-outreach/
 2026-09-21T16:30:17.021927+00:00	https://wordpress.org/news/2026/09/owa-president/
 2026-09-21T16:30:17.021927+00:00	https://www.searchenginejournal.com/shopify-ceo-ai-slop-grenades-coworkers/590292/
+2026-09-22T01:54:59.994458+00:00	https://www.searchenginejournal.com/international-seo-for-publishers-how-to-succeed-across-borders/589631/
+2026-09-22T01:54:59.994458+00:00	https://www.sterlingsky.ca/services-in-google-business-profile-impact-ranking/
+2026-09-22T01:54:59.994458+00:00	https://www.searchenginejournal.com/how-to-find-the-sources-shaping-ai-answers-in-your-industry/589756/
+2026-09-22T01:54:59.994458+00:00	https://www.adweek.com/brand-marketing/womens-sports-are-creating-a-new-playbook-for-brand-partnerships/
+2026-09-22T01:54:59.994458+00:00	https://www.adweek.com/social-marketing/ai-is-changing-how-marketers-respond-to-social-signals/
+2026-09-22T01:54:59.994458+00:00	https://www.adweek.com/brand-marketing/how-goodwipes-made-a-splash-in-the-bathroom-business/
+2026-09-22T01:54:59.994458+00:00	https://martech.org/your-marketing-automation-needs-more-context/
