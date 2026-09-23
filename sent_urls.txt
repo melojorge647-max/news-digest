@@ -1,5 +1,3 @@
-2026-09-19T13:56:24.248589+00:00	https://www.searchenginejournal.com/seo-pulse-google-ai-payment-pilot-search-profiles-at-10000/589849/
-2026-09-19T13:56:24.248589+00:00	https://www.semrush.com/blog/agentic-seo/
 2026-09-20T01:42:38.056920+00:00	https://ppchero.com/proving-the-value-of-paid-search-with-incrementality-testing/
 2026-09-21T01:43:46.689857+00:00	https://www.socialmediaexaminer.com/meta-wants-to-run-more-of-your-marketing-but-should-they/
 2026-09-21T16:30:17.021927+00:00	https://wordpress.org/news/2026/09/wordpress-7-1-1-maintenance-and-security-release/
@@ -24,3 +22,13 @@
 2026-09-22T15:01:14.167042+00:00	https://www.searchenginejournal.com/customer-lifecycle-goals-the-good-the-bad-the-ugly/588192/
 2026-09-22T15:01:14.167042+00:00	https://www.semrush.com/blog/google-launches-ai-contribution-pilot/
 2026-09-22T15:01:14.167042+00:00	https://digiday.com/media/comscore-data-shows-how-ai-discovery-is-splintering-beyond-chatgpt/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/can-you-leave-anonymous-reviews-on-google/
+2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/googles-new-diversity-update/
+2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/temporarily-closed-google-business-profile/
+2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/how-companies-remove-bad-reviews-from-google/
+2026-09-23T01:50:01.705482+00:00	https://www.socialmediaexaminer.com/how-to-create-pro-quality-ai-videos-with-gemini-omni/
+2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/hiding-address-google-business-ranking/
+2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/embed-google-maps/
+2026-09-23T01:50:01.705482+00:00	https://www.searchenginejournal.com/which-data-sources-should-you-care-about-for-ai-search/590086/
+2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/google-business-review-extortion-scam-how-to-fight-back/
+2026-09-23T01:50:01.705482+00:00	https://digiday.com/announcement/awards/polyai-taboola-contentful-and-docusign-are-2026-digiday-technology-awards-winners/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
