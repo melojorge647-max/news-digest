@@ -37,3 +37,5 @@
 2026-09-23T15:05:15.268620+00:00	https://wptavern.com/podcast/234-k-adam-white-on-migrating-to-blocks-with-artisanal-care-and-enterprise-efficiency
 2026-09-23T15:05:15.268620+00:00	https://www.adweek.com/commerce/doordash-and-instacart-are-giving-brands-new-ways-to-see-whats-actually-on-retailers-shelves/
 2026-09-23T15:05:15.268620+00:00	https://www.searchenginejournal.com/baidu-now-measures-ai-citations-heres-what-seos-should-and-shouldnt-read-into-it/590276/
+2026-09-24T01:40:15.419452+00:00	https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/
+2026-09-24T01:40:15.419452+00:00	https://www.sterlingsky.ca/local-guides-google-reviews/
