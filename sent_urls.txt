@@ -1,4 +1,3 @@
-2026-09-21T01:43:46.689857+00:00	https://www.socialmediaexaminer.com/meta-wants-to-run-more-of-your-marketing-but-should-they/
 2026-09-21T16:30:17.021927+00:00	https://wordpress.org/news/2026/09/wordpress-7-1-1-maintenance-and-security-release/
 2026-09-21T16:30:17.021927+00:00	https://martech.org/your-site-migration-needs-a-paid-search-playbook/
 2026-09-21T16:30:17.021927+00:00	https://martech.org/building-an-ai-governance-framework-for-marketing/
@@ -39,3 +38,7 @@
 2026-09-23T15:05:15.268620+00:00	https://www.searchenginejournal.com/baidu-now-measures-ai-citations-heres-what-seos-should-and-shouldnt-read-into-it/590276/
 2026-09-24T01:40:15.419452+00:00	https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/
 2026-09-24T01:40:15.419452+00:00	https://www.sterlingsky.ca/local-guides-google-reviews/
+2026-09-24T15:14:37.169687+00:00	https://www.socialmediaexaminer.com/why-unpolished-reels-win-an-instagram-growth-strategy-for-business/
+2026-09-24T15:14:37.169687+00:00	https://www.searchenginejournal.com/google-search-decline-publishers-chartbeat/590681/
+2026-09-24T15:14:37.169687+00:00	https://www.searchenginejournal.com/search-console-uses-block-flattening-for-aios-forget-position-focus-on-outcomes/589582/
+2026-09-24T15:14:37.169687+00:00	https://www.searchenginejournal.com/google-search-console-multimodal-filter/590781/
