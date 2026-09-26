@@ -1,12 +1,3 @@
-2026-09-22T15:01:14.167042+00:00	https://wordpress.org/news/2026/09/wordpress-7-1-2-release/
-2026-09-22T15:01:14.167042+00:00	https://www.nearmedia.co/ep-274-why-position-one-doesnt-exist-in-local-anymore-brighton-seo-recap/
-2026-09-22T15:01:14.167042+00:00	https://martech.org/when-flat-marketing-budgets-threaten-growth/
-2026-09-22T15:01:14.167042+00:00	https://www.searchenginejournal.com/fiverr-survey-search-freelancers-geo-demand/590403/
-2026-09-22T15:01:14.167042+00:00	https://www.searchenginejournal.com/google-analytics-include-hostname-filters/590336/
-2026-09-22T15:01:14.167042+00:00	https://www.socialmediaexaminer.com/youtube-performance-analysis-facebook-ads-changes-and-industry-news/
-2026-09-22T15:01:14.167042+00:00	https://www.searchenginejournal.com/customer-lifecycle-goals-the-good-the-bad-the-ugly/588192/
-2026-09-22T15:01:14.167042+00:00	https://www.semrush.com/blog/google-launches-ai-contribution-pilot/
-2026-09-22T15:01:14.167042+00:00	https://digiday.com/media/comscore-data-shows-how-ai-discovery-is-splintering-beyond-chatgpt/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/can-you-leave-anonymous-reviews-on-google/
 2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/googles-new-diversity-update/
 2026-09-23T01:50:01.705482+00:00	https://www.sterlingsky.ca/temporarily-closed-google-business-profile/
@@ -38,3 +29,9 @@
 2026-09-25T15:20:25.469860+00:00	https://www.sterlingsky.ca/top-reasons-google-my-business-suspended-your-listing/
 2026-09-25T15:20:25.469860+00:00	https://www.wordstream.com/blog/customer-language-in-marketing
 2026-09-25T15:20:25.469860+00:00	https://www.searchenginejournal.com/google-ai-overviews-have-more-links-but-not-all-reach-the-web/590762/
+2026-09-26T02:02:58.633382+00:00	https://www.semrush.com/blog/google-launches-ai-contribution-pilot/
+2026-09-26T02:02:58.633382+00:00	https://www.sterlingsky.ca/google-business-profile-virtual-office-guidelines/
+2026-09-26T02:02:58.633382+00:00	https://wordpress.org/news/2026/09/wordpress-7-1-2-release/
+2026-09-26T02:02:58.633382+00:00	https://www.sterlingsky.ca/review-gating-is-now-against-the-google-my-business-guidelines/
+2026-09-26T02:02:58.633382+00:00	https://www.sterlingsky.ca/how-long-title-tags-help-with-ranking-on-google/
+2026-09-26T02:02:58.633382+00:00	https://www.socialmediaexaminer.com/youtube-performance-analysis-facebook-ads-changes-and-industry-news/
