@@ -23,3 +23,6 @@
 2026-09-30T16:26:11.091380+00:00	https://www.searchenginejournal.com/wikipedia-podcasts-reddit-now-drive-ai-citations-ask-your-pr-team-how-they-did-it/590994/
 2026-09-30T16:26:11.091380+00:00	https://www.semrush.com/blog/aeo-vs-seo/
 2026-09-30T16:26:11.091380+00:00	https://www.searchenginejournal.com/google-analytics-app-conversions-cross-channel-reports/591558/
+2026-10-01T02:28:50.047123+00:00	https://www.searchenginejournal.com/using-local-ai-compute-to-reduce-reliance-on-frontier-models/591047/
+2026-10-01T02:28:50.047123+00:00	https://digiday.com/sponsored/how-interconnectivity-is-unlocking-enhanced-cross-channel-performance/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-01T02:28:50.047123+00:00	https://www.adweek.com/programmatic/runways-ai-video-agent-creates-and-measures-ads-across-platforms/
