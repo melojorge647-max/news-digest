@@ -1,11 +1,3 @@
-2026-10-05T19:19:54.429545+00:00	https://www.searchenginejournal.com/what-to-expect-from-googles-next-search-ranking-update/591928/
-2026-10-05T19:19:54.429545+00:00	https://www.semrush.com/blog/what-is-local-seo/
-2026-10-05T19:19:54.429545+00:00	https://www.searchenginejournal.com/how-to-build-a-content-distribution-system-that-compounds/590545/
-2026-10-06T03:21:12.265634+00:00	https://www.searchenginejournal.com/googles-mueller-says-ai-crawlers-access-sitemaps-rss-in-his-logs/592012/
-2026-10-06T03:21:12.265634+00:00	https://martech.org/b2b-marketing-doesnt-have-an-roi-problem-it-has-an-evidence-problem/
-2026-10-06T03:21:12.265634+00:00	https://ppchero.com/landing-page-best-practices-2/
-2026-10-06T03:21:12.265634+00:00	https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/
-2026-10-06T03:21:12.265634+00:00	https://www.searchenginejournal.com/google-is-fighting-serp-tracking-ai-agents-may-make-it-worse/592000/
 2026-10-06T16:51:04.074711+00:00	https://www.wordstream.com/blog/does-ranking-matter-in-seo
 2026-10-06T16:51:04.074711+00:00	https://www.socialmediaexaminer.com/claude-design-how-to-create-on-brand-visuals-with-ai/
 2026-10-07T02:42:48.684155+00:00	https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/
@@ -21,3 +13,6 @@
 2026-10-08T17:25:52.854746+00:00	https://www.wordstream.com/blog/competitive-conquesting-google-ads
 2026-10-09T03:06:45.672658+00:00	https://www.adweek.com/convergent-tv/jay-askinasi-to-lead-skydance-ad-sales-wbd-ad-leaders-exit-after-merger/
 2026-10-09T03:06:45.672658+00:00	https://www.nearmedia.co/ep-277-correcting-the-machine-citation-labs-on-the-six-layers-of-ai-visibility-part-1/
+2026-10-09T17:02:38.512470+00:00	https://www.semrush.com/blog/types-of-keywords-commercial-informational-navigational-transactional/
+2026-10-09T17:02:38.512470+00:00	https://digiday.com/media/as-creators-increasingly-move-into-hollywood-deal-terms-can-put-their-ip-at-risk/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-09T17:02:38.512470+00:00	https://www.adweek.com/creativity/ads-of-the-week-12-campaigns-that-caught-our-eye-from-wet-ones-to-ikea/
