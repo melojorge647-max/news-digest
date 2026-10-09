@@ -19,3 +19,5 @@
 2026-10-07T17:27:40.282175+00:00	https://martech.org/when-marketing-automation-moves-too-fast/
 2026-10-08T17:25:52.854746+00:00	https://digiday.com/media-buying/heineken-aims-to-serve-up-outcomes-with-mixed-attention-and-brand-awareness-approach/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-08T17:25:52.854746+00:00	https://www.wordstream.com/blog/competitive-conquesting-google-ads
+2026-10-09T03:06:45.672658+00:00	https://www.adweek.com/convergent-tv/jay-askinasi-to-lead-skydance-ad-sales-wbd-ad-leaders-exit-after-merger/
+2026-10-09T03:06:45.672658+00:00	https://www.nearmedia.co/ep-277-correcting-the-machine-citation-labs-on-the-six-layers-of-ai-visibility-part-1/
