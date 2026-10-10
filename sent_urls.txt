@@ -1,5 +1,3 @@
-2026-10-07T02:42:48.684155+00:00	https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/
-2026-10-07T02:42:48.684155+00:00	https://martech.org/how-to-strengthen-your-brand-story-to-improve-aeo-visibility/
 2026-10-07T17:27:40.282175+00:00	https://martech.org/classic-marketing-automation-is-dead-whats-next/
 2026-10-07T17:27:40.282175+00:00	https://www.wordstream.com/blog/conversion-rate-benchmarks
 2026-10-07T17:27:40.282175+00:00	https://wptavern.com/podcast/236-brian-coords-on-wordpress-as-the-source-of-truth
@@ -16,3 +14,4 @@
 2026-10-09T17:02:38.512470+00:00	https://www.adweek.com/creativity/ads-of-the-week-12-campaigns-that-caught-our-eye-from-wet-ones-to-ikea/
 2026-10-10T02:47:49.188450+00:00	https://www.wordstream.com/blog/does-ranking-matter-in-seo
 2026-10-10T02:47:49.188450+00:00	https://www.socialmediaexaminer.com/claude-design-how-to-create-on-brand-visuals-with-ai/
+2026-10-10T15:53:51.808610+00:00	https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/
