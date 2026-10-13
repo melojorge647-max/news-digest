@@ -1,5 +1,3 @@
-2026-10-10T02:47:49.188450+00:00	https://www.wordstream.com/blog/does-ranking-matter-in-seo
-2026-10-10T02:47:49.188450+00:00	https://www.socialmediaexaminer.com/claude-design-how-to-create-on-brand-visuals-with-ai/
 2026-10-10T15:53:51.808610+00:00	https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/
 2026-10-11T02:14:02.420710+00:00	https://www.wordstream.com/blog/conversion-rate-benchmarks
 2026-10-11T02:14:02.420710+00:00	https://www.semrush.com/blog/track-ai-citation-sources-semrush/
@@ -18,3 +16,8 @@
 2026-10-13T03:55:10.018030+00:00	https://www.adweek.com/brand-marketing/breaking-down-the-new-customer-acquisition-playbook/
 2026-10-13T03:55:10.018030+00:00	https://www.semrush.com/blog/types-of-keywords-commercial-informational-navigational-transactional/
 2026-10-13T03:55:10.018030+00:00	https://www.searchenginejournal.com/all-in-one-seo-wordpress-plugin-vulnerable-to-two-exploits/592719/
+2026-10-13T17:39:48.877722+00:00	https://www.searchenginejournal.com/test-like-a-scientist-mistakes-that-undermine-your-seo-experiments/591411/
+2026-10-13T17:39:48.877722+00:00	https://www.socialmediaexaminer.com/ai-landing-pages-from-project-plan-to-published-page/
+2026-10-13T17:39:48.877722+00:00	https://www.searchenginejournal.com/lost-in-translation-how-language-changes-which-brand-ai-recommends/591585/
+2026-10-13T17:39:48.877722+00:00	https://digiday.com/announcement/awards/amazon-news-politico-and-warner-bros-discovery-are-finalists-for-the-2026-digiday-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-13T17:39:48.877722+00:00	https://digiday.com/podcasts/media-buys-and-mega-partnerships-how-the-creator-economy-is-splitting-in-two/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
