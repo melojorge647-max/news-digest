@@ -1,4 +1,3 @@
-2026-10-10T15:53:51.808610+00:00	https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/
 2026-10-11T02:14:02.420710+00:00	https://www.wordstream.com/blog/conversion-rate-benchmarks
 2026-10-11T02:14:02.420710+00:00	https://www.semrush.com/blog/track-ai-citation-sources-semrush/
 2026-10-11T02:14:02.420710+00:00	https://wptavern.com/podcast/236-brian-coords-on-wordpress-as-the-source-of-truth
@@ -21,3 +20,6 @@
 2026-10-13T17:39:48.877722+00:00	https://www.searchenginejournal.com/lost-in-translation-how-language-changes-which-brand-ai-recommends/591585/
 2026-10-13T17:39:48.877722+00:00	https://digiday.com/announcement/awards/amazon-news-politico-and-warner-bros-discovery-are-finalists-for-the-2026-digiday-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-13T17:39:48.877722+00:00	https://digiday.com/podcasts/media-buys-and-mega-partnerships-how-the-creator-economy-is-splitting-in-two/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-14T02:10:48.644685+00:00	https://www.adweek.com/tvnewser/former-tv-journalists-find-success-going-the-independent-route/
+2026-10-14T02:10:48.644685+00:00	https://ppchero.com/beyond-search-winning-local-customers-on-display-demand-gen/
+2026-10-14T02:10:48.644685+00:00	https://www.searchenginejournal.com/google-experimental-soft-navigation-metrics-crux/592820/
