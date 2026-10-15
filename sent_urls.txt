@@ -28,3 +28,4 @@
 2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/why-seo-isnt-enough-anymore-and-why-thats-a-good-thing/592601/
 2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/how-to-help-ai-shopping-agents-find-your-products/592677/
 2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/google-ads-introduces-channel-prioritization-and-budget-allocation/592833/
+2026-10-15T01:52:39.023490+00:00	https://www.searchenginejournal.com/google-launches-a-video-series-for-odd-technical-seo-questions/592952/
