@@ -11,7 +11,7 @@ from email.utils import parsedate_to_datetime
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-RECIPIENTS = ["melojorge647@gmail.com", "jorge@jmelomedia.com", "info@jmelomedia.com", "camrynalvares03@gmail.com"]
+RECIPIENTS = ["melojorge647@gmail.com", "jorge@jmelomedia.com", "info@jmelomedia.com", "camrynalvares03@gmail.com", "camryn.alvares@gmail.com"]
 
 GITHUB_REPO   = "melojorge647-max/news-digest"
 SENT_FILE     = "sent_urls.txt"
