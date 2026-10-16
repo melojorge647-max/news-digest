@@ -1,12 +1,3 @@
-2026-10-12T19:52:27.799758+00:00	https://www.wordstream.com/blog/how-to-track-conversions-in-google-ads
-2026-10-12T19:52:27.799758+00:00	https://www.searchenginejournal.com/negative-signals-positive-intent-ppc-leads-hiding-in-cancel-searches/590734/
-2026-10-12T19:52:27.799758+00:00	https://www.searchenginejournal.com/seo-pulse-google-spam-update-crawl-timing-ranges/592469/
-2026-10-12T19:52:27.799758+00:00	https://www.searchenginejournal.com/google-explains-how-to-use-html-sitemaps-for-seo/592508/
-2026-10-12T19:52:27.799758+00:00	https://www.searchenginejournal.com/chatgpt-most-cited-sites-primary-sources-ahrefs/592682/
-2026-10-13T03:55:10.018030+00:00	https://digiday.com/media/as-creators-increasingly-move-into-hollywood-deal-terms-can-put-their-ip-at-risk/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-10-13T03:55:10.018030+00:00	https://www.adweek.com/brand-marketing/breaking-down-the-new-customer-acquisition-playbook/
-2026-10-13T03:55:10.018030+00:00	https://www.semrush.com/blog/types-of-keywords-commercial-informational-navigational-transactional/
-2026-10-13T03:55:10.018030+00:00	https://www.searchenginejournal.com/all-in-one-seo-wordpress-plugin-vulnerable-to-two-exploits/592719/
 2026-10-13T17:39:48.877722+00:00	https://www.searchenginejournal.com/test-like-a-scientist-mistakes-that-undermine-your-seo-experiments/591411/
 2026-10-13T17:39:48.877722+00:00	https://www.socialmediaexaminer.com/ai-landing-pages-from-project-plan-to-published-page/
 2026-10-13T17:39:48.877722+00:00	https://www.searchenginejournal.com/lost-in-translation-how-language-changes-which-brand-ai-recommends/591585/
@@ -37,3 +28,7 @@
 2026-10-16T01:42:01.794516+00:00	https://www.searchenginejournal.com/google-universal-cart-store-handoff/593145/
 2026-10-16T01:42:01.794516+00:00	https://digiday.com/media/amazon-news-politico-and-warner-bros-discovery-are-finalists-for-the-2026-digiday-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-16T01:42:01.794516+00:00	https://www.searchenginejournal.com/ask-a-ppc-how-do-i-measure-and-attribute-when-clicks-are-no-longer-the-whole-story/591521/
+2026-10-16T14:55:11.814256+00:00	https://digiday.com/media/ownership-control-margins-the-brand-playbook-for-microseries-is-still-taking-shape/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-16T14:55:11.814256+00:00	https://digiday.com/marketing/ruggables-new-ad-spend-strategy-shifts-focus-to-shopmy-creators/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-16T14:55:11.814256+00:00	https://martech.org/email-marketings-history-can-guide-ai-governance/
+2026-10-16T14:55:11.814256+00:00	https://digiday.com/media/social-commerce-edges-past-seo-at-the-independent-for-the-first-time/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
