@@ -1,11 +1,3 @@
-2026-10-13T17:39:48.877722+00:00	https://www.searchenginejournal.com/test-like-a-scientist-mistakes-that-undermine-your-seo-experiments/591411/
-2026-10-13T17:39:48.877722+00:00	https://www.socialmediaexaminer.com/ai-landing-pages-from-project-plan-to-published-page/
-2026-10-13T17:39:48.877722+00:00	https://www.searchenginejournal.com/lost-in-translation-how-language-changes-which-brand-ai-recommends/591585/
-2026-10-13T17:39:48.877722+00:00	https://digiday.com/announcement/awards/amazon-news-politico-and-warner-bros-discovery-are-finalists-for-the-2026-digiday-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-10-13T17:39:48.877722+00:00	https://digiday.com/podcasts/media-buys-and-mega-partnerships-how-the-creator-economy-is-splitting-in-two/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-10-14T02:10:48.644685+00:00	https://www.adweek.com/tvnewser/former-tv-journalists-find-success-going-the-independent-route/
-2026-10-14T02:10:48.644685+00:00	https://ppchero.com/beyond-search-winning-local-customers-on-display-demand-gen/
-2026-10-14T02:10:48.644685+00:00	https://www.searchenginejournal.com/google-experimental-soft-navigation-metrics-crux/592820/
 2026-10-14T15:13:05.833823+00:00	https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/
 2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/google-explains-how-they-rank-pdfs-and-what-it-means-for-seo-geo/592902/
 2026-10-14T15:13:05.833823+00:00	https://martech.org/marketing-has-outgrown-the-organization-built-to-run-it/
@@ -32,3 +24,5 @@
 2026-10-16T14:55:11.814256+00:00	https://digiday.com/marketing/ruggables-new-ad-spend-strategy-shifts-focus-to-shopmy-creators/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-16T14:55:11.814256+00:00	https://martech.org/email-marketings-history-can-guide-ai-governance/
 2026-10-16T14:55:11.814256+00:00	https://digiday.com/media/social-commerce-edges-past-seo-at-the-independent-for-the-first-time/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-17T13:47:48.002454+00:00	https://www.searchenginejournal.com/seo-pulse-rank-tracker-data-chatgpt-tags-ai-search-links/593171/
+2026-10-17T13:47:48.002454+00:00	https://wptavern.com/podcast/237-robert-abela-on-wordpress-security-and-the-battle-against-ai-threats/
