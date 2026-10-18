@@ -1,13 +1,3 @@
-2026-10-14T15:13:05.833823+00:00	https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/
-2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/google-explains-how-they-rank-pdfs-and-what-it-means-for-seo-geo/592902/
-2026-10-14T15:13:05.833823+00:00	https://martech.org/marketing-has-outgrown-the-organization-built-to-run-it/
-2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/your-store-is-agent-ready-by-default-we-tested-122-shopify-stores/591767/
-2026-10-14T15:13:05.833823+00:00	https://wptavern.com/podcast/237-robert-abela-on-wordpress-security-and-the-battle-against-ai-threats
-2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/analysis-google-is-poisoning-search-results-for-rank-trackers/592873/
-2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/why-seo-isnt-enough-anymore-and-why-thats-a-good-thing/592601/
-2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/how-to-help-ai-shopping-agents-find-your-products/592677/
-2026-10-14T15:13:05.833823+00:00	https://www.searchenginejournal.com/google-ads-introduces-channel-prioritization-and-budget-allocation/592833/
-2026-10-15T01:52:39.023490+00:00	https://www.searchenginejournal.com/google-launches-a-video-series-for-odd-technical-seo-questions/592952/
 2026-10-15T15:06:44.983323+00:00	https://www.searchenginejournal.com/serps-stop-being-the-default-between-2028-2030/592619/
 2026-10-15T15:06:44.983323+00:00	https://www.semrush.com/blog/semrush-seo-audit-with-claude/
 2026-10-15T15:06:44.983323+00:00	https://www.searchenginejournal.com/coywolf-pack-emdash-seo-plugin-makes-sites-absurdly-fast/593026/
@@ -26,3 +16,4 @@
 2026-10-16T14:55:11.814256+00:00	https://digiday.com/media/social-commerce-edges-past-seo-at-the-independent-for-the-first-time/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-17T13:47:48.002454+00:00	https://www.searchenginejournal.com/seo-pulse-rank-tracker-data-chatgpt-tags-ai-search-links/593171/
 2026-10-17T13:47:48.002454+00:00	https://wptavern.com/podcast/237-robert-abela-on-wordpress-security-and-the-battle-against-ai-threats/
+2026-10-18T14:02:45.451318+00:00	https://www.searchenginejournal.com/openais-api-only-partly-matched-chatgpts-citations-paper-finds/593304/
