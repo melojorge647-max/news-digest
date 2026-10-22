@@ -1,6 +1,3 @@
-2026-10-19T01:48:09.576404+00:00	https://www.socialmediaexaminer.com/making-instagram-reels-easier-faster-scalable/
-2026-10-19T01:48:09.576404+00:00	https://www.semrush.com/blog/semrush-seo-audit-with-claude/
-2026-10-19T01:48:09.576404+00:00	https://ppchero.com/your-roas-went-up-where-did-it-come-from/
 2026-10-19T17:01:07.927467+00:00	https://www.adweek.com/brand-marketing/brandweek-2026-does-roas-tell-the-whole-story-ft-jason-pirock/
 2026-10-20T02:08:38.775940+00:00	https://digiday.com/marketing/ruggables-new-ad-spend-strategy-shifts-focus-to-shopmy-creators/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-20T02:08:38.775940+00:00	https://martech.org/email-marketings-history-can-guide-ai-governance/
@@ -18,3 +15,7 @@
 2026-10-22T01:56:11.762233+00:00	https://sproutsocial.com/insights/sproutlink-vs-linktree/
 2026-10-22T01:56:11.762233+00:00	https://www.semrush.com/blog/semrush-vs-moz/
 2026-10-22T01:56:11.762233+00:00	https://www.adweek.com/commerce/kohls-brings-back-ellie-kemper-for-holiday-ad-campaign/
+2026-10-22T15:22:11.418673+00:00	https://www.socialmediaexaminer.com/the-secrets-of-human-behavior-applied-to-social-ads/
+2026-10-22T15:22:11.418673+00:00	https://ppchero.com/ai-wont-save-you-time-not-at-first-a-ppc-experts-ai-journey/
+2026-10-22T15:22:11.418673+00:00	https://www.socialmediaexaminer.com/task-automation-tips-ai-build-landing-pages-and-industry-news/
+2026-10-22T15:22:11.418673+00:00	https://www.semrush.com/blog/seo-at-scale/
