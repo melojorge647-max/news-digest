@@ -1,4 +1,3 @@
-2026-10-19T17:01:07.927467+00:00	https://www.adweek.com/brand-marketing/brandweek-2026-does-roas-tell-the-whole-story-ft-jason-pirock/
 2026-10-20T02:08:38.775940+00:00	https://digiday.com/marketing/ruggables-new-ad-spend-strategy-shifts-focus-to-shopmy-creators/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-20T02:08:38.775940+00:00	https://martech.org/email-marketings-history-can-guide-ai-governance/
 2026-10-20T02:08:38.775940+00:00	https://digiday.com/media/social-commerce-edges-past-seo-at-the-independent-for-the-first-time/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -19,3 +18,6 @@
 2026-10-22T15:22:11.418673+00:00	https://ppchero.com/ai-wont-save-you-time-not-at-first-a-ppc-experts-ai-journey/
 2026-10-22T15:22:11.418673+00:00	https://www.socialmediaexaminer.com/task-automation-tips-ai-build-landing-pages-and-industry-news/
 2026-10-22T15:22:11.418673+00:00	https://www.semrush.com/blog/seo-at-scale/
+2026-10-23T02:00:09.478423+00:00	https://www.nearmedia.co/ep-279-beyond-the-link-how-citation-labs-rebuilt-its-agency-for-ai-visibility-part-2/
+2026-10-23T02:00:09.478423+00:00	https://www.adweek.com/agencies/dentsu-creative-expands-scope-with-diageo-across-us-trade-and-shopper-marketing/
+2026-10-23T02:00:09.478423+00:00	https://www.adweek.com/media/advertisers-pull-meta-ads-that-had-unwanted-ai-glow-ups/
