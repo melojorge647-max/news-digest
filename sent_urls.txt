@@ -1,7 +1,3 @@
-2026-10-26T01:47:33.711127+00:00	https://ppchero.com/ai-wont-save-you-time-not-at-first-a-ppc-experts-ai-journey/
-2026-10-26T01:47:33.711127+00:00	https://www.socialmediaexaminer.com/task-automation-tips-ai-build-landing-pages-and-industry-news/
-2026-10-26T01:47:33.711127+00:00	https://www.socialmediaexaminer.com/the-secrets-of-human-behavior-applied-to-social-ads/
-2026-10-26T01:47:33.711127+00:00	https://www.semrush.com/blog/seo-at-scale/
 2026-10-26T16:49:13.866097+00:00	https://www.adweek.com/creativity/walmart-brings-the-muppets-and-walton-goggins-together-for-its-own-holiday-carol/
 2026-10-26T16:49:13.866097+00:00	https://www.semrush.com/blog/google-my-business/
 2026-10-26T16:49:13.866097+00:00	https://digiday.com/media-buying/midterm-political-spending-throws-spanner-into-regional-advertiser-holiday-plans/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -24,3 +20,6 @@
 2026-10-28T16:42:28.047973+00:00	https://www.nearmedia.co/review-removals-smb-misalignment-aeo-a-mistake-local-product-inventory-chatgpt-search/
 2026-10-28T16:42:28.047973+00:00	https://wptavern.com/podcast/239-remkus-de-vries-on-how-scanfully-2-0-is-making-wordpress-security-and-performance-monitoring-simpler/
 2026-10-29T02:55:41.566671+00:00	https://www.adweek.com/convergent-tv/comcast-advertising-reveals-insights-from-record-breaking-midterm-political-ad-spend/
+2026-10-29T16:58:33.900932+00:00	https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/
+2026-10-29T16:58:33.900932+00:00	https://digiday.com/media/the-times-of-london-is-gearing-up-to-test-macro-payments/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-29T16:58:33.900932+00:00	https://ppchero.com/the-ultimate-guide-to-ppc-acronyms/
