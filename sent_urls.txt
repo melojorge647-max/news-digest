@@ -1,7 +1,3 @@
-2026-10-26T16:49:13.866097+00:00	https://www.adweek.com/creativity/walmart-brings-the-muppets-and-walton-goggins-together-for-its-own-holiday-carol/
-2026-10-26T16:49:13.866097+00:00	https://www.semrush.com/blog/google-my-business/
-2026-10-26T16:49:13.866097+00:00	https://digiday.com/media-buying/midterm-political-spending-throws-spanner-into-regional-advertiser-holiday-plans/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-10-26T16:49:13.866097+00:00	https://digiday.com/marketing/salesforces-5-7-billion-braze-deal-puts-marketers-at-an-ecosystem-crossroads/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-27T02:27:02.774184+00:00	https://www.semrush.com/blog/google-adds-information-agents-and-universal-cart/
 2026-10-27T02:27:02.774184+00:00	https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/
 2026-10-27T02:27:02.774184+00:00	https://martech.org/why-organic-traffic-can-fall-while-revenue-stays-strong/
@@ -23,3 +19,7 @@
 2026-10-29T16:58:33.900932+00:00	https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/
 2026-10-29T16:58:33.900932+00:00	https://digiday.com/media/the-times-of-london-is-gearing-up-to-test-macro-payments/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-29T16:58:33.900932+00:00	https://ppchero.com/the-ultimate-guide-to-ppc-acronyms/
+2026-10-30T03:00:07.400043+00:00	https://www.nearmedia.co/ep-280-why-google-deletes-2-of-reviews-siri-search-googles-new-in-stock-check-its-ad-revenue-miss/
+2026-10-30T03:00:07.400043+00:00	https://www.adweek.com/brand-marketing/your-marketing-playbook-expired-last-week-ft-erin-oles-of-salesforce/
+2026-10-30T03:00:07.400043+00:00	https://www.semrush.com/blog/google-my-business/
+2026-10-30T03:00:07.400043+00:00	https://www.sterlingsky.ca/google-keeps-updating-changing-listing/
