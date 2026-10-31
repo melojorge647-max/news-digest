@@ -1,9 +1,3 @@
-2026-10-27T15:54:35.999318+00:00	https://www.wordstream.com/blog/google-ads-optimization-mistakes
-2026-10-27T15:54:35.999318+00:00	https://www.semrush.com/blog/free-seo-tools/
-2026-10-27T15:54:35.999318+00:00	https://wordpress.org/news/2026/10/wordpress-7-2-beta-2/
-2026-10-27T15:54:35.999318+00:00	https://www.semrush.com/blog/poisoned-serps/
-2026-10-27T15:54:35.999318+00:00	https://ppchero.com/get-started-with-microsoft-advertising/
-2026-10-27T15:54:35.999318+00:00	https://www.socialmediaexaminer.com/280684-2/
 2026-10-28T02:35:55.216426+00:00	https://www.sterlingsky.ca/the-state-of-local-seo-in-2026/
 2026-10-28T02:35:55.216426+00:00	https://www.sterlingsky.ca/local-seo-audit-checklist/
 2026-10-28T16:42:28.047973+00:00	https://digiday.com/marketing/how-lush-quit-social-media-ads-and-still-drove-growth/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -23,3 +17,10 @@
 2026-10-30T16:43:42.546904+00:00	https://www.adweek.com/tvnewser/week-of-oct-19-2026-cable-news-ratings/
 2026-10-30T16:43:42.546904+00:00	https://digiday.com/media-buying/apples-safari-block-hands-wpp-a-fresh-case-for-infosum/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-10-30T16:43:42.546904+00:00	https://digiday.com/marketing/from-celsius-to-maybelline-more-brands-are-lining-up-for-the-nyc-marathons-50th-anniversary/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-10-31T02:45:19.817308+00:00	https://www.wordstream.com/blog/google-ads-optimization-mistakes
+2026-10-31T02:45:19.817308+00:00	https://www.semrush.com/blog/free-seo-tools/
+2026-10-31T02:45:19.817308+00:00	https://wordpress.org/news/2026/10/wordpress-7-2-beta-2/
+2026-10-31T02:45:19.817308+00:00	https://www.semrush.com/blog/poisoned-serps/
+2026-10-31T02:45:19.817308+00:00	https://www.socialmediaexaminer.com/280684-2/
+2026-10-31T02:45:19.817308+00:00	https://martech.org/more-paid-social-ads-wont-fix-a-creative-problem/
+2026-10-31T02:45:19.817308+00:00	https://ppchero.com/get-started-with-microsoft-advertising/
