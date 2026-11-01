@@ -1,11 +1,3 @@
-2026-10-28T02:35:55.216426+00:00	https://www.sterlingsky.ca/the-state-of-local-seo-in-2026/
-2026-10-28T02:35:55.216426+00:00	https://www.sterlingsky.ca/local-seo-audit-checklist/
-2026-10-28T16:42:28.047973+00:00	https://digiday.com/marketing/how-lush-quit-social-media-ads-and-still-drove-growth/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-10-28T16:42:28.047973+00:00	https://www.adweek.com/programmatic/shopmy-taps-ex-trade-desk-vet-jed-dederick-as-cro-to-scale-creator-commerce/
-2026-10-28T16:42:28.047973+00:00	https://www.adweek.com/convergent-tv/la28-reveals-star-powered-slogan-set-to-shine-across-olympics-marketing/
-2026-10-28T16:42:28.047973+00:00	https://martech.org/marketing-automation-is-dead-long-live-marketing-automation/
-2026-10-28T16:42:28.047973+00:00	https://www.nearmedia.co/review-removals-smb-misalignment-aeo-a-mistake-local-product-inventory-chatgpt-search/
-2026-10-28T16:42:28.047973+00:00	https://wptavern.com/podcast/239-remkus-de-vries-on-how-scanfully-2-0-is-making-wordpress-security-and-performance-monitoring-simpler/
 2026-10-29T02:55:41.566671+00:00	https://www.adweek.com/convergent-tv/comcast-advertising-reveals-insights-from-record-breaking-midterm-political-ad-spend/
 2026-10-29T16:58:33.900932+00:00	https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/
 2026-10-29T16:58:33.900932+00:00	https://digiday.com/media/the-times-of-london-is-gearing-up-to-test-macro-payments/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -24,3 +16,5 @@
 2026-10-31T02:45:19.817308+00:00	https://www.socialmediaexaminer.com/280684-2/
 2026-10-31T02:45:19.817308+00:00	https://martech.org/more-paid-social-ads-wont-fix-a-creative-problem/
 2026-10-31T02:45:19.817308+00:00	https://ppchero.com/get-started-with-microsoft-advertising/
+2026-11-01T02:38:55.366554+00:00	https://wptavern.com/podcast/239-remkus-de-vries-on-how-scanfully-2-0-is-making-wordpress-security-and-performance-monitoring-simpler/
+2026-11-01T02:38:55.366554+00:00	https://www.nearmedia.co/review-removals-smb-misalignment-aeo-a-mistake-local-product-inventory-chatgpt-search/
