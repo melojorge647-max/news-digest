@@ -1,13 +1,3 @@
-2026-10-30T16:43:42.546904+00:00	https://www.adweek.com/tvnewser/week-of-oct-19-2026-cable-news-ratings/
-2026-10-30T16:43:42.546904+00:00	https://digiday.com/media-buying/apples-safari-block-hands-wpp-a-fresh-case-for-infosum/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-10-30T16:43:42.546904+00:00	https://digiday.com/marketing/from-celsius-to-maybelline-more-brands-are-lining-up-for-the-nyc-marathons-50th-anniversary/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-10-31T02:45:19.817308+00:00	https://www.wordstream.com/blog/google-ads-optimization-mistakes
-2026-10-31T02:45:19.817308+00:00	https://www.semrush.com/blog/free-seo-tools/
-2026-10-31T02:45:19.817308+00:00	https://wordpress.org/news/2026/10/wordpress-7-2-beta-2/
-2026-10-31T02:45:19.817308+00:00	https://www.semrush.com/blog/poisoned-serps/
-2026-10-31T02:45:19.817308+00:00	https://www.socialmediaexaminer.com/280684-2/
-2026-10-31T02:45:19.817308+00:00	https://martech.org/more-paid-social-ads-wont-fix-a-creative-problem/
-2026-10-31T02:45:19.817308+00:00	https://ppchero.com/get-started-with-microsoft-advertising/
 2026-11-01T02:38:55.366554+00:00	https://wptavern.com/podcast/239-remkus-de-vries-on-how-scanfully-2-0-is-making-wordpress-security-and-performance-monitoring-simpler/
 2026-11-01T02:38:55.366554+00:00	https://www.nearmedia.co/review-removals-smb-misalignment-aeo-a-mistake-local-product-inventory-chatgpt-search/
 2026-11-02T02:45:53.459259+00:00	https://ppchero.com/the-ultimate-guide-to-ppc-acronyms/
@@ -15,3 +5,9 @@
 2026-11-02T20:24:19.720551+00:00	https://digiday.com/marketing/google-search-loses-its-free-pass-with-buyers/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-02T20:24:19.720551+00:00	https://www.adweek.com/convergent-tv/midterm-elections-murdoch-fox-news-ratings-struggles/
 2026-11-02T20:24:19.720551+00:00	https://www.wordstream.com/blog/hidden-google-ads-settings
+2026-11-03T17:54:28.866915+00:00	https://www.semrush.com/blog/google-analytics-keywords/
+2026-11-03T17:54:28.866915+00:00	https://www.adweek.com/commerce/shopify-stores-face-suspected-ai-driven-attacks/
+2026-11-03T17:54:28.866915+00:00	https://www.socialmediaexaminer.com/meta-ads-testing-youtube-analysis-and-industry-news/
+2026-11-03T17:54:28.866915+00:00	https://www.adweek.com/brand-marketing/2026-adweek-innovator-50-building-relevance-for-tomorrow/
+2026-11-03T17:54:28.866915+00:00	https://ppchero.com/the-2026-holiday-ppc-guide-for-b2b-saas/
+2026-11-03T17:54:28.866915+00:00	https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/
