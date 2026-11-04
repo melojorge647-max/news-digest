@@ -1,5 +1,3 @@
-2026-11-01T02:38:55.366554+00:00	https://wptavern.com/podcast/239-remkus-de-vries-on-how-scanfully-2-0-is-making-wordpress-security-and-performance-monitoring-simpler/
-2026-11-01T02:38:55.366554+00:00	https://www.nearmedia.co/review-removals-smb-misalignment-aeo-a-mistake-local-product-inventory-chatgpt-search/
 2026-11-02T02:45:53.459259+00:00	https://ppchero.com/the-ultimate-guide-to-ppc-acronyms/
 2026-11-02T02:45:53.459259+00:00	https://digiday.com/media/the-times-of-london-is-gearing-up-to-test-macro-payments/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-02T20:24:19.720551+00:00	https://digiday.com/marketing/google-search-loses-its-free-pass-with-buyers/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -12,3 +10,7 @@
 2026-11-03T17:54:28.866915+00:00	https://ppchero.com/the-2026-holiday-ppc-guide-for-b2b-saas/
 2026-11-03T17:54:28.866915+00:00	https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/
 2026-11-04T03:20:25.912078+00:00	https://www.adweek.com/brand-marketing/from-roas-to-real-results-benoit-vatere-and-bryan-leach-on-the-future-of-performance-marketing/
+2026-11-04T18:03:28.496945+00:00	https://digiday.com/sponsored/wtf-scene-level-targeting-ctv/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-11-04T18:03:28.496945+00:00	https://sproutsocial.com/insights/social-intelligence-summit-2026-recap/
+2026-11-04T18:03:28.496945+00:00	https://martech.org/how-to-fund-full-funnel-retail-media-across-three-budgets/
+2026-11-04T18:03:28.496945+00:00	https://wptavern.com/podcast/240-martin-schmidt-on-building-partnerships-between-wordpress-product-makers-and-hosting-companies/
