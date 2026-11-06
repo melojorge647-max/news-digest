@@ -1,8 +1,3 @@
-2026-11-02T02:45:53.459259+00:00	https://ppchero.com/the-ultimate-guide-to-ppc-acronyms/
-2026-11-02T02:45:53.459259+00:00	https://digiday.com/media/the-times-of-london-is-gearing-up-to-test-macro-payments/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-11-02T20:24:19.720551+00:00	https://digiday.com/marketing/google-search-loses-its-free-pass-with-buyers/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-11-02T20:24:19.720551+00:00	https://www.adweek.com/convergent-tv/midterm-elections-murdoch-fox-news-ratings-struggles/
-2026-11-02T20:24:19.720551+00:00	https://www.wordstream.com/blog/hidden-google-ads-settings
 2026-11-03T17:54:28.866915+00:00	https://www.semrush.com/blog/google-analytics-keywords/
 2026-11-03T17:54:28.866915+00:00	https://www.adweek.com/commerce/shopify-stores-face-suspected-ai-driven-attacks/
 2026-11-03T17:54:28.866915+00:00	https://www.socialmediaexaminer.com/meta-ads-testing-youtube-analysis-and-industry-news/
@@ -15,3 +10,4 @@
 2026-11-04T18:03:28.496945+00:00	https://martech.org/how-to-fund-full-funnel-retail-media-across-three-budgets/
 2026-11-04T18:03:28.496945+00:00	https://wptavern.com/podcast/240-martin-schmidt-on-building-partnerships-between-wordpress-product-makers-and-hosting-companies/
 2026-11-05T03:45:43.255158+00:00	https://www.semrush.com/blog/how-to-track-your-chatgpt-visibility/
+2026-11-06T17:33:20.714031+00:00	https://digiday.com/media-buying/digiday-media-buying-summit-october-recap-assessing-the-ups-and-challenges-of-ais-spread-across-the-media-agency-landscape/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
