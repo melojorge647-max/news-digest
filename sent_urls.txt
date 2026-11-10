@@ -1,4 +1,3 @@
-2026-11-06T17:33:20.714031+00:00	https://digiday.com/media-buying/digiday-media-buying-summit-october-recap-assessing-the-ups-and-challenges-of-ais-spread-across-the-media-agency-landscape/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-07T03:14:45.028396+00:00	https://www.socialmediaexaminer.com/meta-ads-testing-youtube-analysis-and-industry-news/
 2026-11-07T03:14:45.028396+00:00	https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/
 2026-11-07T03:14:45.028396+00:00	https://ppchero.com/the-2026-holiday-ppc-guide-for-b2b-saas/
@@ -8,3 +7,5 @@
 2026-11-09T20:50:41.491592+00:00	https://wordpress.org/news/2026/11/wp-credits-reaches-50/
 2026-11-09T20:50:41.491592+00:00	https://digiday.com/marketing/ogilvy-and-caa-launch-partnership-to-clone-celebrity-talent-for-ai-ads/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-09T20:50:41.491592+00:00	https://www.semrush.com/blog/future-of-seo/
+2026-11-10T04:48:15.105339+00:00	https://www.adweek.com/tvnewser/week-of-oct-26-2026-evening-news-ratings/
+2026-11-10T04:48:15.105339+00:00	https://www.adweek.com/tvnewser/week-of-oct-26-2026-cable-news-ratings/
