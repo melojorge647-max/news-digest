@@ -11,3 +11,4 @@
 2026-11-10T17:57:25.830793+00:00	https://www.adweek.com/brand-marketing/beyond-the-cookie-how-ai-is-transforming-marketing-performance/
 2026-11-10T17:57:25.830793+00:00	https://www.semrush.com/blog/semrush-vs-ahrefs/
 2026-11-10T17:57:25.830793+00:00	https://www.adweek.com/commerce/amid-holiday-commerce-push-reddit-tests-an-ai-powered-product-review-portal/
+2026-11-11T03:06:01.342255+00:00	https://www.adweek.com/convergent-tv/skydance-to-embrace-bundling-across-business-functions/
