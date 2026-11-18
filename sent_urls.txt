@@ -1,7 +1,3 @@
-2026-11-15T03:07:45.139233+00:00	https://wordpress.org/news/2026/11/wc-asia-2027-penang/
-2026-11-15T03:07:45.139233+00:00	https://ppchero.com/how-to-evaluate-performance-max-beyond-conversion-volume/
-2026-11-15T03:07:45.139233+00:00	https://www.semrush.com/blog/semrush-google-search-console/
-2026-11-15T03:07:45.139233+00:00	https://wptavern.com/podcast/241-tiffany-farriss-on-drupal-funding-community-and-a-shared-journey-with-wordpress/
 2026-11-15T17:15:41.818653+00:00	https://www.nearmedia.co/ep-282-small-businesses-think-google-doesnt-matter-their-customers-disagree/
 2026-11-16T03:13:48.096814+00:00	https://martech.org/marketing-automation-is-dead-long-live-marketing-automation/
 2026-11-16T03:13:48.096814+00:00	https://www.socialmediaexaminer.com/whats-next-for-facebook-4-changes-businesses-cant-ignore/
@@ -21,3 +17,6 @@
 2026-11-17T19:13:36.461325+00:00	https://www.semrush.com/blog/ai-overviews-are-taking-over-the-map-pack/
 2026-11-17T19:13:36.461325+00:00	https://sproutsocial.com/insights/brand-trust/
 2026-11-17T19:13:36.461325+00:00	https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-1/
+2026-11-18T18:53:33.414014+00:00	https://wptavern.com/podcast/242-mark-westguard-on-how-wordpress-adapts-to-rapid-change-the-dot-com-bubble-to-ai-hysteria/
+2026-11-18T18:53:33.414014+00:00	https://digiday.com/media-buying/wtf-is-a-unified-media-platform/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-11-18T18:53:33.414014+00:00	https://wordpress.org/news/2026/11/wordpress-7-1-5-release/
