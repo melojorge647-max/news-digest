@@ -1,13 +1,3 @@
-2026-11-16T20:33:12.160800+00:00	https://www.sterlingsky.ca/optimize-title-tag-for-better-click-through-rate-local-seo/
-2026-11-16T20:33:12.160800+00:00	https://digiday.com/sponsored/what-it-will-take-for-cmos-to-reach-the-next-frontier-of-ai-driven-growth/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-11-16T20:33:12.160800+00:00	https://www.wordstream.com/blog/how-to-use-ai-for-keyword-research
-2026-11-16T20:33:12.160800+00:00	https://martech.org/before-agents-can-write-like-your-brand-the-process-has-to-live-somewhere/
-2026-11-16T20:33:12.160800+00:00	https://www.semrush.com/blog/citation-core/
-2026-11-16T20:33:12.160800+00:00	https://martech.org/how-to-balance-real-time-personalization-with-consumer-trust/
-2026-11-16T20:33:12.160800+00:00	https://martech.org/how-to-protect-brand-reputation-in-the-ai-era/
-2026-11-17T05:14:59.946338+00:00	https://www.semrush.com/blog/competitor-analysis-semrush-mcp/
-2026-11-17T05:14:59.946338+00:00	https://wordpress.org/news/2026/11/reprint-your-site/
-2026-11-17T05:14:59.946338+00:00	https://www.adweek.com/tvnewser/tuesday-nov-10-2026-daily-cable-news-ratings/
 2026-11-17T19:13:36.461325+00:00	https://www.socialmediaexaminer.com/youtube-customer-acquisition-facebook-marketing-tactics-and-industry-news/
 2026-11-17T19:13:36.461325+00:00	https://digiday.com/announcement/awards/kerv-ai-macmillan-publishers-and-chomps-are-among-this-years-work-life-awards-finalists/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-17T19:13:36.461325+00:00	https://www.semrush.com/blog/ai-overviews-are-taking-over-the-map-pack/
@@ -24,3 +14,9 @@
 2026-11-19T19:02:31.906065+00:00	https://www.semrush.com/blog/will-ai-replace-seo/
 2026-11-20T04:21:38.327890+00:00	https://martech.org/intuit-finds-a-buyer-for-mailchimp-in-bending-spoons/
 2026-11-20T04:21:38.327890+00:00	https://www.adweek.com/tvnewser/monday-nov-16-2026-daily-cable-news-ratings/
+2026-11-20T18:38:55.239480+00:00	https://wordpress.org/news/2026/11/global-partners-third-quarter-2026/
+2026-11-20T18:38:55.239480+00:00	https://ppchero.com/the-claudit-navigating-the-rise-of-ppc-audits/
+2026-11-20T18:38:55.239480+00:00	https://www.wordstream.com/blog/facebook-ads-conversion-tracking
+2026-11-20T18:38:55.239480+00:00	https://www.semrush.com/blog/ecommerce-seo/
+2026-11-20T18:38:55.239480+00:00	https://wordpress.org/news/2026/11/wp-credits-boost-translation/
+2026-11-20T18:38:55.239480+00:00	https://www.adweek.com/tvnewser/tuesday-nov-17-2026-daily-cable-news-ratings/
