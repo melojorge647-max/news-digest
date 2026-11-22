@@ -1,6 +1,3 @@
-2026-11-18T18:53:33.414014+00:00	https://wptavern.com/podcast/242-mark-westguard-on-how-wordpress-adapts-to-rapid-change-the-dot-com-bubble-to-ai-hysteria/
-2026-11-18T18:53:33.414014+00:00	https://digiday.com/media-buying/wtf-is-a-unified-media-platform/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-11-18T18:53:33.414014+00:00	https://wordpress.org/news/2026/11/wordpress-7-1-5-release/
 2026-11-19T19:02:31.906065+00:00	https://digiday.com/media/media-briefing-chatgpts-new-business-hub-is-an-early-search-console-moment-for-publishers/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-19T19:02:31.906065+00:00	https://www.semrush.com/blog/topical-authority/
 2026-11-19T19:02:31.906065+00:00	https://digiday.com/media/gta-6-could-be-a-windfall-for-creators-but-standing-out-will-be-tough/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
@@ -19,3 +16,5 @@
 2026-11-21T04:18:28.273816+00:00	https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-1/
 2026-11-21T04:18:28.273816+00:00	https://www.socialmediaexaminer.com/youtube-customer-acquisition-facebook-marketing-tactics-and-industry-news/
 2026-11-21T17:37:56.783694+00:00	https://sproutsocial.com/insights/social-media-policy/
+2026-11-22T03:30:47.575083+00:00	https://wptavern.com/podcast/242-mark-westguard-on-how-wordpress-adapts-to-rapid-change-the-dot-com-bubble-to-ai-hysteria/
+2026-11-22T03:30:47.575083+00:00	https://wordpress.org/news/2026/11/wordpress-7-1-5-release/
