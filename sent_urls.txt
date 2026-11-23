@@ -1,5 +1,3 @@
-2026-11-20T04:21:38.327890+00:00	https://martech.org/intuit-finds-a-buyer-for-mailchimp-in-bending-spoons/
-2026-11-20T04:21:38.327890+00:00	https://www.adweek.com/tvnewser/monday-nov-16-2026-daily-cable-news-ratings/
 2026-11-20T18:38:55.239480+00:00	https://wordpress.org/news/2026/11/global-partners-third-quarter-2026/
 2026-11-20T18:38:55.239480+00:00	https://ppchero.com/the-claudit-navigating-the-rise-of-ppc-audits/
 2026-11-20T18:38:55.239480+00:00	https://www.wordstream.com/blog/facebook-ads-conversion-tracking
@@ -16,3 +14,12 @@
 2026-11-23T04:02:38.945512+00:00	https://www.semrush.com/blog/topical-authority/
 2026-11-23T04:02:38.945512+00:00	https://www.semrush.com/blog/will-ai-replace-seo/
 2026-11-23T04:02:38.945512+00:00	https://www.socialmediaexaminer.com/how-to-create-authentic-short-form-videos-people-actually-watch/
+2026-11-23T22:05:05.704576+00:00	https://wordpress.org/news/2026/11/7-2-release-celebration/
+2026-11-23T22:05:05.704576+00:00	https://digiday.com/marketing/gap-inc-is-betting-on-fashiontainment-to-fuel-growth/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
+2026-11-23T22:05:05.704576+00:00	https://www.semrush.com/blog/measure-seo-ai-visibility-by-topic/
+2026-11-23T22:05:05.704576+00:00	https://www.adweek.com/creativity/verizons-latest-heartthrob-is-jonathan-bailey-as-a-sexy-scrooge/
+2026-11-23T22:05:05.704576+00:00	https://martech.org/intuit-finds-a-buyer-for-mailchimp-in-bending-spoons/
+2026-11-23T22:05:05.704576+00:00	https://www.sterlingsky.ca/dangers-thin-scaled-ai-content/
+2026-11-23T22:05:05.704576+00:00	https://www.sterlingsky.ca/google-business-profile-video-verification/
+2026-11-23T22:05:05.704576+00:00	https://www.nearmedia.co/chatgbp-ai-sidebar-google-says-99-use-it-yahoo-ai-the-broligarchs/
+2026-11-23T22:05:05.704576+00:00	https://www.semrush.com/blog/ai-citations-social-media-ugc/
