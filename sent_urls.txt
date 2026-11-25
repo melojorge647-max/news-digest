@@ -1,6 +1,3 @@
-2026-11-21T17:37:56.783694+00:00	https://sproutsocial.com/insights/social-media-policy/
-2026-11-22T03:30:47.575083+00:00	https://wptavern.com/podcast/242-mark-westguard-on-how-wordpress-adapts-to-rapid-change-the-dot-com-bubble-to-ai-hysteria/
-2026-11-22T03:30:47.575083+00:00	https://wordpress.org/news/2026/11/wordpress-7-1-5-release/
 2026-11-23T04:02:38.945512+00:00	https://digiday.com/marketing/how-celsius-doubled-down-on-sports-marketing-campaigns-in-2026/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-23T04:02:38.945512+00:00	https://www.semrush.com/blog/topical-authority/
 2026-11-23T04:02:38.945512+00:00	https://www.semrush.com/blog/will-ai-replace-seo/
@@ -24,3 +21,6 @@
 2026-11-24T20:42:24.895311+00:00	https://www.socialmediaexaminer.com/meta-ads-cost-optimization-short-form-video-production-and-industry-news/
 2026-11-24T20:42:24.895311+00:00	https://ppchero.com/will-your-geo-holdout-test-give-you-an-answer-how-to-check-before-you-run-it/
 2026-11-24T20:42:24.895311+00:00	https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/
+2026-11-25T19:58:39.784352+00:00	https://www.marketingbrew.com/stories/tech-ad-spend-growth-ai-industry-slowdown?utm_source=&amp;utm_medium=syndication&amp;utm_campaign=feed
+2026-11-25T19:58:39.784352+00:00	https://wptavern.com/podcast/243-rudy-faile-on-how-wordpress-is-fighting-exploding-ai-driven-vulnerabilities/
+2026-11-25T19:58:39.784352+00:00	https://www.semrush.com/blog/how-to-get-backlinks/
