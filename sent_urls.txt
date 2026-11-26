@@ -1,7 +1,3 @@
-2026-11-23T04:02:38.945512+00:00	https://digiday.com/marketing/how-celsius-doubled-down-on-sports-marketing-campaigns-in-2026/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
-2026-11-23T04:02:38.945512+00:00	https://www.semrush.com/blog/topical-authority/
-2026-11-23T04:02:38.945512+00:00	https://www.semrush.com/blog/will-ai-replace-seo/
-2026-11-23T04:02:38.945512+00:00	https://www.socialmediaexaminer.com/how-to-create-authentic-short-form-videos-people-actually-watch/
 2026-11-23T22:05:05.704576+00:00	https://wordpress.org/news/2026/11/7-2-release-celebration/
 2026-11-23T22:05:05.704576+00:00	https://digiday.com/marketing/gap-inc-is-betting-on-fashiontainment-to-fuel-growth/?utm_campaign=digidaydis&#038;utm_medium=rss&#038;utm_source=general-rss
 2026-11-23T22:05:05.704576+00:00	https://www.semrush.com/blog/measure-seo-ai-visibility-by-topic/
@@ -26,3 +22,5 @@
 2026-11-25T19:58:39.784352+00:00	https://www.semrush.com/blog/how-to-get-backlinks/
 2026-11-26T05:29:43.741054+00:00	https://www.sterlingsky.ca/when-google-catches-business-buying-fake-reviews/
 2026-11-26T05:29:43.741054+00:00	https://www.sterlingsky.ca/edit-your-business-hours-on-gbp/
+2026-11-26T19:42:24.742160+00:00	https://www.sterlingsky.ca/cover-photos-google-business-profile/
+2026-11-26T19:42:24.742160+00:00	https://sproutsocial.com/insights/social-media-marketing-ideas-for-small-businesses/
