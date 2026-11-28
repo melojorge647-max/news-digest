@@ -1,8 +1,3 @@
-2026-11-24T20:42:24.895311+00:00	https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-3/
-2026-11-24T20:42:24.895311+00:00	https://www.semrush.com/blog/ai-citation-decay/
-2026-11-24T20:42:24.895311+00:00	https://www.socialmediaexaminer.com/meta-ads-cost-optimization-short-form-video-production-and-industry-news/
-2026-11-24T20:42:24.895311+00:00	https://ppchero.com/will-your-geo-holdout-test-give-you-an-answer-how-to-check-before-you-run-it/
-2026-11-24T20:42:24.895311+00:00	https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/
 2026-11-25T19:58:39.784352+00:00	https://www.marketingbrew.com/stories/tech-ad-spend-growth-ai-industry-slowdown?utm_source=&amp;utm_medium=syndication&amp;utm_campaign=feed
 2026-11-25T19:58:39.784352+00:00	https://wptavern.com/podcast/243-rudy-faile-on-how-wordpress-is-fighting-exploding-ai-driven-vulnerabilities/
 2026-11-25T19:58:39.784352+00:00	https://www.semrush.com/blog/how-to-get-backlinks/
@@ -12,3 +7,8 @@
 2026-11-26T19:42:24.742160+00:00	https://sproutsocial.com/insights/social-media-marketing-ideas-for-small-businesses/
 2026-11-27T19:31:05.956764+00:00	https://www.nearmedia.co/chatgbp-ai-sidebar-google-says-99-use-it-yahoo-ai-the-broligarchs/
 2026-11-27T19:31:05.956764+00:00	https://www.semrush.com/blog/competitor-analysis-tools/
+2026-11-28T04:59:44.118333+00:00	https://www.semrush.com/blog/ai-citation-decay/
+2026-11-28T04:59:44.118333+00:00	https://ppchero.com/will-your-geo-holdout-test-give-you-an-answer-how-to-check-before-you-run-it/
+2026-11-28T04:59:44.118333+00:00	https://www.socialmediaexaminer.com/meta-ads-cost-optimization-short-form-video-production-and-industry-news/
+2026-11-28T04:59:44.118333+00:00	https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-3/
+2026-11-28T04:59:44.118333+00:00	https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/
